@@ -4,6 +4,16 @@
 
 ## Introduction
 
+## Notions
+
+### Semantic HTML
+
+### A boilerplate
+
+### Static site generator with Markdown (Jekyll)
+
+
+
 ### Github pages
 
 Documentation: https://pages.github.com
