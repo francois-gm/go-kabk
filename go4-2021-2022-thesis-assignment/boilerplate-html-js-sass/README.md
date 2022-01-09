@@ -1,3 +1,60 @@
 # A 'boilerplate'
 
-> The term boilerplate refers to standardized text, copy, documents, methods, or procedures that may be used over again without making major changes to the original. A boilerplate is commonly used for efficiency and to increase standardization in the structure and language of written or digital documents.
+> Boilerplate text, or simply boilerplate, is any written text (copy) that can be reused in new contexts or applications without significant changes to the original. The term is used in reference to statements, contracts and computer code, and is used in the media to refer to hackneyed or unoriginal writing. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Boilerplate_text))
+
+In order to support good working practices, I suggest people to start with a 'boilerplate'. Within that folder you'll find two boilerplates, one that is only html and another one with an additional CSS boilerplate using SASS.
+
+## Why a boilerplate?
+
+Because there are a few elements you'd rather not reconceptually think over, ie standardized things that never move.
+Because the more you'll work on your project, the more working with a clean and ordered file system appears beneficial.
+
+
+## HTML boilerplate
+
+For the **HTML** boilerplate, here are the following components:
+
+**Head**
+
+- Doctype 'HTML' (the top part, says that it's an HTML5 document)
+- The meta viewport tag ( `<meta name="viewport" content="width=device-width,initial-scale=1.0">` ), you need this for the website to work out 'responsively'.
+- Meta tags (title, keywords...)
+- Favicon links (.png works, 512x512px)
+- Open Graph meta tags (for link sharing, maybe not very important unless you want to share your work on a fb/twitter).
+- CSS stylesheet links (no CSS in your html document please! neither within `<style>` tags nor as `inline` css properties!)
+- Javascript scripts links (no Javascript within `<script>` tags inside your html document, please!)
+
+**Body**
+
+Here, it's not essential to follow this stucture. Nonetheless, using HTML tags in a semantic order is encouraged.
+
+## CSS boilerplate
+
+The CSS boilerplate (`master.scss`)includes several elements.
+
+It starts with **@font-face properties**. These properties allow you to import your own font files locally.
+You can use [transfonter](https://transfonter.org) to generate web fonts from local files.
+You can also find fonts to use on a open-source license there:
+
+- https://usemodify.com
+- https://www.velvetyne.fr
+- https://fonts.google.com
+
+(if you use fonts that are hosted online you usually have to simply add the link provided to you inside your html `<head>`)
+
+After the @font-face are **SASS global variables**. Here you can add any values that will be re-used extensively within your website. You color palette is probably a good candidate. Margin values can also be. [more on SASS's documentation](https://sass-lang.com/documentation/variables)
+
+Then **mixins**, they basically allow you to "define styles that can be re-used throughout your stylesheet." ([more on SASS's documentation](https://sass-lang.com/documentation/at-rules/mixin)). I've included two ones that are useful for 'supporting' css transform and transition properties on multiple browsers.
+
+Then you'll find (in order):
+
+- **General styles** for most common semantic html tags, like `h1,h2,h3,h4,h5,h6,p,ol,ul,hr`... This will apply to any tags (unspeficity) within your pages.
+- **Page styles**, here you can start actually styling your website (!)
+- **Usability/Utility classes**: small classes you'll re-use to 'override' previous classes. Here I have included three classes (`.desktop, .mobile, .sr-only`)
+- **Media queries**: the breaking points here correspond more or less to *bootstrap*'s standard, although not entirely. Also, by changing the `font-size` value on the `<html>|<body>` elements at different screen sizes (via media queries), you change the value of a `rem` (*Relative Em*, as a `rem` is equal to the value of `font-size` on the html/body element). It's an easy way to style for various screens, if you already use `rem`'s in your main css styles you won't have to write these lines again within the media queries unless you deem the ratio used previously not appropriate. Here I've already included `font-size` values for different breaking points, but you can change them of course.
+
+If you prefer not to use **SASS**, you can also simply work within your `master.css` instead and keep a similar order. You might like to re-use the media queries parts.
+
+## JS boilerplate
+
+I've included JQuery but I've been told some people might also use Javascript ES6. Here, feel free to choose your prefered way of writing but as said again please refrain from including <script> stuff in your html. If JQuery, you need to include your code afte the `$(document).ready(function() {` line. This means that JQuery will load your code after your html document will have been parsed within your browser. The effect is akind of putting your script after the `body` tag.
