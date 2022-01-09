@@ -15,7 +15,7 @@
 
 Individual mentoring slots schedule, 1 on 1:
 
-10:00 / 10:20 /10:40 /11:00 / 11:20 / 11:40
+10:00 / 10:20 / 10:40 /11:00 / 11:20 / 11:40
 20 min break
 12:20 / 12:40 / 13:00 /13:20
 60 min lunch break
