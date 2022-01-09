@@ -62,7 +62,7 @@ Criterias...
 
 ## First class
 
-### A.M.
+### A.M. (ante meridiem)
 
 - Intro (this document)
 - Round table presentation
@@ -70,7 +70,7 @@ Criterias...
 - Individual writing exercice + presentation
 - (dividing the group into sub-groups (4-5 students) based on their thesis subjects / writing styles / interests / possible media treatments (text-based, media-based, etc). Presentation of text-ideas / general concept?)
 
-### P.M.
+### P.M. (post meridiem)
 
 Presentation of web notions / workshop...
 
