@@ -10,15 +10,15 @@
 | ↓ | You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
 | 07/02 (2) | (1h) 'mini-assignment' brief \| (rest) individual mentoring |
 | ↓ | You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
-| 14/02 (3) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) small group mentoring |
+| 14/02 (3) | (1h) 'mini-assignment' presentations (10ppl) (1/4) \| (rest) small group mentoring |
 | ↓ | You have design sketches and/or code sketches |
-| 21/02 (4) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) individual mentoring |
+| 21/02 (4) | (1h) 'mini-assignment' presentations (10ppl) (2/4) \| (rest) individual mentoring |
 | ↓ &nbsp; **!!!!!!!** | You've left the world of static design and are **coding/developing your webpage** |
-| 28/02 (5) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) small group mentoring |
-| 07/03 (6) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) individual mentoring |
-| 14/03 (7) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) individual mentoring |
-| 21/03 (8) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) individual mentoring |
-| 28/03 (9) | (all day) help desk |
+| 28/02 (5) | (1h) 'mini-assignment' presentations (10ppl) (3/4) \| (rest) small group mentoring |
+| 07/03 (6) | (1h) Group feedback / group troubleshooting \| (rest) individual mentoring |
+| 14/03 (7) | (1h) 'mini-assignment' presentations (10ppl) (4/4) \| (rest) individual mentoring |
+| 21/03 (8) | (1h) Group feedback / group troubleshooting \| (rest) individual mentoring |
+| 28/03 (9) | (all day) help desk, *write your name* |
 | 01/04 (Deadline) | Your website is online (yay!) |
 
 
