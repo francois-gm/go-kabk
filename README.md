@@ -1,1 +1,3 @@
-# Graphic design KABK docu
+# Graphic design KABK documentation
+
+Hello world!
