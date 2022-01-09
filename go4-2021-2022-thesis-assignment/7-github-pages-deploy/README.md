@@ -18,7 +18,7 @@ Ways of connecting / using:
 
 2. Then, install Git (https://git-scm.com/download/mac) by typing in 'Terminal': `brew install git`, or if installed update it with `brew upgrade git`. (Github CLI can be installed by typing `brew install gh`) ()
 
-- You might need to update Xcode to 11.3.1 (if Mac)... if an error asks for Xcode update, download here: https://xcodereleases.com
+- You might need to update Xcode (if Mac)... if an error asks for Xcode update with a specific version, download here: https://xcodereleases.com
 - You might need to make sure your github account has authentification tokens enabled: https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
 
 ## II. Desktop app
