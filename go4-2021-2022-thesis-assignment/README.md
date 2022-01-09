@@ -2,36 +2,62 @@
 
 ## Class structure
 
+### Planning
+
+| Class  | Activities|
+| -------- | ---------------------|
+| 31/01 (1) | (am) intro / presentations / writing exercice \| <br> (pm) notions: François (unpacking, boilerplate, sass), Thomas (CSS typography / calc), jekyll + markdown |
+| ↓ | You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
+| 07/02 (2) | (1h) 'mini-assignment' brief \| (rest) individual mentoring |
+| ↓ | You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
+| 14/02 (3) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) small group mentoring |
+| ↓ | You have design sketches and/or code sketches |
+| 21/02 (4) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) individual mentoring |
+| ↓ &nbsp; **!!!!!!!** | You've left the world of static design and are **coding/developing your webpage** |
+| 28/02 (5) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) small group mentoring |
+| 07/03 (6) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) individual mentoring |
+| 14/03 (7) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) individual mentoring |
+| 21/03 (8) | (1h) 'mini-assignment' presentations (10ppl) \| (rest) individual mentoring |
+| 28/03 (9) | (all day) help desk |
+| 01/04 (Deadline) | Your website is online (yay!) |
+
+
+
+
+
 - 31/01 (session 1) -> (am) intro / presentations / writing exercice | (pm) notions
-- 07/02 (session 2) -> (am, 2h) student presentations | (pm) individual mentoring
-- 14/02 (session 3)
-- 21/02 (session 4)
-- 28/02 (session 5)
-- 07/03 (session 6)
-- 14/03 (session 7)
-- 21/03 (session 8)
-- 28/03 (session 9)
+- You have an idea of what you do
+- 07/02 (session 2) -> (am, 2h) student presentations | (am rest + pm) individual mentoring
+- 14/02 (session 3) -> (am, 2h) student presentations | (am rest + pm) individual mentoring
+- 21/02 (session 4) -> (am, 2h) student presentations | (am rest + pm) individual mentoring
+- 28/02 (session 5) -> (am, 2h) student presentations | (am rest + pm) individual mentoring
+- 07/03 (session 6) -> (am, 2h) student presentations | (am rest + pm) individual mentoring
+- 14/03 (session 7) -> (am, 2h) student presentations | (am rest + pm) individual mentoring
+- 21/03 (session 8) -> (am, 2h) student presentations | (am rest + pm) individual mentoring
+- 28/03 (session 9) -> (am, 2h) student presentations | (am rest + pm) individual mentoring
 - 01/04 (deadline) -> Your website is online (yay!)
 
-Individual mentoring slots schedule, 1 on 1:
+### Mentoring days
 
-10:00 / 10:20 / 10:40 /11:00 / 11:20 / 11:40
-20 min break
-12:20 / 12:40 / 13:00 /13:20
-60 min lunch break
-14:40 / 15:00 / 15:20 / 15:40 /16:00
-20 min break
-17:00 / 17:20 / 17:40 / 18:00
+#### Mentoring (individual) slots schedule, 1 on 1:
 
-Individual mentoring, small groups (4-5 per group):
+- 10:00  |  10:20 | 10:40 | 11:00 | 11:20 | 11:40
+- 20 min break
+- 12:20 | 12:40 | 13:00 | 13:20
+- 60 min break
+- 14:40 | 15:00 | 15:20 | 15:40 | 16:00
+- 20 min break
+- 17:00 | 17:20 | 17:40 | 18:00
 
-10:00 / 11:00
-20 min break
-12:20 / 13:20
-60 min lunch break
-15:20 / 16:20
-20 min break
-17:40
+#### Mentoring (small groups), (4-5 per group):
+
+- 10:00 | 11:00
+- 20 min break
+- 12:20 | 13:20
+- 60 min lunch break
+- 15:20 | 16:20
+- 20 min break
+- 17:40
 
 Session 2
 (Mon 7 Feb)
