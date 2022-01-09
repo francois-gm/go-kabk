@@ -9,6 +9,15 @@ In order to support good working practices, I suggest people to start with a 'bo
 Because there are a few elements you'd rather not reconceptually think over, ie standardized things that never move.
 Because the more you'll work on your project, the more working with a clean and ordered file system appears beneficial.
 
+## About the folder's structure
+
+Since you'd likely benefit from avoiding having endless unordered files of various levels on importance all over, I propose the following:
+`/assets/..`
+This folder contains elements required for your website to run. These elements are likely to be required on **all** your pages. Inside this folder, you can find a /css subfolder, a /fonts subfolder, a /images subfolder and a /js subfolder.
+`/content/..`
+Put your images, videos, files, etc there...
+
+Your pages (index.htm but also other pages) can stay on the top level of your folder.
 
 ## HTML boilerplate
 
@@ -19,7 +28,7 @@ For the **HTML** boilerplate, here are the following components:
 - Doctype 'HTML' (the top part, says that it's an HTML5 document)
 - The meta viewport tag ( `<meta name="viewport" content="width=device-width,initial-scale=1.0">` ), you need this for the website to work out 'responsively'.
 - Meta tags (title, keywords...)
-- Favicon links (.png works, 512x512px)
+- Favicon links (.png works, 512x512px), before delivery your final webpage you can use https://www.favicon-generator.org to generate your favicons + code
 - Open Graph meta tags (for link sharing, maybe not very important unless you want to share your work on a fb/twitter).
 - CSS stylesheet links (no CSS in your html document please! neither within `<style>` tags nor as `inline` css properties!)
 - Javascript scripts links (no Javascript within `<script>` tags inside your html document, please!)
