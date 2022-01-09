@@ -6,8 +6,8 @@ In order to support good working practices, I suggest people to start with a 'bo
 
 ## Why a boilerplate?
 
-Because there are a few elements you'd rather not reconceptually think over, ie standardized things that never move.
-Because the more you'll work on your project, the more working with a clean and ordered file system appears beneficial.
+Because some elements might not deserve to be rethought of, conceptually (ie standardized things that never/barely change in time).
+Because the more you'll work on your project, the more working with a simple and ordered file system appears beneficial.
 
 ## About the folder's structure
 
