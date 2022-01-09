@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+
+
+// @font face (enable the use of 'custom fonts' inside your document)
+
+@font-face {
+    font-family: 'Your Font Name';
+    src: url('../fonts/yourfontname/yourfontname-roman.woff2'),
+         url('../fonts/yourfontname/yourfontname-roman.woff'),
+         url('../fonts/yourfontname/yourfontname-roman.eot'),
+         url('../fonts/yourfontname/yourfontname-roman.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yourfontname/yourfontname-roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Your Font Name';
+    src: url('../fonts/yourfontname/yourfontname-italic.woff2'),
+         url('../fonts/yourfontname/yourfontname-italic.woff'),
+         url('../fonts/yourfontname/yourfontname-italic.eot'),
+         url('../fonts/yourfontname/yourfontname-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yourfontname/yourfontname-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: block;
+}
+
+// end @ font face
+
+
+
+/* VARIABLES */
+
+// theme colors
+
+$background-color: rgba(255,255,255,1);
+$font-color: rgba(0,0,0,1);
+$font-color-link: rgba(0,0,255,0.8);
+$font-color-link-hover: rgba(0,0,255,0.4);
+
+// fonts settings
+
+$font-family: 'Your Font Name', 'Helvetica', 'Arial', sans-serif;
+$font-size: 24px;
+
+// margins
+
+$margin: 1rem;
+
+// mixins
+
+@mixin transform($property...) {
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -ms-transform: $property;
+  -o-transform: $property;
+  transform: $property;
+}
+
+@mixin transition($property...) {
+  -webkit-transition: $property;
+  -moz-transition: $property;
+  -ms-transition: $property;
+  -o-transition: $property;
+  transition: $property;
+}
+
+
+
+/* GENERAL STYLES */
+
+html {
+	font: $font-size $font-family; color: $font-color; 
+	background-color: $background-color; 
+}
+
+body {
+  position:relative;
+  background-color: $background-color;
+  font: $font-family $font-size;
+  color: $font-color;
+  width:100%;
+  height:100%;
+  overflow-y:auto;
+}
+
+a {color:$font-color-link; text-decoration: underline; }
+a:hover {color:$font-color-link-hover; text-decoration: underline; }
+// focus-visible is like hover but with tab navigation (for accessibility)
+a:focus-visible {color:$font-color-link-hover; text-decoration: none; }
+
+h1{
+  // h1 style
+}
+
+h2{
+  // h2 style
+}
+
+h3{
+  // h3 style
+}
+
+h4, h5, h6{
+  // h4-h5-h6 style
+}
+
+p{
+  // paragraph style
+}
+
+ol, ul{
+  // ordered list and unordered list styles
+}
+
+blockquote{
+  // blockquote element style
+}
+
+hr{
+  // horizontal rule style
+}
+
+
+
+
+
+/* PAGE STYLES */
+
+// page structure
+
+div.page-wrapper{
+  // the element that 'wraps' everything
+  padding:$margin;
+}
+
+
+// navigation
+ 
+nav{
+  // what goes inside the navigation part of the page
+}
+
+
+// content
+
+main{
+  // what goes inside the main part of the page
+}
+
+
+
+
+
+/* GENERAL USABILITY */
+
+// hide desktop mobile etc
+
+.desktop{display:block;}
+.mobile{display:none;}
+
+// if you want to hide something visually but want to keep it readable / accessible for screen readers (sr)
+.sr-only{
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important;
+	-webkit-clip-path: inset(50%) !important;
+	clip-path: inset(50%) !important;
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+//breaking points */
+// 'small screens ie mobile'
+$mobile-sm-min: 299px;
+$mobile-sm-max: 339px;
+$mobile-md-min: 340px;
+$mobile-md-max: 439px;
+$tablet-sm-min: 440px;
+$tablet-sm-max: 599px;
+$tablet-md-min: 600px;
+$tablet-md-max: 779px;
+// probably 'desktop-sized' screens
+$desktop-sm: 780px;
+$desktop-md: 992px;
+$desktop-lg: 1200px;
+$desktop-xl: 1320px;
+$desktop-xxl: 1620px;
+$desktop-xxxl: 1880px;
+
+/* responsive typeface */
+
+@media (max-width: $mobile-sm-min) { $font-size: 15px; html, body {font: $font-size $font-family;} }
+@media (min-width: $mobile-sm-min) and (max-width: $mobile-sm-max) { $font-size: 16px; html, body {font: $font-size $font-family;} }
+@media (min-width: $mobile-md-min) and (max-width: $mobile-md-max) { $font-size: 17px; html, body {font: $font-size $font-family;} }
+@media (min-width: $tablet-sm-min) and (max-width: $tablet-sm-max) { $font-size: 18px; html, body {font: $font-size $font-family;} }
+@media (min-width: $tablet-md-min) and (max-width: $tablet-md-max) { $font-size: 19px; html, body {font: $font-size $font-family;} }
+@media (min-width: $desktop-sm) and (max-width: $desktop-md) { $font-size: 20px; html, body {font: $font-size $font-family; } }
+@media (min-width: $desktop-md) and (max-width: $desktop-lg) { $font-size: 22px; html, body {font: $font-size $font-family; } }
+@media (min-width: $desktop-lg) and (max-width: $desktop-xl) { $font-size: 24px; html, body {font: $font-size $font-family; } }
+@media (min-width: $desktop-xl) and (max-width: $desktop-xxl) { $font-size: 26px; html, body {font: $font-size $font-family; } }
+@media (min-width: $desktop-xxl) and (max-width: $desktop-xxxl) { $font-size: 28px; html, body {font-size: $font-size; } }
+@media (min-width: $desktop-xxxl) { $font-size: 30px; html, body {font-size: $font-size; } }
+
+
+
+
+
+/* website media queries */
+
+@media (max-width: $tablet-md-max) {
+
+  // styles for screen sizes up to $tablet-md-max (779px), covers 'mobile' and 'tablet'
+  // style this one first and then use the two others to 'override' some styles (exceptions/details)
+
+  // utilities
+
+  .desktop{display:none!important;}
+  .mobile{display:block;}
+
+}
+
+
+@media (max-width: $mobile-sm-max) {
+
+  // use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px
+
+}
+
+
+@media (max-width: $tablet-md-max) and (orientation: landscape) {
+
+  // use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode
+
+}
+
+
+@media (min-width: $desktop-sm) and (max-width: $desktop-md) {
+
+  // use this query to apply style for 'small' desktop screens
+
+}
