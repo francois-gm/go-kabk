@@ -45,9 +45,20 @@
 - 20 min break
 - 17:40
 
-## Mini-assignment
+## Main assignement
 
-- present a website in 4 min (*1/2 pecha kucha*, 10 slides of 20sec) x 10 students per session (1h)
+- Conceptualize, design, and implement a content-based website &ndash; a publication &ndash; your kabk thesis.
+- Deploy it on the kabk Github.
+
+Criterias...
+
+- Your website is accessible / is legible
+- Your website works on mobile, is actually mobile-first (you've started your design process with mobile screens in mind).
+- Your website loads 
+
+## Mini/bonus assignment
+
+- present a website of your choice in 4 min (*1/2 pecha kucha*, 10 slides of 20sec) x 10 students per session (1h)
 
 ## First class
 
@@ -57,14 +68,16 @@
 - Round table presentation
 - Setting up of a common Etherpad ->
 - Individual writing exercice + presentation
-- (dividing the group into sub-groups (4-5 students) based on their thesis subjects / writing styles / interests / possible media treatments (text-based, media-based, etc). Presentation of text-ideas / general concept).
+- (dividing the group into sub-groups (4-5 students) based on their thesis subjects / writing styles / interests / possible media treatments (text-based, media-based, etc). Presentation of text-ideas / general concept?)
 
 ### P.M.
-- Presentation of web notions / workshop
-- François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate, and gets into SASS (Syntactically Awesome Style Sheets)
-- Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), variables, calcs, rems, etc.
-- Jekyll + Markdown
-- (how to) deploy on Github Pages
+
+Presentation of web notions / workshop...
+
+1. François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate, and gets into SASS (Syntactically Awesome Style Sheets)
+2. Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), variables, calcs, rems, etc.
+3. Jekyll + Markdown, work with footnotes
+4. (how to) deploy on Github Pages
 
 ### Github pages
 
