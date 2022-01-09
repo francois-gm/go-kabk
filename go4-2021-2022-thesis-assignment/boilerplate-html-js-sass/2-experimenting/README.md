@@ -1,1 +1,1 @@
-# francois-gm.github.io
+# (not a boilerplate anymore)
