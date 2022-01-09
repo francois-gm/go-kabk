@@ -10,7 +10,7 @@ Ways of connecting / using:
 
 ## I. Git (or Github CLI)
 
-1. Be sure you have Homebrew (a package manager) installed on your computer (if Mac / Linux). (https://brew.sh) To install, type this in 'Terminal':
+1. Be sure you have [Homebrew](https://brew.sh) (a package manager) installed on your computer (if Mac / Linux). Check by typing in 'Terminal': `brew -v` To install, type this in 'Terminal':
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
