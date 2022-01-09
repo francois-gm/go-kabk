@@ -37,9 +37,9 @@ For the **HTML** boilerplate, here are the following components:
 
 Here, it's not essential to follow this stucture. Nonetheless, using HTML tags in a semantic order is encouraged.
 
-## CSS boilerplate
+## (S)CSS boilerplate
 
-The CSS boilerplate (`master.scss`)includes several elements.
+The (S)CSS boilerplate (`master.scss|master.css`)includes several elements.
 
 It starts with **@font-face properties**. These properties allow you to import your own font files locally.
 You can use [transfonter](https://transfonter.org) to generate web fonts from local files.
