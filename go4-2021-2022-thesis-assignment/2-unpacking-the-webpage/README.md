@@ -73,6 +73,8 @@ It is better to have less differentiation, somewhat a ‘universal’, ‘one-si
 
 When designing, think *mobile-first*. But what does that mean, exactly? Mobiles come in different sizes, different interacting method.
 
+![... complicated](mobile-first.jpg)
+
 ### Performance issues
 
 Some CSS properties can consume a lot of ressources. Most of you won't reach the point where your browser will start behaving *slower* but it's possible.
