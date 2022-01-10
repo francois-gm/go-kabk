@@ -1,28 +1,83 @@
 # Unpacking the webpage
 
-Recap / notions / requirements (unpacking a good website). 
-Semantic html + css - user/device/browser agnostic - accessible
-
 Who / when / where / how a website is accessed / consumed…
-A website is a tool/platform/container for accessing content, and CSS offers directions regarding appearance (not obligations). User-centered, user agnostic… Separation of concerns (as Thomas suggested)
+A website is a tool/platform/container for accessing content, and CSS offers **directions** regarding appearance (**not obligations**).
 
-- Ressources loads fast (under 300ms) [^1] or are splitted to avoid excessive load times
-- Interaction elements are properly timed (300ms, no endless transitions)
+You can yourself make a test and press [Cmd]+[+], you'll likely zoom on the webpage. This feature is actually used for folks with visual impairments. Think about browser-activated 'dark' feature, text-to-speach devices, etc. There are dozens of thousands of possible combinations of browsers/versions + screen devices + interacting methods (hover/touch). It will be impossible to predict/force all outcomes to look *as* you wish 100%.
+
+It is better to have less differentiation, somewhat a ‘universal’, ‘one-size-fits-all’ approach…
+
+## *Good website* criteria (from a purely technical standpoint)
+
+- Ressources loads fast (under 300ms) or are splitted to avoid excessive load times
+- Interaction elements are properly timed ([300ms, no endless transitions](https://ux.stackexchange.com/questions/66604/optimal-duration-for-animating-transitions ))
 - Coherent, semantic, and acknowledge expectable design patterns.
 - Suggests the website structure/hierarchy in the design (breadcrumbs, menu as sitemap, table of contents). Where am I?
 - Avoid interfering with native/expected browser behaviors and user preferences (scrolling functionalities, light/dark modes, cursor suggesting an element can be clicked, etc). 
-- Looks fine on any devices, screen sizes, interaction methods: 60% users on mobile devices (1 column, menu shortcuts, touch event), 40% on desktop (1 or multi-column, extended menu, mouse hover), phablets, foldable phones, mega-big ipads, etc…
-- Agnostic of language directions (left-to-right, right-to-left)
+- Looks **good** on any devices, screen sizes, interaction methods: [60% users on mobile devices](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet) (1 column, menu shortcuts, touch event), 40% on desktop (1 or multi-column, extended menu, mouse hover), phablets, foldable phones, mega-big ipads, etc…
+- Agnostic of language directions (left-to-right, right-to-left) (more on [Material Design](https://material.io/design/usability/bidirectionality.html#mirroring-layout))
 - Is understandable / accessible without CSS (uses appropriate html tags and page structure). Can be navigated with ‘tabs’ / focus, and screen readers (visual impairments, hearing impairment, etc).
 - Takes into account a ‘performance’ budget for client-side features / properties that are resource-intensive (animating a css ‘filter’ blur property can be very demanding).
 
-[^1] https://ux.stackexchange.com/questions/66604/optimal-duration-for-animating-transitions 
-
 Sharing of resources / help regarding points up
 
+### Ressources optimization
+
+- Use .jpg for images, avoid .png over 500kb, avoid .gif over 500kb, only use .png for transparency, only use .gif for moving animations.
+- Consider using .svg files (yes!) instead of .png files
+- Compress your .jpg with Photoshop using the 'Save for Web (Legacy)' option (under File->Export), [Shift]+[Alt]+[Cmd]+[s], with the appropriate image width resizing and the quality setting at **60** or below.
+- If 'Save for Web (Legacy)' is not available, use 'Export As' (under File->Export).
+- Your images should not be too big in relationship with the space they occupy. Consider capping images at **2400px** width for full screen width images, **1200px** for 50% screen width, and **900px** for 33% screen width.
+- If you use the html <video> tag, export your video to .mp4 -> https://cloudconvert.com/mp4-converter and adjust the quality so you are at under 2mb per minute.
+- Same applies with the <audio> tag, use .mp3 -> https://online-audio-converter.com and adjust so you're under 1mb / minute.
 
 Focus points:
 
 - Your website is accessible, legible, and semantically-written (you use correct <html> tags).
 - Your website is also optimized for mobile views (it is actually conceived 'mobile-first', you've started your design process with mobile screens in mind).
 - Your website loads moderately fast (information is compressed accordingly and you aren't trying to put .tiff images)
+
+  
+  
+  
+  
+  
+  
+  
+  
+## A list of link ressources to perform website tests
+
+Features issues & support:
+
+- Can I use…, support tables for HTML5, CSS3, etc: caniuse.com
+- Stack overflow (Q&A for developers, problem-sharing and fixing): stackoverflow.com/questions
+
+Markup testing:
+
+- W3C validator markup testing: validator.w3.org (free)
+
+Cross-device testing:
+
+- Browserstack (test on multiple screens or user agents): browserstack.com (€)
+
+  Performance testing / audit:
+
+Google Lighthouse: developers.google.com/web/tools/lighthouse (Shift + ⌘ + C in Google Chrome)
+Website Speed Test: tools.pingdom.com
+Website Carbon Calculator: websitecarbon.com
+Accessibility testing / audit:
+
+WebAIM: webaim.org/techniques/keyboard (free)
+WAVE (website accessibility evaluation tool): wave.webaim.org (free)
+Web accessibility .com: webaccessibility.com (free, €)
+WebAIM (contrast checker): webaim.org/resources/contrastchecker
+Social medias scrapers / debuggers:
+
+Facebook sharing debugger tool: developers.facebook.com/tools/debug (free)
+Twitter cards validator tool: cards-dev.twitter.com/validator (free)
+LinkedIn post inspector: linkedin.com/post-inspector (free)
+Checklists:
+
+The Front-end check-list github.com/thedaviddias/Front-End-Checklist
+A11y checklist: a11yproject.com/checklist
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
