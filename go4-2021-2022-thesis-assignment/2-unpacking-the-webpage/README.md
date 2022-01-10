@@ -41,12 +41,28 @@ Some criteria to keep in mind:
 - Cheat sheet 2: [MDN html cheatsheet](https://developer.mozilla.org/en-US/docs/Learn/HTML/Cheatsheet)
 - Cheat sheet 3: [MDN html semantic blocks](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
   
-Why is it important?
+*Why is it important?*
+
 1. People with screen readers (device helpers for accessibility) can access your website
 2. You put chances on your side to be future-proof 🤞
 3. Your website can be indexed by search engines, can be scraped by APIs and and is also readable through 'reading mode' on safari
 4. It might look better when printed, exported to .pdf, or exported to other formats
+
+What could be a *semantic* structure inthe context of this assignment?
+
+Use the `<figure>` tag for images / visual medias:
   
+```
+  <figure>
+      <img src="path/to/your/image.jpg" alt="A painted representation of a forest with a big blue lake">
+      <figcaption>Painting of a forest with a blue lake by Jane Doe</figcaption>
+  </figure>
+```
+
+Put your footnotes in a `<footer>` tag if at the end of your document, in a `<aside>` tag is presented as a sidebar...<br>
+Put your table of contents inside a `<nav>` tag.<br>
+Put your thesis title inside the `<h1>` tag, the `<h1>` being inside the `<header>` tag.
+
 ### Accessibility
 
 You can yourself make a test and press [Cmd]+[+], you'll likely zoom on the webpage (use [Cmd]+[-] for zooming out). This feature is actually used for folks with different viewing abilities that need it to see the content. Also: think about browser-activated 'dark' feature, text-to-speach devices, etc. There are dozens of thousands of possible combinations of browsers/versions + screen devices + interacting methods (hover/touch). It will be impossible to predict/force all outcomes to look *as* you wish 100%.
@@ -55,7 +71,7 @@ It is better to have less differentiation, somewhat a ‘universal’, ‘one-si
 
 ### Design and mobile-first
 
-
+When designing, think *mobile-first*. But what does that mean, exactly? Mobiles come in different sizes, different interacting method.
 
 ### Performance issues
 
