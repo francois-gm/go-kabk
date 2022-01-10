@@ -1,7 +1,5 @@
 # Github pages
 
-Documentation [here](https://pages.github.com)
-
 ## Ways of connecting / using..
 
 - Terminal: either Git ([documentation](https://git-scm.com/download/mac)),or the Github CLI ([documentation](https://github.com/cli/cli)) *
@@ -43,4 +41,4 @@ Documentation [here](https://pages.github.com)
 
 ## Deploy your first page
 
-Follow the documentation instructions [here](https://pages.github.com)
+Follow the official documentation instructions here: https://pages.github.com
