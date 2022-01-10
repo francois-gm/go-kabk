@@ -1,7 +1,7 @@
 # Unpacking the webpage
 
 Who / when / where / how a website is accessed / consumed…
-A website is a tool/platform/container for accessing content, and CSS offers **directions** regarding appearance (**not obligations**).
+A website is a tool/platform/container for accessing content, and CSS offers **directions** regarding appearance (not *obligations*).
 
 ## *Good website* criteria (from a purely technical standpoint)
 
@@ -15,9 +15,7 @@ A website is a tool/platform/container for accessing content, and CSS offers **d
 - Is understandable / accessible without CSS (uses appropriate html tags and page structure). Can be navigated with ‘tabs’ / focus, and screen readers (visual impairments, hearing impairment, etc).
 - Takes into account a ‘performance’ budget for client-side features / properties that are resource-intensive (animating a css ‘filter’ blur property can be very demanding).
 
-Sharing of resources / help regarding points up
-
-### Ressources optimization
+### Ressources optimization tricks and do's
 
 - Use .jpg for images, avoid .png over 500kb (and use only for transparency or if file is smaller than .jpg), avoid .gif over 500kb (and use only for moving or if smaller than .jpg).
 - Consider using .svg files (yes!) instead of .png files
@@ -55,7 +53,7 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 Features issues & support:
 
 - Can I use…, support tables for HTML5, CSS3, etc: caniuse.com
-- Stack overflow (Q&A for developers, problem-sharing and fixing): stackoverflow.com/questions
+- Stack overflow (Q&A for developers, problem-sharing and fixing): https://www.stackoverflow.com/questions
 
 Markup testing:
 
@@ -63,13 +61,13 @@ Markup testing:
 
 Cross-device testing:
 
-- Browserstack (test on multiple screens or user agents): browserstack.com (€)
+- Browserstack (test on multiple screens or user agents): www.browserstack.com (€)
 
 Performance testing / audit:
 
-- Google Lighthouse: developers.google.com/web/tools/lighthouse (Shift + ⌘ + C in Google Chrome)
-- Website Speed Test: tools.pingdom.com
-- Website Carbon Calculator: websitecarbon.com
+- Google Lighthouse: https://developers.google.com/web/tools/lighthouse (Shift + ⌘ + C in Google Chrome)
+- Website Speed Test: https://tools.pingdom.com
+- Website Carbon Calculator: https://websitecarbon.com
 
 Accessibility testing / audit:
 
@@ -80,11 +78,11 @@ Accessibility testing / audit:
 
 Social medias scrapers / debuggers:
 
-- Facebook sharing debugger tool: developers.facebook.com/tools/debug (free)
-- Twitter cards validator tool: cards-dev.twitter.com/validator (free)
-- LinkedIn post inspector: linkedin.com/post-inspector (free)
+- Facebook sharing debugger tool: https://developers.facebook.com/tools/debug (free)
+- Twitter cards validator tool: https://cards-dev.twitter.com/validator (free)
+- LinkedIn post inspector: https://linkedin.com/post-inspector (free)
 
 Checklists:
 
-- The Front-end check-list github.com/thedaviddias/Front-End-Checklist
-- A11y checklist: a11yproject.com/checklist
+- The Front-end check-list https://github.com/thedaviddias/Front-End-Checklist
+- A11y checklist: https://a11yproject.com/checklist
