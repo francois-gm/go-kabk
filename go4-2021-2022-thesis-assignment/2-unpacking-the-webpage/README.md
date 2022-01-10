@@ -75,6 +75,8 @@ When designing, think *mobile-first*. But what does that mean, exactly? Mobiles 
 
 ![... complicated](mobile-first.jpg)
 
+Above examples are: a device with a square screen ratio, device with stylus, slow/small/low-res device (the 3310), smart watch, device with a trackball, foldable screen device (!), tablet that is bigger than a desktop (!)...
+
 ### Performance issues
 
 Some CSS properties can consume a lot of ressources. Most of you won't reach the point where your browser will start behaving *slower* but it's possible.
