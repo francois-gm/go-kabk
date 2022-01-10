@@ -8,7 +8,7 @@ Ways of connecting / using:
 
 \* CLI = Command User Interface, ** GUI = Graphic User Interface
 
-## I. Git (or Github CLI)
+## a) Git (or Github CLI)
 
 > Quick reminder for Terminal:
 > 
@@ -36,6 +36,6 @@ Ways of connecting / using:
 
 [Cheatsheet Git](https://github.com/0nn0/git-basics-cheatsheet)
 
-## II. Desktop app
+## b) Desktop app
 
 [Download here](https://desktop.github.com), and follow the installation steps.
