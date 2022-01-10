@@ -69,7 +69,7 @@ You can yourself make a test and press [Cmd]+[+], you'll likely zoom on the webp
 
 It is better to have less differentiation, somewhat a ‘universal’, ‘one-size-fits-all’ approach…
 
-### Design and mobile-first
+### Design, mobile-first
 
 When designing, think *mobile-first*. But what does that mean, exactly? Mobiles come in different sizes, different interacting method.
 
@@ -85,6 +85,7 @@ Above examples are: a device with a square screen ratio, device with stylus, slo
 2. Most mobiles can't reproduce 'hover' interactions: there's no mouse. On the other hand, you can use 'touch' events if the way of interacting is to touch a screen.
 3. The content is likely to be displayed on a one column layout. Space being scarce, you don't want a 'fixed' navigation element to take too much space on your layout. You can hide these in a element that expands (accordion-like, a sidebar, a hamburger menu...) or appear/dissapear based on scroll direction. Or you can choose to avoid menu elements and make sure your pages have a link to a 'next' content and a 'back to index' link...
 4. The `flexbox` CSS property is super handy to set up a layout. You can easily change your order by changing the `flex` properties inside your `@media-queries` ! https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+5. Think of the invisible structure of your website, where every html tag is a box, from main container boxes to sub-containers, and then your content inside these boxes.
 
 ##### Debug and test for mobiles:
 
