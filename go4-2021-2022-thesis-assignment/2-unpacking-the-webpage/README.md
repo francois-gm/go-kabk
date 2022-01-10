@@ -52,37 +52,37 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 
 Features issues & support:
 
-- Can I use…, support tables for HTML5, CSS3, etc: https://caniuse.com
-- Stack overflow (Q&A for developers, problem-sharing and fixing): https://www.stackoverflow.com/questions
+- **Can I use**..., support tables for HTML5, CSS3, etc: https://caniuse.com
+- **Stack overflow** (Q&A for developers, problem-sharing and fixing): https://stackoverflow.com/questions
 
 Markup testing:
 
-- W3C validator markup testing: https://validator.w3.org (free)
+- **W3C validator markup** testing: https://validator.w3.org/ (free)
 
-Cross-device testing:
+Cross-device / screens testing:
 
-- Browserstack (test on multiple screens or user agents): www.browserstack.com (€)
+- **Browserstack** (test on multiple screens or user agents): https://www.browserstack.com/ (€)
 
 Performance testing / audit:
 
-- Google Lighthouse: https://developers.google.com/web/tools/lighthouse (Shift + ⌘ + C in Google Chrome)
-- Website Speed Test: https://tools.pingdom.com
-- Website Carbon Calculator: https://websitecarbon.com
+- **Google Lighthouse**: https://developers.google.com/web/tools/lighthouse, use [Shift]+[⌘]+[C] in *Google Chrome*
+- **Website Speed Test**: https://tools.pingdom.com/
+- **Website Carbon Calculator**: https://www.websitecarbon.com/ (checks the CO2 emissions of your website)
 
 Accessibility testing / audit:
 
-- WebAIM: webaim.org/techniques/keyboard (free)
-- WAVE (website accessibility evaluation tool): https://wave.webaim.org (free)
-- Web accessibility .com: https://webaccessibility.com (free, €)
-- WebAIM (contrast checker): webaim.org/resources/contrastchecker
+- **WebAIM**: https://webaim.org/techniques/keyboard/ (free)
+- **WAVE** (website accessibility evaluation tool): https://wave.webaim.org (free)
+- **Web accessibility .com**: https://www.webaccessibility.com (free, €)
+- **WebAIM** (contrast checker): https://webaim.org/resources/contrastchecker/
 
 Social medias scrapers / debuggers:
 
-- Facebook sharing debugger tool: https://developers.facebook.com/tools/debug (free)
-- Twitter cards validator tool: https://cards-dev.twitter.com/validator (free)
-- LinkedIn post inspector: https://linkedin.com/post-inspector (free)
+- **Facebook sharing debugger tool**: https://developers.facebook.com/tools/debug/ (free)
+- **Twitter cards validator tool**: https://cards-dev.twitter.com/validator (free)
+- **LinkedIn post inspector**: https://www.linkedin.com/post-inspector (free)
 
 Checklists:
 
-- The Front-end check-list https://github.com/thedaviddias/Front-End-Checklist
-- A11y checklist: https://a11yproject.com/checklist
+- **The Front-end check-list** https://github.com/thedaviddias/Front-End-Checklist
+- **A11y checklist**: https://www.a11yproject.com/checklist/
