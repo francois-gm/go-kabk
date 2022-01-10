@@ -1,14 +1,15 @@
 # Github pages
 
-Documentation: https://pages.github.com
+Documentation [here](https://pages.github.com)
 
-Ways of connecting / using:
+## Ways of connecting / using..
+
 - Terminal: either Git ([documentation](https://git-scm.com/download/mac)),or the Github CLI ([documentation](https://github.com/cli/cli)) *
 - Desktop app: Github Desktop**, ([Download here](https://desktop.github.com))
 
 \* CLI = Command User Interface, ** GUI = Graphic User Interface
 
-## a) Git (...*or* Github CLI)
+### a) Git (...*or* Github CLI)
 
 > Quick reminder for Terminal:
 > 
@@ -36,6 +37,12 @@ Ways of connecting / using:
 
 [Cheatsheet Git](https://github.com/0nn0/git-basics-cheatsheet)
 
-## b) Desktop app
+### b) Desktop app
 
 [Download here](https://desktop.github.com), and follow the installation steps...
+
+***
+
+## Deploy your first page
+
+Follow the documentation instructions [here](https://pages.github.com)
