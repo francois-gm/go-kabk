@@ -50,11 +50,11 @@
 - Conceptualize, design, and implement a content-based website &ndash; a publication &ndash; your kabk thesis.
 - Deploy it on the kabk Github.
 
-Criterias...
+Focus points:
 
-- Your website is accessible / is legible
-- Your website works on mobile, is actually mobile-first (you've started your design process with mobile screens in mind).
-- Your website loads 
+- Your website is accessible, legible, and semantically-written (you use correct <html> tags).
+- Your website is also optimized for mobile views (it is actually conceived 'mobile-first', you've started your design process with mobile screens in mind).
+- Your website loads moderately fast (information is compressed accordingly and you aren't trying to put .tiff images)
 
 ## Mini/bonus assignment
 
