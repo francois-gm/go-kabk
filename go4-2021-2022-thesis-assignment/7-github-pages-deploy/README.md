@@ -8,7 +8,7 @@ Ways of connecting / using:
 
 \* CLI = Command User Interface, ** GUI = Graphic User Interface
 
-## a) Git (...*or Github CLI*)
+## a) Git (...*or* Github CLI)
 
 > Quick reminder for Terminal:
 > 
