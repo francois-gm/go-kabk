@@ -32,6 +32,8 @@ Some criteria to keep in mind:
 
 ### Coherent and semantic html
 
+
+
 ### Accessibility
 
 You can yourself make a test and press [Cmd]+[+], you'll likely zoom on the webpage (use [Cmd]+[-] for zooming out). This feature is actually used for folks with different viewing abilities that need it to see the content. Also: think about browser-activated 'dark' feature, text-to-speach devices, etc. There are dozens of thousands of possible combinations of browsers/versions + screen devices + interacting methods (hover/touch). It will be impossible to predict/force all outcomes to look *as* you wish 100%.
@@ -51,7 +53,9 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 - filter (blur) and mix-blend-mode, especially if stacked on each others, using high value (for blur), or applied on heavy elements like video.
 - use the `will-change` property on the parent of the ressource-heavy element, and specify the energy-hungry property within the `will-change` property.
 - Prefer the css `transform` property over `top | left | right | bottom` if you intend to animate (via a transition) the property.
-  
+
+---
+
 ## A list of link ressources to perform website tests
 
 Features issues & support:
