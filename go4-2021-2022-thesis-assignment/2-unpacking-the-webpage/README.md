@@ -32,8 +32,21 @@ Some criteria to keep in mind:
 
 ### Coherent and semantic html
 
-
-
+> What are Semantic Elements? A semantic element clearly describes its meaning to both the browser and the developer. 
+> Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content. 
+> Examples of semantic elements: `<nav>`, `<header>`, `<form>`, `<table>`, and `<article>` - Clearly defines its content.
+> Read more on the [W3school](https://www.w3schools.com/html/html5_semantic_elements.asp)
+  
+- Cheat sheet 1: [Codecademy description of semantic elements](https://www.codecademy.com/learn/learn-html/modules/learn-semantic-html/cheatsheet)
+- Cheat sheet 2: [MDN html cheatsheet](https://developer.mozilla.org/en-US/docs/Learn/HTML/Cheatsheet)
+- Cheat sheet 3: [MDN html semantic blocks](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
+  
+Why is it important?
+1. People with screen readers (device helpers for accessibility) can access your website
+2. You put chances on your side to be future-proof 🤞
+3. Your website can be indexed by search engines, can be scraped by APIs and and is also readable through 'reading mode' on safari
+4. It might look better when printed, exported to .pdf, or exported to other formats
+  
 ### Accessibility
 
 You can yourself make a test and press [Cmd]+[+], you'll likely zoom on the webpage (use [Cmd]+[-] for zooming out). This feature is actually used for folks with different viewing abilities that need it to see the content. Also: think about browser-activated 'dark' feature, text-to-speach devices, etc. There are dozens of thousands of possible combinations of browsers/versions + screen devices + interacting methods (hover/touch). It will be impossible to predict/force all outcomes to look *as* you wish 100%.
@@ -54,7 +67,7 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 - use the `will-change` property on the parent of the ressource-heavy element, and specify the energy-hungry property within the `will-change` property.
 - Prefer the css `transform` property over `top | left | right | bottom` if you intend to animate (via a transition) the property.
 
----
+
 
 ## A list of link ressources to perform website tests
 
