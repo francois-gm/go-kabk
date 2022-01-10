@@ -28,7 +28,7 @@ Sharing of resources / help regarding points up
 - Same applies with the `<audio>` tag, use .mp3 -> https://online-audio-converter.com and adjust so you're under 1mb / minute.
 - If your media file is verrrrrrrrrrrrry heavy, consider using Vimeo, YouTube or Soundcloud and embed it on your website using the provided embed code. Some of these services provide an API to control play/pause, volume, etc, through Javascript.
 - If your page is really image-heavy, consider implementing your images with a lazyload: https://afarkas.github.io/lazysizes/index.html
-- Use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier) -> [Documentation](https://cloudinary.com/documentation/image_optimization). https://imagekit.io/use-cases/file-upload/ (imagekit.io too)
+- Use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [Documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/
 
 ### Coherent and semantic html
 
