@@ -66,15 +66,14 @@ Criterias...
 
 - Intro (this document)
 - Round table presentation
-- Setting up of a common Etherpad ->
-- Individual writing exercice + presentation
-- (dividing the group into sub-groups (4-5 students) based on their thesis subjects / writing styles / interests / possible media treatments (text-based, media-based, etc). Presentation of text-ideas / general concept?)
+- Setting up of a common etherpad / are.na
+- Individual writing exercice + presentation (then dividing the group into sub-groups (4-5 students) based on their thesis subjects / writing styles / interests / possible media treatments (text-based, media-based, etc). Presentation of text-ideas / general concept?)
 
 ### p.m.
 
 Presentation of web notions / workshop...
 
-1. François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate, and gets into SASS (Syntactically Awesome Style Sheets)
-2. Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), variables, calcs, rems, etc.
-3. Jekyll + Markdown, work with footnotes
-4. (how to) deploy on Github Pages
+- François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate, and gets into SASS (Syntactically Awesome Style Sheets)
+- Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), variables, calcs, rems, etc.
+- Jekyll + Markdown, work with footnotes
+- (how to) deploy on Github Pages
