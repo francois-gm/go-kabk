@@ -41,8 +41,6 @@ Documentation [here](https://pages.github.com)
 
 [Download here](https://desktop.github.com), and follow the installation steps...
 
-***
-
 ## Deploy your first page
 
 Follow the documentation instructions [here](https://pages.github.com)
