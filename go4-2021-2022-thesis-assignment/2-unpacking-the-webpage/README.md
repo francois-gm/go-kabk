@@ -52,12 +52,12 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 
 Features issues & support:
 
-- Can I use…, support tables for HTML5, CSS3, etc: caniuse.com
+- Can I use…, support tables for HTML5, CSS3, etc: https://caniuse.com
 - Stack overflow (Q&A for developers, problem-sharing and fixing): https://www.stackoverflow.com/questions
 
 Markup testing:
 
-- W3C validator markup testing: validator.w3.org (free)
+- W3C validator markup testing: https://validator.w3.org (free)
 
 Cross-device testing:
 
@@ -72,8 +72,8 @@ Performance testing / audit:
 Accessibility testing / audit:
 
 - WebAIM: webaim.org/techniques/keyboard (free)
-- WAVE (website accessibility evaluation tool): wave.webaim.org (free)
-- Web accessibility .com: webaccessibility.com (free, €)
+- WAVE (website accessibility evaluation tool): https://wave.webaim.org (free)
+- Web accessibility .com: https://webaccessibility.com (free, €)
 - WebAIM (contrast checker): webaim.org/resources/contrastchecker
 
 Social medias scrapers / debuggers:
