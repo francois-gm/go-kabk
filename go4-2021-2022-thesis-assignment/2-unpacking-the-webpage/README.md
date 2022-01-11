@@ -64,7 +64,11 @@ Use the `<figure>` tag for images / visual medias:
 
 Put your footnotes in a `<footer>` tag if at the end of your document, in a `<aside>` tag is presented as a sidebar...<br>
 Put your table of contents inside a `<nav>` tag.<br>
-Put your thesis title inside the `<h1>` tag, the `<h1>` being inside the `<header>` tag.
+Put your thesis title inside the `<h1>` tag, the `<h1>` being inside the `<header>` tag, use the right tags for the right elements (`hX`, `p`, `ul`, `ol`, `blockquote`, `a`, `sup`, etc)
+
+#### How to deal with footnotes?
+
+[TEXT GOES HERE]
 
 ### Accessibility ♿
 
@@ -79,6 +83,8 @@ When designing, think *mobile-first*. But what does that mean, exactly? Mobiles 
 ![... complicated](mobile-first-2.jpg)
 
 Above examples are: a device with a square screen ratio, device with stylus, slow/small/low-res device (the 3310), smart watch, device with a trackball (!), foldable screen device (!!), tablet that is bigger than a desktop (!!!)... 🥴
+
+This is why CSS media queries are for: https://css-tricks.com/a-complete-guide-to-css-media-queries/
 
 #### Basics for 'mobile' device
 
@@ -115,6 +121,7 @@ Features issues & support:
 
 - **Can I use**..., support tables for HTML5, CSS3, etc: https://caniuse.com (❗)
 - **CSS Tricks**'s *almanach, https://css-tricks.com/almanac/ (❗)
+- **CSS Tricks**'s *A Complete Guide to...* series: https://css-tricks.com/guides/ (❗)
 - **Stack overflow** (Q&A for developers, problem-sharing and fixing): https://stackoverflow.com/questions (❗)
 
 Markup testing:
