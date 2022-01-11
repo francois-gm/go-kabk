@@ -110,27 +110,29 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 
 Features issues & support:
 
-- **Can I use**..., support tables for HTML5, CSS3, etc: https://caniuse.com
-- **Stack overflow** (Q&A for developers, problem-sharing and fixing): https://stackoverflow.com/questions
+- **Can I use**..., support tables for HTML5, CSS3, etc: https://caniuse.com (❗)
+- **CSS Tricks**'s *almanach, https://css-tricks.com/almanac/ (❗)
+- **Stack overflow** (Q&A for developers, problem-sharing and fixing): https://stackoverflow.com/questions (❗)
 
 Markup testing:
 
-- **W3C validator markup** testing: https://validator.w3.org/ (free)
+- **W3C validator markup** testing: https://validator.w3.org/ (free) (❗❗❗)
 
 Cross-device / screens testing:
 
 - **Browserstack** (test on multiple screens or user agents): https://www.browserstack.com/ (€)
+- **Your browser's Developer tools** | Google Chrome -> [Shift]+[Cmd]+[C] | Firefox -> [Alt]+[Cmd]+[I] (❗❗❗)
 
 Performance testing / audit:
 
-- **Google Lighthouse**: https://developers.google.com/web/tools/lighthouse, use [Shift]+[⌘]+[C] in *Google Chrome*
+- **Google Lighthouse**: https://developers.google.com/web/tools/lighthouse, use [Shift]+[⌘]+[C] in *Google Chrome* (❗)
 - **Website Speed Test**: https://tools.pingdom.com/
 - **Website Carbon Calculator**: https://www.websitecarbon.com/ (checks the CO2 emissions of your website)
 
 Accessibility testing / audit:
 
 - **WebAIM**: https://webaim.org/techniques/keyboard/ (free)
-- **WAVE** (website accessibility evaluation tool): https://wave.webaim.org (free)
+- **WAVE** (website accessibility evaluation tool): https://wave.webaim.org (free) (❗)
 - **Web accessibility .com**: https://www.webaccessibility.com (free, €)
 - **WebAIM** (contrast checker): https://webaim.org/resources/contrastchecker/
 
