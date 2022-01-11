@@ -21,7 +21,7 @@ Some criteria to keep in mind:
 
 - **Use .jpg for images**, avoid .png over 500kb (and use only for transparency or if file is smaller than .jpg), avoid .gif over 500kb (and use only for moving or if smaller than .jpg).
 - Consider using .svg files (yes!) instead of .png files
-- **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), [Shift]+[Alt]+[Cmd]+[s], with the appropriate image width resizing and the quality setting at **60** or below.
+- **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), [Shift]+[Alt]+[Cmd]+[S], with the appropriate image width resizing and the quality setting at **60** or below.
 - If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
 - Your **images should not be too big in relationship with the space they occupy**. Consider capping images at *2400px* width for full screen width images, *1200px* for 50% screen width, and *900px* for 33% screen width.
 - If you use the html `<video>` tag, export your video to .mp4 -> https://cloudconvert.com/mp4-converter and **adjust the quality so you are at under 2mb per minute.**
@@ -67,7 +67,7 @@ Put your thesis title inside the `<h1>` tag, the `<h1>` being inside the `<heade
 
 You can yourself make a test and press [Cmd]+[+], you'll likely zoom on the webpage (use [Cmd]+[-] for zooming out). This feature is actually used for folks with different viewing abilities that need it to see the content. Also: think about browser-activated 'dark' feature, text-to-speach devices, etc. There are dozens of thousands of possible combinations of browsers/versions + screen devices + interacting methods (hover/touch). It will be impossible to predict/force all outcomes to look *as* you wish 100%.
 
-It is better to have less differentiation, somewhat a ‘universal’, ‘one-size-fits-all’ approach…
+It is better to have less differentiation, somewhat a ‘universal’, ‘one-size-fits-all’ approach… and of course to **follow semantic html**!
 
 ### Design, mobile-first
 
@@ -84,12 +84,15 @@ Above examples are: a device with a square screen ratio, device with stylus, slo
 1. Screen size 320px for 'small' mobile devices (iPhone 5), 360-375px for 'average' and 400-420px for 'larger' devices. *If it works for 320px, it works for any devices.*
 2. Most mobiles can't reproduce 'hover' interactions: there's no mouse. On the other hand, you can use 'touch' events if the way of interacting is to touch a screen.
 3. The content is likely to be displayed on a one column layout. Space being scarce, you don't want a 'fixed' navigation element to take too much space on your layout. You can hide these in a element that expands (accordion-like, a sidebar, a hamburger menu...) or appear/dissapear based on scroll direction. Or you can choose to avoid menu elements and make sure your pages have a link to a 'next' content and a 'back to index' link...
-4. The `flexbox` CSS property is super handy to set up a layout. You can easily change your order by changing the `flex` properties inside your `@media-queries` ! https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 5. Think of the invisible structure of your website, where every html tag is a box, from main container boxes to sub-containers, and then your content inside these boxes.
+6. **Paper and pen can be useful!** Draw your website's structure on a piece of paper, this will help visualize what contains what.
 
-##### Debug and test for mobiles:
+##### Code, debug and test, responsive / mobile-friendly:
 
-
+1. Use **CSS3 units** such as relative ems (rem), viewport units (`vw`, `vh`, `vmin`, `vmax`), variables (either CSS variables: `--my-variable: myvalue;`, or SASS variables: `$myvariable = myvalue;`
+2. The **`flexbox`** CSS property is super handy to set up a layout. You can easily change your order by changing the `flex` properties inside your `@media-queries` ! https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+3. Use the development tools to simulate your website at several screen sizes. On Google Chrome -> [Shift]+[Cmd]+[C] | on Firefox -> or [Alt]+[Cmd]+[I]. Then on both options you can find a mobile device / tablet icon that allows you to simulate several screen sizes.
+4. But don't forget to also **test on a real mobile device** (for this you'll need to deploy your website online first, normally in a temporary/secret place but for this exercice you can push it online for testing purposes and implement further modifications afterwards on the same repository). Example of why test on a real device: the *'rubber band' scrolling effect* with showing/hiding browser nav bar in iOS safari, or the way a css `vh` unit is calculating differing on mobiles, devices with a notch hiding content, etc. Or just the feeling of actually touching your buttons might make you realize they are too small/difficult to touch?
 
 ### Performance issues
 
