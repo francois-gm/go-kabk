@@ -73,7 +73,7 @@ It is better to have less differentiation, somewhat a ‘universal’, ‘one-si
 
 When designing, think *mobile-first*. But what does that mean, exactly? Mobiles come in different sizes, different interacting method.
 
-![... complicated](mobile-first.jpg)
+![... complicated](mobile-first-2.jpg)
 
 Above examples are: a device with a square screen ratio, device with stylus, slow/small/low-res device (the 3310), smart watch, device with a trackball (!), foldable screen device (!!), tablet that is bigger than a desktop (!!!)... 🥴
 
