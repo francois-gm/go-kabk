@@ -1,9 +1,9 @@
 # How-to-how
 
-Common issues
+Common issues...
 
 - [Typos](#typos)
-- [Refresh issues, cache](#refresh-issues-website-doesn-t-appear-with-new-changes-cache-issues)
+- [Refresh issues, cache](#refresh-issues-website-doesnt-appear-with-new-changes-cache-issues)
 - [Finding information online](#finding-information-online)
 
 ## Typos
