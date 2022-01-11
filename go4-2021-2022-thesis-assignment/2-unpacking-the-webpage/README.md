@@ -66,7 +66,7 @@ Put your footnotes in a `<footer>` tag if at the end of your document, in a `<as
 Put your table of contents inside a `<nav>` tag.<br>
 Put your thesis title inside the `<h1>` tag, the `<h1>` being inside the `<header>` tag, use the right tags for the right elements (`hX`, `p`, `ul`, `ol`, `blockquote`, `a`, `sup`, etc)
 
-#### How to deal with footnotes?
+#### What about footnotes?
 
 [TEXT GOES HERE]
 
