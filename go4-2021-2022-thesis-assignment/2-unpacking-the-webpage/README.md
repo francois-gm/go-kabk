@@ -12,9 +12,9 @@ Some criteria to keep in mind:
 - **Coherent, semantic, and acknowledging expectable design patterns** (it's okay to be *original* and a bit of unexpectedness can be fine if thought carefully, on the other hand you'll likely have to guide your visitor about usage and expectation).
 - **Suggests the website structure/hierarchy in the design** (breadcrumbs, menu as sitemap, table of contents). *Where am I?*
 - **Avoid interfering with native/expected browser behaviors** and user preferences (scrolling functionalities, light/dark modes, cursor suggesting an element can be clicked, etc). 
-- **Looks *good* on any devices**, screen sizes, interaction methods: [60% users on mobile devices](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet) (1 column, menu shortcuts, touch event), 40% on desktop (1 or multi-column, extended menu, mouse hover), phablets, foldable phones, mega-big ipads, etc…
+- **Similar ease of use regardless of devices**, screen sizes, interaction methods: [60% users on mobile devices](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet) (1 column, menu shortcuts, touch event), 40% on desktop (1 or multi-column, extended menu, mouse hover), phablets, foldable phones, mega-big ipads, etc…
 - Agnostic of language directions (left-to-right, right-to-left) (more on [Material Design](https://material.io/design/usability/bidirectionality.html#mirroring-layout))
-- Is **understandable / accessible without CSS** (uses appropriate html tags and page structure!!!). Can be navigated with ‘tabs’ / focus, and screen readers (visual impairments, hearing impairment, etc).
+- Is **understandable / accessible even unstyled** (uses appropriate html tags and page structure!!!). Can be navigated with the [tab] key / focus on accessibility mode, and screen readers (visual impairments, hearing impairment, etc).
 - Takes into account a ‘performance’ budget for client-side features / properties that are resource-intensive (*ie* don't animate too much properties especially if they are ressource-demanding and you stack them one on top of the other).
 
 ### Ressources optimization tricks and do's
@@ -32,7 +32,7 @@ Some criteria to keep in mind:
 
 ### Coherent and semantic html
 
-> What are Semantic Elements? A semantic element clearly describes its meaning to both the browser and the developer. 
+> What are Semantic Elements? A semantic element clearly **describes its meaning** to both the browser and the developer. 
 > Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content. 
 > Examples of semantic elements: `<nav>`, `<header>`, `<form>`, `<table>`, and `<article>` - Clearly defines its content.
 > Read more on the [W3school](https://www.w3schools.com/html/html5_semantic_elements.asp)
@@ -43,9 +43,9 @@ Some criteria to keep in mind:
   
 *Why is it important?*
 
-1. People with screen readers (device helpers for accessibility) can access your website
+1. Folks using screen readers (accessibility helping devices) can access your website
 2. You put chances on your side to be future-proof 🤞
-3. Your website can be indexed by search engines, can be scraped by APIs and and is also readable through 'reading mode' on safari
+3. Your website can be *indexed* by search engines, can be scraped by APIs and and is also readable through 'reading mode' on safari
 4. It might look better when printed, exported to .pdf, or exported to other formats
 
 What could be a *semantic* structure inthe context of this assignment?
@@ -121,7 +121,7 @@ Markup testing:
 Cross-device / screens testing:
 
 - **Browserstack** (test on multiple screens or user agents): https://www.browserstack.com/ (€)
-- **Your browser's Developer tools** | Google Chrome -> [Shift]+[Cmd]+[C] | Firefox -> [Alt]+[Cmd]+[I] (❗❗❗)
+- **Your browser's Developer tools** | Google Chrome -> [Shift]+[Cmd]+[C], or `View -> Developer Tools` | Firefox -> [Alt]+[Cmd]+[I], or `Tools -> Browser tools -> Web development tools` (❗❗❗)
 
 Performance testing / audit:
 
