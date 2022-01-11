@@ -6,7 +6,18 @@ So, when it's on the web, you can't have the ultimate control on viewing context
 
 A good website is like an *elastic*, expanding and contracting nicely based on its amount and type of content.
 
-## *Good website* criteria (from a purely technical standpoint) 📌
+- [A 'technically' good website](#typos)
+- [Ressources optimization tricks and do's](#refresh-issues-website-doesnt-appear-with-new-changes-cache-issues)
+- [Coherent and semantic HTML](#finding-information-online)
+- [What about footnotes?](#finding-information-online)
+- [Accessibility](#finding-information-online)
+- [Design, mobile-first](#finding-information-online)
+- [Code, debug and test, for responsive/mobile](#finding-information-online)
+- [Performance issues](#performance-issues)
+- [Ressources](#ressources)
+
+
+## A 'technically' good website 📌
 
 Some criteria to keep in mind:
 
@@ -86,9 +97,7 @@ Above examples are: a device with a square screen ratio, device with stylus, slo
 
 This is why CSS media queries are for: https://css-tricks.com/a-complete-guide-to-css-media-queries/
 
-#### Basics for 'mobile' device
-
-##### Design ✏️
+#### Design for responsive/mobile ✏️
 
 1. Screen size 320px for 'small' mobile devices (iPhone 5), 360-375px for 'average' and 400-420px for 'larger' devices. *If it works for 320px, it works for any devices.*
 2. Most mobiles can't reproduce 'hover' interactions: there's no mouse. On the other hand, you can use 'touch' events if the way of interacting is to touch a screen. If you use 'hover' interactions to convey interactivity, think twice about another potential 'non-hover' visual cue.
@@ -96,7 +105,7 @@ This is why CSS media queries are for: https://css-tricks.com/a-complete-guide-t
 5. Think of the invisible structure of your website, where every html tag is a box, from main container boxes to sub-containers, and then your content inside these boxes.
 6. **Paper and pen can be useful!** Draw your website's structure on a piece of paper, this will help visualize what contains what.
 
-##### Code, debug and test, responsive / mobile-friendly 🛠️🔎
+##### Code, debug and test, for responsive/mobile 🛠️🔎
 
 1. Use **CSS3 units** such as relative ems (rem), viewport units (`vw`, `vh`, `vmin`, `vmax`), variables (either CSS variables: `--my-variable: myvalue;`, or SASS variables: `$myvariable = myvalue;`
 2. The **`flexbox`** CSS property is super handy to set up a layout. You can easily change your order by changing the `flex` properties inside your `@media-queries` ! https://css-tricks.com/snippets/css/a-guide-to-flexbox/
