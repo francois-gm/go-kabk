@@ -52,7 +52,7 @@
 
 Focus points:
 
-- Your website is accessible, legible, and semantically-written (you use correct <html> tags).
+- Your website is accessible, legible, and semantically-written (you use correct `<html>` tags).
 - Your website is also optimized for mobile views (it is actually conceived 'mobile-first', you've started your design process with mobile screens in mind).
 - Your website loads moderately fast (information is compressed accordingly and you aren't trying to put .tiff images)
 
