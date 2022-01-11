@@ -75,24 +75,24 @@ When designing, think *mobile-first*. But what does that mean, exactly? Mobiles 
 
 ![... complicated](mobile-first.jpg)
 
-Above examples are: a device with a square screen ratio, device with stylus, slow/small/low-res device (the 3310), smart watch, device with a trackball, foldable screen device (!), tablet that is bigger than a desktop (!)...
+Above examples are: a device with a square screen ratio, device with stylus, slow/small/low-res device (the 3310), smart watch, device with a trackball (!), foldable screen device (!!), tablet that is bigger than a desktop (!!!)... 🥴
 
 #### Basics for 'mobile' device
 
 ##### Design
 
 1. Screen size 320px for 'small' mobile devices (iPhone 5), 360-375px for 'average' and 400-420px for 'larger' devices. *If it works for 320px, it works for any devices.*
-2. Most mobiles can't reproduce 'hover' interactions: there's no mouse. On the other hand, you can use 'touch' events if the way of interacting is to touch a screen.
+2. Most mobiles can't reproduce 'hover' interactions: there's no mouse. On the other hand, you can use 'touch' events if the way of interacting is to touch a screen. If you use 'hover' interactions to convey interactivity, think twice about another potential 'non-hover' visual cue.
 3. The content is likely to be displayed on a one column layout. Space being scarce, you don't want a 'fixed' navigation element to take too much space on your layout. You can hide these in a element that expands (accordion-like, a sidebar, a hamburger menu...) or appear/dissapear based on scroll direction. Or you can choose to avoid menu elements and make sure your pages have a link to a 'next' content and a 'back to index' link...
 5. Think of the invisible structure of your website, where every html tag is a box, from main container boxes to sub-containers, and then your content inside these boxes.
 6. **Paper and pen can be useful!** Draw your website's structure on a piece of paper, this will help visualize what contains what.
 
-##### Code, debug and test, responsive / mobile-friendly:
+##### Code, debug and test, responsive / mobile-friendly
 
 1. Use **CSS3 units** such as relative ems (rem), viewport units (`vw`, `vh`, `vmin`, `vmax`), variables (either CSS variables: `--my-variable: myvalue;`, or SASS variables: `$myvariable = myvalue;`
 2. The **`flexbox`** CSS property is super handy to set up a layout. You can easily change your order by changing the `flex` properties inside your `@media-queries` ! https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. Use the development tools to simulate your website at several screen sizes. On Google Chrome -> [Shift]+[Cmd]+[C] | on Firefox -> or [Alt]+[Cmd]+[I]. Then on both options you can find a mobile device / tablet icon that allows you to simulate several screen sizes.
-4. But don't forget to also **test on a real mobile device** (for this you'll need to deploy your website online first, normally in a temporary/secret place but for this exercice you can push it online for testing purposes and implement further modifications afterwards on the same repository). Example of why test on a real device: the *'rubber band' scrolling effect* with showing/hiding browser nav bar in iOS safari, or the way a css `vh` unit is calculating differing on mobiles, devices with a notch hiding content, etc. Or just the feeling of actually touching your buttons might make you realize they are too small/difficult to touch?
+4. But don't forget to also **test on a real mobile device** (for this you'll need to deploy your website online first, normally in a temporary/secret place but for this exercice you can push it online for testing purposes and implement further modifications afterwards on the same repository). Example of why test on a real device: *the 'rubber band' scrolling effect with [showing/hiding browser nav bar](https://www.google.com/search?q=ios+safari+navbar+scroll&source=lnms&tbm=isch) in iOS safari or [overscrolling issues](https://css-tricks.com/almanac/properties/o/overscroll-behavior/) from a modal to the page's body, or the way a css `vh` unit [is calculating differing on mobiles](https://dev.to/maciejtrzcinski/100vh-problem-with-ios-safari-3ge9), devices with a [notch](https://css-tricks.com/the-notch-and-css/) hiding content, etc.* Or **just the feeling of actually touching your website buttons/links** might make you realize they are too small/difficult to touch?
 
 ### Performance issues
 
