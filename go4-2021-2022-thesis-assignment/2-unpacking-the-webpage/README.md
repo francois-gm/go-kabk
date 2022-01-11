@@ -6,16 +6,15 @@ So, when it's on the web, you can't have the ultimate control on viewing context
 
 A good website is like an *elastic*, expanding and contracting nicely based on its amount and type of content.
 
-- [A 'technically' good website](#-)
-- [Ressources optimization tricks and do's](#refresh-issues-website-doesnt-appear-with-new-changes-cache-issues-)
-- [Coherent and semantic HTML](#finding-information-online)
-- [What about footnotes?](#finding-information-online)
-- [Accessibility](#finding-information-online)
-- [Design, mobile-first](#finding-information-online)
-- [Code, debug and test, for responsive/mobile](#finding-information-online)
+- [A 'technically' good website](#a-technically-good-website-)
+- [Ressources optimization tricks and do's](#ressources-optimization-tricks-and-dos-)
+- [Coherent and semantic HTML](#coherent-and-semantic-html-)
+- [What about footnotes?](#what-about-footnotes-)
+- [Accessibility](#accessibility-)
+- [Design, mobile-first](#design-mobile-first-)
+- [Code, debug and test, for responsive/mobile](#code-debug-and-test-for-responsive-mobile-)
 - [Performance issues](#performance-issues-)
 - [Ressources](#ressources-)
-
 
 ## A 'technically' good website 📌
 
