@@ -38,30 +38,33 @@
 - 20 min break
 - 17:00 | 17:20 | 17:40
 
-#### Mentoring (small groups) (4-5 per group) (2x, you attend 2 out of 2):
+#### Mentoring (small groups) (5 per group) (2x, you attend 2 out of 2):
 
 - 10:00 | 11:00
 - 20 min break
 - 12:20 | 13:20
 - 60 min lunch break
 - 15:20 | 16:20
-- 20 min break
-- 17:40
 
 ## Main assignement
 
-- Conceptualize, design, and implement a content-based website &ndash; a publication &ndash; your kabk thesis.
-- Deploy it on the kabk Github.
+- **Conceptualize, design, and implement** a content-based website &ndash; a publication &ndash; your kabk thesis.
+- **Deploy it** on the kabk Github.
 
-Focus points:
+*Focus points:*
 
-- Your website is accessible, legible, and semantically-written (you use correct `<html>` tags).
-- Your website is also optimized for mobile views (it is actually conceived 'mobile-first', you've started your design process with mobile screens in mind).
-- Your website loads moderately fast (information is compressed accordingly and you aren't trying to put .tiff images)
+- Your website is **accessible, legible, and semantically-written** (you use correct `<html>` tags).
+- Your website takes into account that more visitors use **mobile devices** than desktop ones (it is actually conceived 'mobile-first', and you've started your design process with mobile screens in mind).
+- Your website **loads moderately fast** (information is compressed accordingly and you aren't trying to put .tiff images).
+- There's a **relationship between the content of your thesis, its formal aspect, and its navigational/experiential aspect**. (i.e. we see a 'concept' there)
 
 ## Mini/bonus assignment
 
-- present a website of your choice in 4 min (*1/2 pecha kucha*, 10 slides of 20sec) x 10 students per session (1h)
+- **present a website of your choice** in 4 min (*1/2 pecha kucha*, 10 slides of 20sec) x 10 students per session (1h)
+
+## Thesis landing page (extra)
+
+- We'll need an extra group to make a landing page for this year's theses. As examples, here are the landing pages of [2021](https://kabk.github.io/go-theses-21/), [2020](https://kabk.github.io/go-theses-20/), and [2019](https://kabk.github.io/go-theses-19/). It would be nice to have this sorted out **before spring break**.
 
 ## First class
 
