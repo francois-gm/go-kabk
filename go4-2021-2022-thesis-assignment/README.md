@@ -56,7 +56,7 @@
 - Your website is **accessible, legible, and semantically-written** (you use correct `<html>` tags).
 - Your website takes into account that more visitors use **mobile devices** than desktop ones (it is actually conceived 'mobile-first', and you've started your design process with mobile screens in mind).
 - Your website **loads moderately fast** (information is compressed accordingly and you aren't trying to put .tiff images).
-- There's a **relationship between the content of your thesis, its formal aspect, and its navigational/experiential aspect**. (i.e. we see a 'concept' there)
+- There's a **relationship between the content of your thesis, its formal aspect, and its navigational/experiential aspect**. (that is, we see a *concept* there)
 
 ## Mini/bonus assignment
 
