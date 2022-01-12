@@ -8,15 +8,15 @@
 | -------- | ---------------------|
 | 31/01 (1) | (am) intro / presentations / writing exercice / 'mini-assignment' brief \| <br> (pm) notions: François (unpacking, boilerplate, sass), Thomas (CSS typography / calc), jekyll + markdown |
 | ↓ | **Milestone:** You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
-| 07/02 (2) | (am: 1h) 'mini-assignment' presentations (10ppl) (1/4) \| (rest: 7h) individual mentoring |
+| 07/02 (2) | (am: 1h) 'mini-assignment' presentations (13ppl) (1/3) \| (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
-| 14/02 (3) | (am: 1h) 'mini-assignment' presentations (10ppl) (2/4) \| (rest: 7h) small group mentoring |
+| 14/02 (3) | (am: 1h) 'mini-assignment' presentations (13ppl) (2/3) \| (rest: 7h) small group mentoring |
 | ↓ | **Milestone:** You have design sketches and/or code sketches |
-| 21/02 (4) | (am: 1h) 'mini-assignment' presentations (10ppl) (3/4) \| (rest: 7h) individual mentoring, <br> setting up landing page group |
+| 21/02 (4) | (am: 1h) 'mini-assignment' presentations (13ppl) (3/3) \| (rest: 7h) individual mentoring, <br> setting up landing page group |
 | ↓ &nbsp; **!!!!!!!** | **Milestone:** You've left the world of static design and are **coding/developing your webpage** |
 | 28/02 (-) | (~~spring break, no class~~) |
 | 07/03 (5) | (am: 1h) Group feedback / group troubleshooting \| (rest: 7h) small group mentoring |
-| 14/03 (6) | (am: 1h) 'mini-assignment' presentations (10ppl) (4/4) \| (rest: 7h) individual mentoring |
+| 14/03 (6) | (am: 1h) Group feedback / group troubleshooting \| (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** Your website is structurally sound, you are now adjusting elements more precisely |
 | 21/03 (7) | (am: 1h) Group feedback / group troubleshooting \| (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** You are debugging / fine-tuning details across several screen sizes (mobile/desktop) |
