@@ -8,11 +8,11 @@
 | -------- | ---------------------|
 | 31/01 (1) | - (am) intro / presentations / writing exercice / 'mini-assignment' brief \| <br> - (pm) notions: François (unpacking, boilerplate, sass), Thomas (CSS typography / calc), jekyll + markdown |
 | ↓ | **Milestone:** You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
-| 07/02 (2) | - (am: 1h) 'mini-assignment' presentations (13ppl) (1/3) \| <br> - (rest: 7h) individual mentoring |
+| 07/02 (2) | - (am: 1h) 'mini-assignment' presentations (11ppl) (1/3) \| <br> - (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
-| 14/02 (3) | - (am: 1h) 'mini-assignment' presentations (13ppl) (2/3) \| <br> - (rest: 7h) small group mentoring |
+| 14/02 (3) | - (am: 1h) 'mini-assignment' presentations (11ppl) (2/3) \| <br> - (rest: 7h) small group mentoring |
 | ↓ | **Milestone:** You have design sketches and/or code sketches |
-| 21/02 (4) | - (am: 1h) 'mini-assignment' presentations (13ppl) (3/3) \| <br> - (rest: 7h) individual mentoring + setting up landing page group |
+| 21/02 (4) | - (am: 1h) 'mini-assignment' presentations (10ppl) (3/3) \| <br> - (rest: 7h) individual mentoring + setting up landing page group |
 | ↓ &nbsp; **!!!!!!!** | **Milestone:** You've left the world of static design and are **coding/developing your webpage** |
 | 28/02 (-) | (~~spring break, no class~~) |
 | 07/03 (5) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) small group mentoring |
@@ -79,7 +79,7 @@
 
 Presentation of web notions / workshop...
 
-- François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate, and gets into SASS (Syntactically Awesome Style Sheets)
+- François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate, gets into a how-to-how of finding help and debugging online, and touches upon the *footnotes* specificity of the assignment).
 - Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), variables, calcs, rems, etc.
 - Jekyll + Markdown, work with footnotes
 - (how to) deploy on Github Pages
