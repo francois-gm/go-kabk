@@ -12,10 +12,10 @@
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
 | 14/02 (3) | (am: 1h) 'mini-assignment' presentations (10ppl) (2/4) \| (rest: 7h) small group mentoring |
 | ↓ | **Milestone:** You have design sketches and/or code sketches |
-| 21/02 (4) | (am: 1h) 'mini-assignment' presentations (10ppl) (3/4) \| (rest: 7h) individual mentoring |
+| 21/02 (4) | (am: 1h) 'mini-assignment' presentations (10ppl) (3/4) \| (rest: 7h) individual mentoring, <br> setting up landing page group |
 | ↓ &nbsp; **!!!!!!!** | **Milestone:** You've left the world of static design and are **coding/developing your webpage** |
 | 28/02 (-) | (~~spring break, no class~~) |
-| 07/03 (5) | (am: 1h) Group feedback / group troubleshooting \| (rest: 7h) individual mentoring |
+| 07/03 (5) | (am: 1h) Group feedback / group troubleshooting \| (rest: 7h) small group mentoring |
 | 14/03 (6) | (am: 1h) 'mini-assignment' presentations (10ppl) (4/4) \| (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** Your website is structurally sound, you are now adjusting elements more precisely |
 | 21/03 (7) | (am: 1h) Group feedback / group troubleshooting \| (rest: 7h) individual mentoring |
@@ -23,9 +23,12 @@
 | 28/03 (8) | (all day) help desk, *write your name* |
 | 01/04 (Deadline) | **Your website is online (yay!)** |
 
-### Mentoring days (7x)
+### Mentoring days (6x)
 
-#### Mentoring (individual) slots schedule, 1 on 1 (5x):
+- For individual mentoring slots, we expect to meet with each of you *about* once every two weeks (opt-in).
+- For small groups sessions, we'd like to have you at both of them.
+
+#### Mentoring (individual) slots schedule, 1 on 1 (4x, you attend 2 out of 4):
 
 - 10:00  |  10:20 | 10:40 | 11:00 | 11:20 | 11:40
 - 20 min break
@@ -33,9 +36,9 @@
 - 60 min break
 - 14:40 | 15:00 | 15:20 | 15:40 | 16:00
 - 20 min break
-- 17:00 | 17:20 | 17:40 | 18:00
+- 17:00 | 17:20 | 17:40
 
-#### Mentoring (small groups) (4-5 per group) (2x):
+#### Mentoring (small groups) (4-5 per group) (2x, you attend 2 out of 2):
 
 - 10:00 | 11:00
 - 20 min break
