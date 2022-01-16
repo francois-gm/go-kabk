@@ -52,6 +52,6 @@ If you're able to summarize your issue, it's quite possible someone has asked ab
 5. When you've defined your method, **make sure all preconditions for it to run are filled**: as an example, a function might not run because a variable required is undefined, because the element that provides this variable with its value fails to appear on your html page fails.
 6. **Use if/else conditions** to find out where the bug might be (write *assertions*).
 7. Make tests, **test each parts independently** in order to identify what doesn't.
-8. **Use your browser's debugger** (!), Use the **web inspector tools**. On Google Chrome -> [Shift]+[Cmd]+[C] | on Firefox -> or [Alt]+[Cmd]+[I].
+8. **Use your browser's debugger** (!), Use the **web inspector tools**. Google Chrome -> [Shift]+[Cmd]+[C], or `View -> Developer Tools` | Firefox -> [Alt]+[Cmd]+[I], or `Tools -> Browser tools -> Web development tools`.
 9. **Listen to your doubts**, and don't relinquish on **double-checking all aspects of the code**. Don't discard that the issue might be **something simple and obvious** (after the fact) that was in front of your eyes, that you couldn't see because you were too focused  thinking it was a complicated issue within a specific part.
 10. If on mobile: run tests on your browser as well as a real device.
