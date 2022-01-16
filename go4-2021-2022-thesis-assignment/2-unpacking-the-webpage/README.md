@@ -111,7 +111,7 @@ This is why CSS media queries are for: https://css-tricks.com/a-complete-guide-t
 3. Use the development tools to simulate your website at several screen sizes. On Google Chrome -> [Shift]+[Cmd]+[C] | on Firefox -> or [Alt]+[Cmd]+[I]. Then on both options you can find a mobile device / tablet icon that allows you to simulate several screen sizes.
 4. But don't forget to also **test on a real mobile device** (for this you'll need to deploy your website online first, normally in a temporary/secret place but for this exercice you can push it online for testing purposes and implement further modifications afterwards on the same repository). Example of why test on a real device: *the 'rubber band' scrolling effect with [showing/hiding browser nav bar](https://www.google.com/search?q=ios+safari+navbar+scroll&source=lnms&tbm=isch) in iOS safari or [overscrolling issues](https://css-tricks.com/almanac/properties/o/overscroll-behavior/) from a modal to the page's body, or the way a css `vh` unit [is calculating differing on mobiles](https://dev.to/maciejtrzcinski/100vh-problem-with-ios-safari-3ge9), devices with a [notch](https://css-tricks.com/the-notch-and-css/) hiding content, etc.* Or **just the feeling of actually touching your website buttons/links** might make you realize they are too small/difficult to touch?
 
-More tips about debugging on this Github's next part, **[→ how-to-how](../3-how-to-how)**.
+More tips about debugging on this Github's '[How-to-how](../3-how-to-how)' page.
 
 ### Performance issues 🐌
 
