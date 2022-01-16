@@ -13,7 +13,7 @@ Sometimes it doesn't work because there is a typo, and it can prove frustrating 
 
 ### HTML
 
-- Are your html tags opend `<div>` and closed `</div>`?
+- Are your html tags opened `<div>` and closed `</div>`?
 - Did you forget to close a tag?
 - Some tags don't need to be closed, like `<br>`, `<hr>`, `<img>`...
 - Are the links to your ressources loading? Sometimes you have to make sure you go back one level if your document and your ressources are in different folders, so `/folder/ressource.js` might not work but `.../folder/ressource.js` will. You can also test your ressource links by user the browser's developer tools.
