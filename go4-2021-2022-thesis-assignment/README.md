@@ -6,7 +6,7 @@
 
 | Class  | Activities|
 | -------- | ---------------------|
-| 31/01 (1) | - (am) intro / presentations / writing exercice / 'mini-assignment' brief \| <br> - (pm) notions: François (unpacking, boilerplate, sass), Thomas (CSS typography / calc), jekyll + markdown |
+| 31/01 (1) | - (am) intro / presentations / writing exercice / 'mini-assignment' brief \| <br> - (pm) notions: François (unpacking, how-to-how, boilerplate, footnotes, Github Pages), Thomas (CSS typography / calc), jekyll + markdown |
 | ↓ | **Milestone:** You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
 | 07/02 (2) | - (am: 1h) 'mini-assignment' presentations (11ppl) (1/3) \| <br> - (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
