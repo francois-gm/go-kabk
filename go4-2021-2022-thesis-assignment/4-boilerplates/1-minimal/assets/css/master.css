@@ -1,56 +1,149 @@
+@charset "UTF-8";
+
+
+
+/* @FONT FACE (enable the use of 'custom fonts' inside your document) */
+
 @font-face {
-  font-family: "Your Font Name";
-  src: url("../fonts/yourfontname/yourfontname-roman.woff2"), url("../fonts/yourfontname/yourfontname-roman.woff"), url("../fonts/yourfontname/yourfontname-roman.eot"), url("../fonts/yourfontname/yourfontname-roman.eot?#iefix") format("embedded-opentype"), url("../fonts/yourfontname/yourfontname-roman.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'Your Font Name';
+    src: url('../fonts/yourfontname/yourfontname-roman.woff2'),
+         url('../fonts/yourfontname/yourfontname-roman.woff'),
+         url('../fonts/yourfontname/yourfontname-roman.eot'),
+         url('../fonts/yourfontname/yourfontname-roman.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yourfontname/yourfontname-roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
+
 @font-face {
-  font-family: "Your Font Name";
-  src: url("../fonts/yourfontname/yourfontname-italic.woff2"), url("../fonts/yourfontname/yourfontname-italic.woff"), url("../fonts/yourfontname/yourfontname-italic.eot"), url("../fonts/yourfontname/yourfontname-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/yourfontname/yourfontname-italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-  font-display: block;
+    font-family: 'Your Font Name';
+    src: url('../fonts/yourfontname/yourfontname-italic.woff2'),
+         url('../fonts/yourfontname/yourfontname-italic.woff'),
+         url('../fonts/yourfontname/yourfontname-italic.eot'),
+         url('../fonts/yourfontname/yourfontname-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yourfontname/yourfontname-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: block;
 }
+
+
+
 /* VARIABLES */
+
+:root {
+  /* Color settings */
+  --color-background: rgba(255,255,255,1);
+  --color-text: rgba(0,0,0,1);
+  --color-text-link: rgba(0,0,255,0.8);
+  --color-text-link-hover: rgba(0,0,255,0.4);
+  /* Font settings */
+  --font-family: 'Your Font Name', 'Helvetica', 'Arial', sans-serif;
+  --font-size: 24px;
+  /* Margins settings */
+  --margin: 1rem;
+}
+
+
+
 /* GENERAL STYLES */
+
 html {
-  font: 24px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  color: black;
-  background-color: white;
+  font: var(--font-size) var(--font-family);
+  color: var(--color-text);
+  background-color: var(--color-background);
 }
 
 body {
-  position: relative;
-  background-color: white;
-  font: "Your Font Name", "Helvetica", "Arial", sans-serif 24px;
-  color: black;
-  width: 100%;
-  height: 100%;
-  overflow-y: auto;
+  position:relative;
+  background-color: var(--color-background);
+  font: var(--font-size) var(--font-family);
+  color: var(--color-text);
+  width:100%;
+  height:100%;
+  overflow-y:auto;
 }
 
 a {
-  color: rgba(0, 0, 255, 0.8);
+  color: var(--color-text-link);
   text-decoration: underline;
 }
 
 a:hover {
-  color: rgba(0, 0, 255, 0.4);
+  color: var(--color-text-link-hover);
   text-decoration: underline;
 }
 
 a:focus-visible {
-  color: rgba(0, 0, 255, 0.4);
+  color: var(--color-text-link-hover);
   text-decoration: none;
 }
 
-/* PAGE STYLES */
-div.page-wrapper {
-  padding: 1rem;
+h1{
+  /* h1 style */
 }
 
+h2{
+  /* h2 style */
+}
+
+h3{
+  /* h3 style */
+}
+
+h4, h5, h6{
+  /* h4-h5-h6 style */
+}
+
+p{
+  /* paragraph style */
+}
+
+ol, ul{
+  /* ordered list and unordered list styles */
+}
+
+blockquote{
+  /* blockquote element style */
+}
+
+hr{
+  /* horizontal rule style */
+}
+
+
+
+/* PAGE STYLES */
+
+/* page structure */
+
+div.page-wrapper {
+  /* the element that 'wraps' everything */
+  padding: var(--margin);
+}
+
+/* navigation */
+ 
+nav{
+  
+}
+
+/* content */
+
+main{
+ 
+}
+
+
+
+
+
+
 /* GENERAL USABILITY */
+
+/* hide desktop mobile etc */
+
 .desktop {
   display: block;
 }
@@ -58,6 +151,8 @@ div.page-wrapper {
 .mobile {
   display: none;
 }
+
+/* if you want to hide something visually but want to keep it readable / accessible for screen readers (sr) */
 
 .sr-only {
   border: 0 !important;
@@ -73,72 +168,92 @@ div.page-wrapper {
   white-space: nowrap !important;
 }
 
+
+
+
+
+
 /* MEDIA QUERIES */
+
 /* responsive typeface */
-@media (max-width: 299px) {
-  html, body {
-    font: 15px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+
+@media (max-width: 298px) { 
+  :root{ --font-size: 15px; } html, body {font: var(--font-size) var(--font-family);} 
 }
-@media (min-width: 299px) and (max-width: 339px) {
-  html, body {
-    font: 16px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 299px) and (max-width: 339px) { 
+  :root{ --font-size: 16px; } html, body {font: var(--font-size) var(--font-family);} 
 }
-@media (min-width: 340px) and (max-width: 439px) {
-  html, body {
-    font: 17px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 340px) and (max-width: 439px) { 
+  :root{ --font-size: 17px; } html, body {font: var(--font-size) var(--font-family);} 
 }
-@media (min-width: 440px) and (max-width: 599px) {
-  html, body {
-    font: 18px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 440px) and (max-width: 599px) { 
+  :root{ --font-size: 18px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 600px) and (max-width: 779px) {
-  html, body {
-    font: 19px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 600px) and (max-width: 779px) { 
+  :root{ --font-size: 19px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 780px) and (max-width: 992px) {
-  html, body {
-    font: 20px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 780px) and (max-width: 992px) { 
+  :root{ --font-size: 20px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 992px) and (max-width: 1200px) {
-  html, body {
-    font: 22px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 993px) and (max-width: 1200px) { 
+  :root{ --font-size: 22px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 1200px) and (max-width: 1320px) {
-  html, body {
-    font: 24px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 1201px) and (max-width: 1319px) { 
+  :root{ --font-size: 24px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 1320px) and (max-width: 1620px) {
-  html, body {
-    font: 26px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 1320px) and (max-width: 1619px) { 
+  :root{ --font-size: 26px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 1620px) and (max-width: 1880px) {
-  html, body {
-    font-size: 28px;
-  }
+@media (min-width: 1620px) and (max-width: 1879px) { 
+  :root{ --font-size: 28px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 1880px) {
-  html, body {
-    font-size: 30px;
-  }
+@media (min-width: 1880px) { 
+  :root{ --font-size: 30px; } html, body {font: var(--font-size) var(--font-family);}
 }
+
+
+
 /* website media queries */
-@media (max-width: 779px) {
-  .desktop {
-    display: none !important;
-  }
 
-  .mobile {
-    display: block;
-  }
+@media (max-width: 779px) {
+
+  /* styles for screen sizes 779px, should covers 'mobile' and 'tablet' */
+  /* style this one first and then use the two others to 'override' some styles (exceptions/details) */
+
+
+
+
+
+
+  /* utilities */
+
+  .desktop{display:none!important;}
+  .mobile{display:block;}
+
 }
 
-/*# sourceMappingURL=master.css.map */
+
+
+@media (max-width: 339px) {
+
+  /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
+
+}
+
+
+
+@media (max-width: 779px) and (orientation: landscape) {
+
+  /* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
+
+}
+
+
+
+@media (min-width: 780px) and (max-width: 992px) {
+
+  /* use this query to apply style for 'small' desktop screens */
+
+}
+
+

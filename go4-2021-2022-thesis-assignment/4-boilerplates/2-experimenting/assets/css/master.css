@@ -1,208 +1,287 @@
+@charset "UTF-8";
+
+
+
+/* @FONT FACE (enable the use of 'custom fonts' inside your document) */
+
 @font-face {
-  font-family: "Your Font Name";
-  src: url("../fonts/yourfontname/yourfontname-roman.woff2"), url("../fonts/yourfontname/yourfontname-roman.woff"), url("../fonts/yourfontname/yourfontname-roman.eot"), url("../fonts/yourfontname/yourfontname-roman.eot?#iefix") format("embedded-opentype"), url("../fonts/yourfontname/yourfontname-roman.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'Your Font Name';
+    src: url('../fonts/yourfontname/yourfontname-roman.woff2'),
+         url('../fonts/yourfontname/yourfontname-roman.woff'),
+         url('../fonts/yourfontname/yourfontname-roman.eot'),
+         url('../fonts/yourfontname/yourfontname-roman.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yourfontname/yourfontname-roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
+
 @font-face {
-  font-family: "Your Font Name";
-  src: url("../fonts/yourfontname/yourfontname-italic.woff2"), url("../fonts/yourfontname/yourfontname-italic.woff"), url("../fonts/yourfontname/yourfontname-italic.eot"), url("../fonts/yourfontname/yourfontname-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/yourfontname/yourfontname-italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-  font-display: block;
+    font-family: 'Your Font Name';
+    src: url('../fonts/yourfontname/yourfontname-italic.woff2'),
+         url('../fonts/yourfontname/yourfontname-italic.woff'),
+         url('../fonts/yourfontname/yourfontname-italic.eot'),
+         url('../fonts/yourfontname/yourfontname-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yourfontname/yourfontname-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: block;
 }
+
+
+
 /* VARIABLES */
+
+:root {
+  /* Color settings */
+  --color-background: rgba(0,50,50,1);
+  --color-text: rgba(0,255,100,1);
+  --color-text-link: rgba(0,0,0,0.4);
+  --color-text-link-hover: rgba(0,0,0,0.2);
+  --color-theme-1: rgba(0,50,255,0.8);
+  --color-theme-2: rgba(255,75,0,0.8);
+  --color-theme-3: rgba(255,100,255,0.8);
+  --color-theme-4: rgba(255,0,200,0.8);
+  --color-theme-5: rgba(255,255,0,0.8);
+  /* Font settings */
+  --font-family: 'Your Font Name', 'Helvetica', 'Arial', sans-serif;
+  --font-size: 24px;
+  /* Margins settings */
+  --margin: 1rem;
+}
+
+
+
 /* GENERAL STYLES */
+
 html {
-  font: 24px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  color: #00ff64;
-  background-color: #003232;
+  font: var(--font-size) var(--font-family);
+  color: var(--color-text);
+  background-color: var(--color-background);
 }
 
 body {
-  position: relative;
-  background-color: #003232;
-  font: "Your Font Name", "Helvetica", "Arial", sans-serif 24px;
-  color: #00ff64;
-  width: 100%;
-  height: 100%;
-  overflow-y: auto;
+  position:relative;
+  background-color: var(--color-background);
+  font: var(--font-size) var(--font-family);
+  color: var(--color-text);
+  width:100%;
+  height:100%;
+  overflow-y:auto;
 }
 
 a {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--color-text-link);
   text-decoration: underline;
 }
 
 a:hover {
-  color: rgba(0, 0, 0, 0.2);
+  color: var(--color-text-link-hover);
   text-decoration: underline;
 }
 
 a:focus-visible {
-  color: rgba(0, 0, 0, 0.2);
+  color: var(--color-text-link-hover);
   text-decoration: none;
 }
 
-h2 {
-  display: block;
-  vertical-align: center;
-  width: auto;
-  text-align: center;
-  width: 15vw;
-  height: 15vw;
-  font-weight: normal;
-  border-radius: 50%;
-  font-size: 1rem;
-  line-height: 15vw;
-  padding: 1rem;
-  background-color: transparent;
-  color: #003232;
-  box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, 0.4);
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: transform 125ms ease-in-out 0ms;
-  -moz-transition: transform 125ms ease-in-out 0ms;
-  -ms-transition: transform 125ms ease-in-out 0ms;
-  -o-transition: transform 125ms ease-in-out 0ms;
-  transition: transform 125ms ease-in-out 0ms;
+h1{
+  /* h1 style */
 }
 
-h2:hover {
+h2{
+  /* h2 style */
+  display:block;
+  vertical-align: center;
+  width:auto;
+  text-align: center;
+  width:15vw;
+  height:15vw;
+  font-weight: normal;
+  border-radius:50%;
+  font-size:1rem;
+  line-height: 15vw;
+  padding:1rem;
+  background-color:transparent;
+  color:var(--color-background);
+  box-shadow: 0 0 1rem 1rem var(--font-color-link);
+
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+
+  -webkit-transition: transform 125ms ease-in-out 0ms;
+  -moz-transition: transform 125ms ease-in-out 0ms;
+  transition: transform 125ms ease-in-out 0ms;
+
+}
+
+h2:hover{
   -webkit-transform: scale(1.5) rotate(180deg);
   -moz-transform: scale(1.5) rotate(180deg);
-  -ms-transform: scale(1.5) rotate(180deg);
-  -o-transform: scale(1.5) rotate(180deg);
   transform: scale(1.5) rotate(180deg);
 }
 
-h2:first-of-type {
-  align-self: end;
-  color: rgba(0, 50, 255, 0.8);
-  box-shadow: 0 0 1rem 1rem rgba(0, 50, 255, 0.8);
+h2:first-of-type{
+  align-self:end;
+  color:var(--color-theme-1);
+  box-shadow: 0 0 1rem 1rem var(--color-theme-1);
 }
 
-h2:nth-of-type(2) {
-  align-self: center;
-  color: rgba(255, 75, 0, 0.8);
-  box-shadow: 0 0 1rem 1rem rgba(255, 75, 0, 0.8);
+h2:nth-of-type(2){
+  align-self:center;
+  color:var(--color-theme-2);
+  box-shadow: 0 0 1rem 1rem var(--color-theme-2);
 }
 
-h2:nth-of-type(3) {
-  align-self: start;
-  color: rgba(255, 100, 255, 0.8);
-  box-shadow: 0 0 1rem 1rem rgba(255, 100, 255, 0.8);
+h2:nth-of-type(3){
+  align-self:start;
+  color:var(--color-theme-3);
+  box-shadow: 0 0 1rem 1rem var(--color-theme-3);
 }
 
-h2:nth-of-type(4) {
-  align-self: end;
-  color: rgba(255, 0, 200, 0.8);
-  box-shadow: 0 0 1rem 1rem rgba(255, 0, 200, 0.8);
+h2:nth-of-type(4){
+  align-self:end;
+  color:var(--color-theme-4);
+  box-shadow: 0 0 1rem 1rem var(--color-theme-4);
 }
 
-h2:nth-of-type(5) {
-  align-self: start;
-  color: rgba(255, 255, 0, 0.8);
-  box-shadow: 0 0 1rem 1rem rgba(255, 255, 0, 0.8);
+h2:nth-of-type(5){
+  align-self:start;
+  color:var(--color-theme-5);
+  box-shadow: 0 0 1rem 1rem var(--color-theme-5);
 }
 
-p {
-  font-size: 0.875rem;
-  line-height: 125%;
+h3{
+  /* h3 style */
 }
 
-hr {
-  border: none;
-  border-bottom: 0.25rem dotted #00ff64;
+h4, h5, h6{
+  /* h4-h5-h6 style */
 }
+
+p{
+  /* paragraph style */
+  font-size:0.875rem;
+  line-height:125%;
+}
+
+ol, ul{
+  /* ordered list and unordered list styles */
+}
+
+blockquote{
+  /* blockquote element style */
+}
+
+hr{
+  /* horizontal rule style */
+  border:none;
+  border-bottom:0.25rem dotted var(--color-text);
+}
+
+
 
 /* PAGE STYLES */
+
+/* page structure */
+
 div.page-wrapper {
-  padding: 1rem;
+  /* the element that 'wraps' everything */
+  padding: var(--margin);
 }
 
-header {
-  position: sticky;
-  top: calc(0px - 40vw - 5rem);
+/* navigation */
+
+header{
   text-align: center;
 }
-header h1 {
-  display: block;
-  font-size: 20vw;
-  line-height: 100%;
-  font-weight: normal;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 1rem;
-  padding-bottom: 0.5rem;
-  border-radius: 50%;
-  box-sizing: border-box;
-}
-header p {
-  color: rgba(0, 0, 0, 0.4);
-  font-size: 3rem;
-  margin: 0;
-  padding: 0;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-header p strong {
-  font-weight: normal;
-  text-decoration: underline;
+
+header h1{
+  display:block;
+  font-size:20vw;
+  line-height:100%;
+  font-weight:normal;
+  width:100%;
+  margin:0;padding:0;
+  background-color: var(--color-text-link-hover);
+  padding:1rem;
+  padding-bottom:0.5rem;
+  border-radius:50%;
+  box-sizing:border-box;
 }
 
-nav {
-  text-transform: lowercase;
+header p{
+  color:var(--color-text-link);
+  font-size:3rem;
+  margin:0;padding:0;
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
 }
-nav ol, nav ul {
-  font-size: 4rem;
+
+header p strong{
+  font-weight:normal;
+  text-decoration:underline;
+}
+
+nav{
+  /* what goes inside the navigation part of the page */
+  text-transform:lowercase;
+}
+
+nav ol, nav ul{
+  font-size:4rem;
   letter-spacing: 0rem;
-  padding-left: 0;
+  padding-left:0;
 }
-nav ol li, nav ul li {
+
+nav ol li, nav ul li{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin:0;padding:0;
 }
-nav ol li a, nav ul li a {
-  color: rgba(0, 0, 0, 0.4);
+
+nav ol li a, nav ul li a{
+  color:var(--color-text-link);
   text-decoration: none;
   letter-spacing: -0.125rem;
-  padding-left: 0;
+  padding-left:0;
   -webkit-transition: letter-spacing 100ms ease-in-out 0ms, padding 100ms ease-in-out 0ms;
   -moz-transition: letter-spacing 100ms ease-in-out 0ms, padding 100ms ease-in-out 0ms;
-  -ms-transition: letter-spacing 100ms ease-in-out 0ms, padding 100ms ease-in-out 0ms;
-  -o-transition: letter-spacing 100ms ease-in-out 0ms, padding 100ms ease-in-out 0ms;
   transition: letter-spacing 100ms ease-in-out 0ms, padding 100ms ease-in-out 0ms;
 }
-nav ol li a:hover, nav ul li a:hover {
-  color: rgba(0, 0, 0, 0.4);
+
+nav ol li a:hover, nav ul li a:hover{
+  color: var(--color-text-link);
   text-decoration: none;
   letter-spacing: 0.75rem;
-  padding-left: 0.75rem;
+  padding-left:0.75rem;
 }
 
-main {
+/* content */
+
+main{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  text-align: start;
-  padding-left: 25%;
-  padding-right: 25%;
+  text-align:start;
+  padding-left:25%;
+  padding-right:25%;
   box-sizing: content-box;
 }
 
-footer {
-  margin-top: 5rem;
+footer{
+  margin-top:5rem;
 }
 
+
+
+
+
+
 /* GENERAL USABILITY */
+
+/* hide desktop mobile etc */
+
 .desktop {
   display: block;
 }
@@ -210,6 +289,8 @@ footer {
 .mobile {
   display: none;
 }
+
+/* if you want to hide something visually but want to keep it readable / accessible for screen readers (sr) */
 
 .sr-only {
   border: 0 !important;
@@ -225,91 +306,111 @@ footer {
   white-space: nowrap !important;
 }
 
+
+
+
+
+
 /* MEDIA QUERIES */
+
 /* responsive typeface */
-@media (max-width: 299px) {
-  html, body {
-    font: 15px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+
+@media (max-width: 298px) { 
+  :root{ --font-size: 15px; } html, body {font: var(--font-size) var(--font-family);} 
 }
-@media (min-width: 299px) and (max-width: 339px) {
-  html, body {
-    font: 16px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 299px) and (max-width: 339px) { 
+  :root{ --font-size: 16px; } html, body {font: var(--font-size) var(--font-family);} 
 }
-@media (min-width: 340px) and (max-width: 439px) {
-  html, body {
-    font: 17px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 340px) and (max-width: 439px) { 
+  :root{ --font-size: 17px; } html, body {font: var(--font-size) var(--font-family);} 
 }
-@media (min-width: 440px) and (max-width: 599px) {
-  html, body {
-    font: 18px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 440px) and (max-width: 599px) { 
+  :root{ --font-size: 18px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 600px) and (max-width: 779px) {
-  html, body {
-    font: 19px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 600px) and (max-width: 779px) { 
+  :root{ --font-size: 19px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 780px) and (max-width: 992px) {
-  html, body {
-    font: 20px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 780px) and (max-width: 992px) { 
+  :root{ --font-size: 20px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 992px) and (max-width: 1200px) {
-  html, body {
-    font: 22px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 993px) and (max-width: 1200px) { 
+  :root{ --font-size: 22px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 1200px) and (max-width: 1320px) {
-  html, body {
-    font: 24px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 1201px) and (max-width: 1319px) { 
+  :root{ --font-size: 24px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 1320px) and (max-width: 1620px) {
-  html, body {
-    font: 26px "Your Font Name", "Helvetica", "Arial", sans-serif;
-  }
+@media (min-width: 1320px) and (max-width: 1619px) { 
+  :root{ --font-size: 26px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 1620px) and (max-width: 1880px) {
-  html, body {
-    font-size: 28px;
-  }
+@media (min-width: 1620px) and (max-width: 1879px) { 
+  :root{ --font-size: 28px; } html, body {font: var(--font-size) var(--font-family);}
 }
-@media (min-width: 1880px) {
-  html, body {
-    font-size: 30px;
-  }
+@media (min-width: 1880px) { 
+  :root{ --font-size: 30px; } html, body {font: var(--font-size) var(--font-family);}
 }
+
+
+
 /* website media queries */
+
 @media (max-width: 779px) {
-  header {
-    top: calc(0px - 40vw - 4rem);
-  }
-  header p {
-    font-size: 1.5rem;
+
+  /* styles for screen sizes 779px, should covers 'mobile' and 'tablet' */
+  /* style this one first and then use the two others to 'override' some styles (exceptions/details) */
+
+  h2{
+    /* h2 style */
+    width:25vw;
+    height:25vw;
+    line-height: 25vw;
   }
 
-  nav ol, nav ul {
-    font-size: 2rem;
+  header p{
+    font-size:1.5rem;
   }
-  nav ol li a, nav ul li a {
+
+  nav ol, nav ul{
+    font-size:2rem;
+  }
+
+  nav ol li a, nav ul li a{
     letter-spacing: -0.0625rem;
   }
 
-  main {
-    padding-left: 0%;
-    padding-right: 0%;
+  main{
+    padding-left:0%;
+    padding-right:0%;
   }
 
-  .desktop {
-    display: none !important;
-  }
+  /* utilities */
 
-  .mobile {
-    display: block;
-  }
+  .desktop{display:none!important;}
+  .mobile{display:block;}
+
 }
 
-/*# sourceMappingURL=master.css.map */
+
+
+@media (max-width: 339px) {
+
+  /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
+
+}
+
+
+
+@media (max-width: 779px) and (orientation: landscape) {
+
+  /* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
+
+}
+
+
+
+@media (min-width: 780px) and (max-width: 992px) {
+
+  /* use this query to apply style for 'small' desktop screens */
+
+}
+
+
