@@ -2,7 +2,7 @@
 
 > Boilerplate text, or simply boilerplate, is any written text (copy) that can be reused in new contexts or applications without significant changes to the original. The term is used in reference to statements, contracts and computer code, and is used in the media to refer to hackneyed or unoriginal writing. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Boilerplate_text))
 
-In order to support good working practices, I suggest people to start with a 'boilerplate'. Within that folder you'll find two boilerplates, one that is only html and another one with an additional CSS boilerplate using SASS.
+In order to support good working practices, I suggest people to start with a 'boilerplate'. Within that folder you'll find two boilerplates, one that is only html and another one with an additional CSS boilerplate.
 
 ## Why a boilerplate?
 
@@ -37,9 +37,9 @@ For the **HTML** boilerplate, here are the following components:
 
 Here, it's not essential to follow this stucture. Nonetheless, using HTML tags in a semantic order is encouraged.
 
-## (S)CSS boilerplate
+## CSS boilerplate
 
-The (S)CSS boilerplate (`master.scss|master.css`)includes several elements.
+The CSS boilerplate (`master.css`)includes several elements.
 
 It starts with **@font-face properties**. These properties allow you to import your own font files locally.
 You can use [transfonter](https://transfonter.org) to generate web fonts from local files.
@@ -51,18 +51,14 @@ You can also find fonts to use on a open-source license there:
 
 (if you use fonts that are hosted online you usually have to simply add the link provided to you inside your html `<head>`)
 
-After the @font-face are **SASS global variables**. Here you can add any values that will be re-used extensively within your website. You color palette is probably a good candidate. Margin values can also be. [more on SASS's documentation](https://sass-lang.com/documentation/variables)
-
-Then **mixins**, they basically allow you to "define styles that can be re-used throughout your stylesheet." ([more on SASS's documentation](https://sass-lang.com/documentation/at-rules/mixin)). I've included two ones that are useful for 'supporting' css transform and transition properties on multiple browsers.
+After the @font-face are **CSS global variables**. Here you can add any values that will be re-used extensively within your website. You color palette is probably a good candidate. Margin values can also be. [more on CSS variables](https://www.w3schools.com/css/css3_variables.asp)
 
 Then you'll find (in order):
 
 - **General styles** for most common semantic html tags, like `h1,h2,h3,h4,h5,h6,p,ol,ul,hr`... This will apply to any tags (unspeficity) within your pages.
 - **Page styles**, here you can start actually styling your website (!)
 - **Usability/Utility classes**: small classes you'll re-use to 'override' previous classes. Here I have included three classes (`.desktop, .mobile, .sr-only`)
-- **Media queries**: the breaking points here correspond more or less to *bootstrap*'s standard, although not entirely. Also, by changing the `font-size` value on the `<html>|<body>` elements at different screen sizes (via media queries), you change the value of a `rem` (*Relative Em*, as a `rem` is equal to the value of `font-size` on the html/body element). It's an easy way to style for various screens, if you already use `rem`'s in your main css styles you won't have to write these lines again within the media queries unless you deem the ratio used previously not appropriate. Here I've already included `font-size` values for different breaking points, but you can change them of course.
-
-If you prefer not to use **SASS**, you can also simply work within your `master.css` instead and keep a similar order. You might like to re-use the media queries parts.
+- **Media queries**: the breaking points here correspond more or less to *bootstrap*'s standard, although not entirely. Also, by changing the `font-size` value on the `<html>|<body>` elements at different screen sizes (via media queries), you can change the value of a `rem` (*Relative Em*, as a `rem` is equal to the value of `font-size` on the html/body element). It's an easy way to style for various screens, if you already use `rem`'s in your main css styles you won't have to write these lines again within the media queries unless you deem the ratio used previously not appropriate. Here I've already included `font-size` values for different breaking points, but you can change them of course.
 
 ## JS boilerplate
 
