@@ -6,7 +6,7 @@
 
 | Class  | Activities|
 | -------- | ---------------------|
-| 31/01 (1) | - (am) intro / presentations / writing exercice / 'mini-assignment' brief \| <br> - (pm) notions: François (unpacking, how-to-how, boilerplate, footnotes, Github Pages), Thomas (CSS typography / calc), jekyll + markdown |
+| 31/01 (1) | - (am) intro / presentations / writing exercice / 'mini-assignment' brief \| <br> - (pm) notions: François (unpacking, how-to-how, boilerplate / css variables, footnotes, Github Pages), Thomas (CSS typography / calc / markdown), Martijn (data models / information types) |
 | ↓ | **Milestone:** You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
 | 07/02 (2) | - (am: 1h) 'mini-assignment' presentations (11ppl) (1/3) \| <br> - (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
@@ -71,15 +71,15 @@
 ### a.m.
 
 - Intro (this document)
-- Round table presentation
-- Setting up of a common etherpad / are.na
-- Individual writing exercice + presentation (then dividing the group into sub-groups (4-5 students) based on their thesis subjects / writing styles / interests / possible media treatments (text-based, media-based, etc). Presentation of text-ideas / general concept?)
+- Quick round table presentation
+- Setting up of a common etherpad (https://pad.riseup.net/p/PP3ireCyk8PMzu_y-Zzu-keep)
+- Writing exercices + presentation
 
 ### p.m.
 
 Presentation of web notions / workshop...
 
-- François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate, gets into a how-to-how of finding help and debugging online, and touches upon the *footnotes* specificity of the assignment).
-- Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), variables, calcs, rems, etc.
-- Jekyll + Markdown, work with footnotes
-- (how to) deploy on Github Pages
+- François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate (with CSS variables), gets into a how-to-how of finding help and debugging online, and touches upon the *footnotes* specificity of the assignment).
+- Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), calcs, rems, etc.
+- Martijn discusses data models / structure and proposes a small exercice.
+- François quickly hints on *how to* deploy on Github Pages.
