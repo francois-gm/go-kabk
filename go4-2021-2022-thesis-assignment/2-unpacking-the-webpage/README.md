@@ -98,10 +98,10 @@ This is why CSS media queries are for: https://css-tricks.com/a-complete-guide-t
 
 #### Design for responsive/mobile ✏️
 
-1. Screen size 320px for 'small' mobile devices (iPhone 5), 360-375px for 'average' and 400-420px for 'larger' devices. *If it works for 320px, it works for any devices.*
-2. Most mobiles can't reproduce 'hover' interactions: there's no mouse. On the other hand, you can use 'touch' events if the way of interacting is to touch a screen. If you use 'hover' interactions to convey interactivity, think twice about another potential 'non-hover' visual cue.
-3. The content is likely to be displayed on a one column layout. Space being scarce, you don't want a 'fixed' navigation element to take too much space on your layout. You can hide these in a element that expands (accordion-like, a sidebar, a hamburger menu...) or appear/dissapear based on scroll direction. Or you can choose to avoid menu elements and make sure your pages have a link to a 'next' content and a 'back to index' link...
-5. Think of the invisible structure of your website, where every html tag is a box, from main container boxes to sub-containers, and then your content inside these boxes.
+1. **Screen size** 320px for 'small' mobile devices (iPhone 5), 360-375px for 'average' and 400-420px for 'larger' devices. *If it works for 320px, it works for any devices.*
+2. Most mobiles **can't reproduce 'hover'** interactions: there's no mouse. On the other hand, you can use 'touch' events if the way of interacting is to touch a screen. If you use 'hover' interactions to convey interactivity, think twice about another potential 'non-hover' visual cue.
+3. The content is **likely to be displayed on a one column layout**. Space being scarce, you don't want a 'fixed' navigation element to take too much space on your layout. You can hide these in a element that expands (accordion-like, a sidebar, a hamburger menu...) or appear/dissapear based on scroll direction. Or you can choose to avoid menu elements and make sure your pages have a link to a 'next' content and a 'back to index' link...
+5. **Think of the invisible structure of your website**, where every html tag is a division/box, from main container boxes to sub-containers, and then your content inside these boxes.
 6. **Paper and pen can be useful!** Draw your website's structure on a piece of paper, this will help visualize what contains what.
 
 ##### Code, debug and test, for responsive/mobile 🛠️🔎
