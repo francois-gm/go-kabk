@@ -9,7 +9,7 @@ A good website is like an *elastic*, expanding and contracting nicely based on i
 - [A 'technically' good website](#a-technically-good-website-)
 - [Ressources optimization tricks and do's](#ressources-optimization-tricks-and-dos-)
 - [Coherent and semantic HTML](#coherent-and-semantic-html-)
-- [What about footnotes?](#what-about-footnotes)
+- [What about footnotes?](#what-about-footnotes-)
 - [Accessibility](#accessibility-)
 - [Design, mobile-first](#design-mobile-first-)
 - [Code, debug and test, for responsive/mobile](#code-debug-and-test-for-responsivemobile-️)
