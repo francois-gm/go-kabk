@@ -80,6 +80,6 @@
 Presentation of web notions / workshop...
 
 - François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate (with CSS variables), gets into a how-to-how of finding help and debugging online, and touches upon the *footnotes* specificity of the assignment).
-- Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), calcs, rems, etc.
+- Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), calcs, rems, etc, as well as *Markdown*.
 - Martijn discusses data models / structure and proposes a small exercice.
 - François quickly hints on *how to* deploy on Github Pages.
