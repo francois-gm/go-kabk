@@ -1,5 +1,5 @@
-# Advanced CSS
+# Advanced CSS (fluid typography)
 
-## Functions... calc(), clamp(), var()
+## Functions... calc(), clamp(), etc.
 
 Fluid typography: https://fluidtypography.com
