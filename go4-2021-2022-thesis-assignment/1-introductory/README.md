@@ -1,57 +1,119 @@
 # Introductory / writing assignments
 
-A quick assignment for presenting each’s thesis (2h?)
-Writing exercice / text / description-based
-Find a html tag that represents the thesis, why?
-Find a css property that represents the thesis, why?
-Propose a navigation system for the thesis
+A quick assignment for presenting each’s thesis, beyond the previous *abstract* (1-2h?)
 
 ## A website as a written experience
 
+Note: use a descriptive writing style, with no subjects. See examples.
+
 ### 1. Narrow it down.
 
-- Subject
-- Tone
-- Methodology
-- References
-- Flow
-- Conclusion
+Write in **two** sentences.
 
-### 2. See
+- Subject (a name, or a combination of select words, the studied *object*)
+- Tone (personal, distanced, analytical, lyrical, light, deep, digressive, focused)
+- Methodology (academic study, enumeration-comparison, field study, autoethnography, creative writing, (speculative) fiction)
+- Reference material (if the study subject features one proheminently that is unavoidable to the understanding of the topic)
+- Flow (chronological, nonlinear, slow, fast-paced, punctuated, repetition-driven, emphasising, understating)
+- Stance / closure (opinionated, revendicative, precautious, nuanced, belief-in-facts, embracing the conundrum, optimistic, pessimistic)
 
-Write in three sentences a visual experience featuring your thesis, from a visitor point of view.
+Example:
 
-- Big
-- Small
-- Colourful
-- Monochrome
-- Expanded
-- Compressed
-- Hidden
-- Hypervisible
+```
+A first-person, light and slightly digressive back-and-forth personal-historical inquiry 
+on the relationship between chronometry as a field of interest/technology and the labouring body. 
 
-### 3. Structure
+A punctuation of historical technological milestones intertwined with a selection of expanded
+personal familial observations that is interrogative by nature, yet offering no precise roadmap.
+```
 
-Write in three sentences a navigational experience featuring your thesis, from a visitor point of view.
+### 2. See, structure, navigate
 
-- Ordered
-- Loose
-- Chronological
-- Tree (structure)
-- Sideway
-- Indexed
+Write in **three** sentences a visiting experience featuring your thesis. Consider **appearance**, **movement**, **structure** and **navigation**.
 
-### 3. Navigate
+**Appearance**:
 
-Write in three sentences a navigational experience featuring your thesis, from a visitor point of view.
+- Big / small
+- Colourful / monochrome
+- Expanded / compressed
+- Hidden / hypervisible
+- Centered / sideways
+- Soft / hard
+- Liquid / solid
+- Warm / cold
+- Personal / apersonal
+- Vernacular / corporate
+- Smooth / cumbersome
+- Generous / clinical
+- Accumulated / selected / distiled
 
-- Ordered
-- Loose
-- Chronological
-- Tree (structure)
-- Sideway
-- Indexed
+**Movement**:
 
-- Time
-- Flow
-- Focus / output
+- Quick / slow
+- Subtle / proheminent
+- Directional / adirectional
+- Linear / bouncy
+- Incremental / repetitive / once
+- Simple / excessive
+- Reactive / unreactive
+- Solicited / intrusive
+
+**Structure:**
+
+- Ordered / unordered
+- Chronology / deambulation
+- Tree (multiple levels) / all flat (one level)
+- Top-bottom / sideway
+- Indexed / unindexed
+- Categorized / uncategorized
+- Explicit (structure) / concealed (structure)
+
+**Navigation:**
+
+- A button / a toggle / a list of choices
+- From A to B / from any to any
+- From top to bottom / from sideways to sideways
+- Linear navigation / navigation through associations
+- Expanding and contracting apparatuses (like accordions)
+- A table of contents
+- A site map
+- A glossary / an index of terms / definitions
+- Navigational breadcrumbs
+- Sticky stuff
+- A *sticky* experience
+- Hyper-hyperlinks
+- Popups
+- A *click*, a *tap*, a *mouseover*, a *mousedown*, a combination of trigger *events*.
+- Stuff on *scroll*, stuff on *resize*, stuff on *device flip*.
+- Go to (...), back to (...), previous, next
+- Categories / categorizing / tags
+- Hamburgers
+- Place and time
+- Sounds / your voice (speech-based)
+- Means of connection (an IP address)
+- User input is data
+- Bars / stacks
+- Vertical scrolling / Horizontal scrolling
+- State of progress (you are here, you are at X%)
+
+```
+
+```
+
+### 4. Talk elements and properties
+
+Choose a CSS property and/or selector. Choose a UI pattern or a component type. Combine them. Write a sentence to describe how they complement, enhance, or interfere with each other.
+
+CSS selectors / properties:
+
+- https://css-tricks.com/almanac/
+- https://www.w3schools.com/cssref/
+
+UI patterns / component types:
+
+- http://ui-patterns.com/patterns
+- https://material.io/components
+
+### 5. Combine it
+
+Write in 5-6 sentences a website experience featuring your thesis work.
