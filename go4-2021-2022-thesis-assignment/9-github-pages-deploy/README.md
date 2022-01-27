@@ -1,6 +1,6 @@
 # Github pages
 
-## Ways of connecting / using..
+## Ways of connecting / using...
 
 - Terminal: either Git ([documentation](https://git-scm.com/download/mac)),or the Github CLI ([documentation](https://github.com/cli/cli)) *
 - Desktop app: Github Desktop**, ([Download here](https://desktop.github.com))
