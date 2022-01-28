@@ -144,19 +144,16 @@ Write in **150-200 words** a website experience featuring your thesis work while
 ```
 I arrive on the website, I ‘punch in’ with my IP address, and a chronometer starts. 
 There are checkboxes. I can only click the first one.
-An informative prompt appears with the title and informing me on the nature of the website.
+An informative prompt appears and I'm informed by the nature of my visit.
 
-The page is monochrome-looking with a tiny hint of accent colours, but nothing very joyful. 
-Everything has the same level of hierarchy to the eye, on a medium scale.
+I scroll down through linear text on a two-column layout.
+Sometimes is on the right, sometimes on the left, but never on both sides simultaneously.
 
-I scroll down through a linear writing on a two-column layout, where text sometimes is on the right, 
-sometimes on the left, but never on both sides.
-
-I see that I make progress by looking at a (word) counter that estimate how much words I’ve read. 
+I see my progress by looking at a (word) counter that estimate how much words I’ve read. 
 When there are medias, I have to click / tap over them to show them. 
-And when I’m at the bottom, I can only click next.
+And when I’m at the bottom, I can only click 'next' (you can't go *back* in time).
 
-After I’ve gone through all the sections, it seems like I’m at the end. 
+After I’ve gone through all the sections, I'm at the *end*.
 The chronometer stops, the content dissolves and a prompt informs me that the website 
-will become accessible to this device again after some time (a 15 minutes break).
+will become accessible only after a 15 minutes break.
 ```
