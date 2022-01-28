@@ -6,7 +6,7 @@
 
 | Class  | Activities|
 | -------- | ---------------------|
-| 31/01 (1) | - (am) intro / presentations <br> - (am-pm) three groups: François (writing exercice, plus presentation of notions: unpacking, how-to-how, boilerplate / css variables, footnotes, Github Pages), Thomas (CSS typography / calc / markdown), Martijn (data models / information types) |
+| 31/01 (1) | - (am) intro / presentations <br> - (am-pm) three rotating groups: <br> François (writing exercice, tips&tricks + methodology, css variables, footnotes, Github Pages), <br> Thomas (CSS typography / calc / markdown), <br> Martijn (data models / information types) |
 | ↓ | **Milestone:** You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
 | 07/02 (2) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
