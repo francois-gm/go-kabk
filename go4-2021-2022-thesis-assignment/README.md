@@ -6,13 +6,13 @@
 
 | Class  | Activities|
 | -------- | ---------------------|
-| 31/01 (1) | - (am) intro / presentations / writing exercice / 'mini-assignment' brief \| <br> - (pm) notions: François (unpacking, how-to-how, boilerplate / css variables, footnotes, Github Pages), Thomas (CSS typography / calc / markdown), Martijn (data models / information types) |
+| 31/01 (1) | - (am) intro / presentations <br> - (am-pm) three groups: François (writing exercice, plus presentation of notions: unpacking, how-to-how, boilerplate / css variables, footnotes, Github Pages), Thomas (CSS typography / calc / markdown), Martijn (data models / information types) |
 | ↓ | **Milestone:** You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
-| 07/02 (2) | - (am: 1h) 'mini-assignment' presentations (11ppl) (1/3) \| <br> - (rest: 7h) individual mentoring |
+| 07/02 (2) | - - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
-| 14/02 (3) | - (am: 1h) 'mini-assignment' presentations (11ppl) (2/3) \| <br> - (rest: 7h) small group mentoring |
+| 14/02 (3) | - - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) small group mentoring |
 | ↓ | **Milestone:** You have design sketches and/or code sketches |
-| 21/02 (4) | - (am: 1h) 'mini-assignment' presentations (10ppl) (3/3) \| <br> - (rest: 7h) individual mentoring + setting up landing page group |
+| 21/02 (4) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring + setting up landing page group |
 | ↓ &nbsp; **!!!!!!!** | **Milestone:** You've left the world of static design and are **coding/developing your webpage** |
 | 28/02 (-) | (~~spring break, no class~~) |
 | 07/03 (5) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) small group mentoring |
@@ -46,7 +46,7 @@
 - 60 min lunch break
 - 15:20 | 16:20
 
-## Main assignement
+## The assignement
 
 - **Conceptualize, design, and implement** a content-based website &ndash; a publication &ndash; your kabk thesis.
 - **Deploy it** on the kabk Github.
@@ -57,10 +57,6 @@
 - Your website takes into account that more visitors use **mobile devices** than desktop ones (it is actually conceived 'mobile-first', and you've started your design process with mobile screens in mind).
 - Your website **loads moderately fast** (information is compressed accordingly and you aren't trying to put .tiff images).
 - There's a **relationship between the content of your thesis, its formal aspect, and its navigational/experiential aspect**. (that is, we see a *concept* there)
-
-## Mini/bonus assignment
-
-- **present a website of your choice** in 4 min (*1/2 pecha kucha*, 10 slides of 20sec) x 10 students per session (1h)
 
 ## Thesis landing page (extra)
 
@@ -73,13 +69,11 @@
 - Intro (this document)
 - Quick round table presentation
 - Setting up of a common etherpad (https://pad.riseup.net/p/PP3ireCyk8PMzu_y-Zzu-keep)
-- Writing exercices + presentation
 
-### p.m.
+### a.m. / p.m.
 
 Presentation of web notions / workshop...
 
-- François unpacks focus points of a web page (in 2022), talks about document structure / boilerplate (with CSS variables), gets into a how-to-how of finding help and debugging online, and touches upon the *footnotes* specificity of the assignment).
-- Thomas delves into CSS functions (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions), calcs, rems, etc, as well as *Markdown*.
-- Martijn discusses data models / structure and proposes a small exercice.
-- François quickly hints on *how to* deploy on Github Pages.
+- François makes a writing exercice. And will then unpacks focus points of a web page (in 2022), discuss methodology with boilerplates, CSS variables, debugging online, touches upon the *footnotes* specificity of the assignment, and hints on *deploying* on Github Pages.
+- Thomas delves into CSS functions, fluid typography as well as *Markdown*.
+- Martijn proposes hands-on exercices on data models / structure.
