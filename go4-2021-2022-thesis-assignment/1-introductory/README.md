@@ -18,16 +18,16 @@ Write in **a few ultrashort** sentences (max 10-12 words). Use a descriptive wri
 Example:
 
 ```
-A first-person, light and slightly digressive back-and-forth.
-A personal-historical inquiry on the relationship between chronometry and the labouring body. 
-A punctuation of historical technological milestones. 
-This intertwined with selected personal familial observations.
-A text interrogative by nature, yet offering no precise roadmap.
+A first-person, slightly digressive back-and-forth.
+An inquiry on chronometry and the labouring body. 
+A punctuation of historical technological milestones.
+And personal familial observations.
+Interrogative by nature – no precise roadmap.
 ```
 
 ### 2. See, structure, navigate (10 min) (+15 min group read)
 
-Write in **max 150 words** a visiting experience featuring your thesis. Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
+Write in **max 150 words** a visiting experience (featuring your thesis). Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
 
 **Appearance**:
 
@@ -95,8 +95,7 @@ Write in **max 150 words** a visiting experience featuring your thesis. Consider
 - State of progress (you are here, you are at X%)
 
 ```
-Everything on the same level of hierarchy, and monochrome, 
-almost archival yet there is a tone. 
+Everything on the same level of hierarchy, and monochrome.
 Neither hard nor soft, but kind of impersonal. 
 It’s kind of distilled, but it’s not about being straight to the point. 
 It’s efficient yet it doesn’t provide with candies.
@@ -104,9 +103,7 @@ It’s efficient yet it doesn’t provide with candies.
 Movement is sharp, like a tickling clock. 
 It goes only in one direction. 
 There is no way back. 
-It’s incremental, and intrusive.
-
-There is a structure, and it's there: it’s just not very acknowledged.
+It’s incremental, intrusive.
 
 The navigation is linear and the progress becomes visible while navigating.
 Maybe it only scrolls in one direction? Going back seems painful.
