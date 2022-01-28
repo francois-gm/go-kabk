@@ -70,7 +70,7 @@
 
 ### a.m. / p.m.
 
-Three revolving groups, three blocks of +/- 1h30 to 1h45.
+Three revolving groups, three blocks of +/- 1h45 to 2h.
 
 1. François makes a writing exercice. And will then unpacks focus points of a web page (in 2022), discuss methodology with boilerplates, CSS variables.
 2. Thomas delves into CSS functions, fluid typography as well as *Markdown*.
