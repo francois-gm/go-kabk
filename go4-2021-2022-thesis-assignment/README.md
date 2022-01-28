@@ -64,7 +64,7 @@
 
 ## First class
 
-### a.m.
+### a.m. (first 30-45min)
 
 - Intro (this document)
 - Quick round table presentation
@@ -72,8 +72,10 @@
 
 ### a.m. / p.m.
 
+Three revolving groups, three blocks of +/- 1h30 to 1h45.
+
 Presentation of web notions / workshop...
 
-- François makes a writing exercice. And will then unpacks focus points of a web page (in 2022), discuss methodology with boilerplates, CSS variables, debugging online, touches upon the *footnotes* specificity of the assignment, and hints on *deploying* on Github Pages.
-- Thomas delves into CSS functions, fluid typography as well as *Markdown*.
-- Martijn proposes hands-on exercices on data models / structure.
+1. François makes a writing exercice. And will then unpacks focus points of a web page (in 2022), discuss methodology with boilerplates, CSS variables, debugging online, touches upon the *footnotes* specificity of the assignment, and hints on *deploying* on Github Pages.
+2. Thomas delves into CSS functions, fluid typography as well as *Markdown*.
+3. Martijn proposes hands-on exercices on data models / structure.
