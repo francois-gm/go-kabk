@@ -26,7 +26,6 @@ Some criteria to keep in mind:
 - **Suggests the website structure/hierarchy in the design** (breadcrumbs, menu as sitemap, table of contents). *Where am I?*
 - **Avoid interfering with native/expected browser behaviors** and user preferences (scrolling functionalities, light/dark modes, cursor suggesting an element can be clicked, etc). 
 - **Similar ease of use regardless of devices**, screen sizes, interaction methods: [60% users on mobile devices](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet) (1 column, menu shortcuts, touch event), 40% on desktop (1 or multi-column, extended menu, mouse hover), phablets, foldable phones, mega-big ipads, etc…
-- Agnostic of language directions (left-to-right, right-to-left) (more on [Material Design](https://material.io/design/usability/bidirectionality.html#mirroring-layout))
 - Is **understandable / accessible even unstyled** (uses appropriate html tags and page structure!!!). Can be navigated with the [tab] key / focus on accessibility mode, and screen readers (visual impairments, hearing impairment, etc).
 - Takes into account a ‘performance’ budget for client-side features / properties that are resource-intensive (*ie* don't animate too much properties especially if they are ressource-demanding and you stack them one on top of the other).
 
