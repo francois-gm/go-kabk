@@ -1,6 +1,6 @@
 # Introductory / writing assignments
 
-A quick assignment for presenting each’s thesis, beyond the previous *abstract* (1-2h?)
+A quick assignment for presenting each’s thesis, beyond the previous *abstract* (30min?)
 
 ## A website as a written experience
 
@@ -137,7 +137,7 @@ dimming 100% to 50% to 100% (but no animation)
 within sixty iterations.
 ```
 
-### ~~ 5. Combine it (15 min) (+10 min group read) ~~
+### 5. Combine it (15 min) (+10 min group read)
 
 Write in **150-200 words** a website experience featuring your thesis work while describing the somatic experience as well as the features used to achieve the experience. Write in first persion (I).
 
