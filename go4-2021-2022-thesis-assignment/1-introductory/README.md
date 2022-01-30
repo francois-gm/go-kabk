@@ -137,6 +137,7 @@ dimming 100% to 50% to 100% (but no animation)
 within sixty iterations.
 ```
 
+<!--
 ### 5. Combine it (15 min) (+10 min group read)
 
 Write in **150-200 words** a website experience featuring your thesis work while describing the somatic experience as well as the features used to achieve the experience. Write in first persion (I).
@@ -157,3 +158,5 @@ After I’ve gone through all the sections, I'm at the *end*.
 The chronometer stops, the content dissolves and a prompt informs me that the website 
 will become accessible only after a 15 minutes break.
 ```
+
+-->
