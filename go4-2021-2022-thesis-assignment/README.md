@@ -6,7 +6,7 @@
 
 | Class  | Activities|
 | -------- | ---------------------|
-| 31/01 (1) | - (am) intro / presentations <br> - (am-pm) three rotating groups: François (writing exercice, methodology, tips and tricks), Thomas (CSS typography / calc / markdown), Martijn (data models / information types) |
+| 31/01 (1) | - (am/pm) intro / presentations <br> - (am/pm) three rotating groups: François (writing exercice, methodology, tips and tricks), Thomas (CSS typography / calc / markdown), Martijn (data models / information types) |
 | ↓ | **Milestone:** You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
 | 07/02 (2) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
@@ -62,16 +62,16 @@
 
 ## First class
 
-### a.m. (first 30-45min)
+### (first 30-45min)
 
 - Intro (this document)
 - Quick round table presentation
 - Setting up of a common etherpad (https://pad.riseup.net/p/PP3ireCyk8PMzu_y-Zzu-keep)
 
-### a.m. / p.m.
+### (then)
 
-Three revolving groups, three blocks of +/- 1h45 to 2h.
+Three revolving groups, three blocks of +/- 1h.
 
-1. François makes a writing exercice. And will then unpacks focus points of a web page (in 2022), discuss methodology with boilerplates, CSS variables.
+1. François makes a writing exercice. And will then unpacks focus points of a web page (in 2022).
 2. Thomas delves into CSS functions, fluid typography as well as *Markdown*.
 3. Martijn proposes hands-on exercices on data models / structure.
