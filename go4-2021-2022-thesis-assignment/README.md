@@ -44,7 +44,7 @@
 - 60 min lunch break
 - 13:30 | 14:30 | 15:30 | 16:30
 
-## The assignement
+## The assignment
 
 - **Conceptualize, design, and implement** a content-based website &ndash; a publication &ndash; your kabk thesis.
 - **Deploy it** on the kabk Github.
