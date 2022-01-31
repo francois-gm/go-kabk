@@ -1,10 +1,10 @@
 # Introductory / writing assignments
 
-A quick assignment for presenting each’s thesis, beyond the previous *abstract* (30min?)
+A quick assignment for presenting each’s thesis, beyond the previous *abstract* (1h?)
 
 ## A website as a written experience
 
-### 1. Narrow it down. (5 min) (+3 min group read)
+### 1. Narrow it down. (8 min) (+4 min group read)
 
 Write in **a few ultrashort** sentences (max 10-12 words). Use a descriptive writing style, with no subjects.
 
@@ -25,7 +25,7 @@ And personal familial observations.
 Interrogative by nature – no precise roadmap.
 ```
 
-### 2. See, structure, navigate (10 min) (+5 min group read)
+### 2. See, structure, navigate (10 min) (+6 min group read)
 
 Write in **max 150 words** a visiting experience (featuring your thesis). Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
 
@@ -111,7 +111,7 @@ Think in terms of task completion, its time equivalent, and unlocking ‘feature
 Kind of being rewarded when reaching a milestone but not really.
 ```
 
-### 4. Talk elements and properties (10 min) (+5 min group read)
+### 4. Talk elements and properties (10 min) (+6 min group read)
 
 Choose a CSS property and/or selector. Choose a UI pattern or a component type. Combine them. Write a few short sentences to describe how they complement, enhance, or interfere with each other. Use a descriptive writing style, with no subjects.
 
@@ -138,6 +138,7 @@ within sixty iterations.
 ```
 
 <!--
+
 ### 5. Combine it (15 min) (+10 min group read)
 
 Write in **150-200 words** a website experience featuring your thesis work while describing the somatic experience as well as the features used to achieve the experience. Write in first persion (I).
