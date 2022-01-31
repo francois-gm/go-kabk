@@ -64,7 +64,9 @@
 
 ### (first 30-45min)
 
-- Intro
+- Intro (this document)
+- Quick round table presentation
+- Setting up of a common etherpad (https://pad.riseup.net/p/PP3ireCyk8PMzu_y-Zzu-keep)
 
 ### (then)
 
