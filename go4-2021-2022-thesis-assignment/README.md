@@ -65,7 +65,6 @@
 ### (first 30-45min)
 
 - Intro (this document)
-- Setting up of a common etherpad (https://pad.riseup.net/p/PP3ireCyk8PMzu_y-Zzu-keep)
 
 ### (then)
 
