@@ -8,7 +8,7 @@
 | -------- | ---------------------|
 | 31/01 (1) | - (am/pm) intro / presentations <br> - (am/pm) three rotating groups: François (writing exercice, methodology, tips and tricks), Thomas (CSS typography / calc / markdown), Martijn (data models / information types) |
 | ↓ | **Milestone:** You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
-| 07/02 (2) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring |
+| 07/02 (2) | - (am/pm) (1h) Learning Github Pages and + \| <br> - (rest) individual mentoring |
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
 | 14/02 (3) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) small group mentoring |
 | ↓ | **Milestone:** You have design sketches and/or code sketches |
