@@ -10,7 +10,7 @@
 | ↓ | **Milestone:** You can distil your thesis to its *essence*, you have conceptual ideas of *potentialities*|
 | 07/02 (2) | - (am/pm) (1h) Learning Github Pages and + \| <br> - (rest) individual mentoring |
 | ↓ | **Milestone:** You have ideas related to the structure, navigation, visual appearance and effects. <br> You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you |
-| 14/02 (3) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) small group mentoring |
+| 14/02 (3) | - (am/pm) (1h) Unpackign webpage / footnotes \| <br> - (rest) small group mentoring |
 | ↓ | **Milestone:** You have design sketches and/or code sketches |
 | 21/02 (4) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring + setting up landing page group |
 | ↓ &nbsp; **!!!!!!!** | **Milestone:** You've left the world of static design and are **coding/developing your webpage** |
