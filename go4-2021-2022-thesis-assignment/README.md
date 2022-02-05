@@ -30,19 +30,15 @@
 
 #### Mentoring (individual) slots schedule, 1 on 1 (4x, you attend *at least* 2 out of 4):
 
-- 10:30 | 10:50 | 11:10 | 11:30
-- 20 min break
-- 12:10 | 12:30 | 12:50 | 13:10
+- 10:30 | 10:50 | 11:10 | 11:30 | 11:50 | 12:10 | 12:30
 - 60 min break
-- 14:30 | 14:50 | 15:10 | 15:30
-- 20 min break
-- 16:10 | 16:30 | 16:50 | 17:10
+- ~~13:50 | 14:10 | 14:30~~ | 14:50 | 15:10 | 15:30 | 15:50 | 16:10 | 16:30 | 16:50
 
 #### Mentoring (small groups) (5 per group) (2x, you attend 2 out of 2):
 
 - 10:30 | 11:30
 - 60 min lunch break
-- 13:30 | 14:30 | 15:30 | 16:30
+- ~~13:30~~ | 14:30 | 15:30 | 16:30
 
 ## The assignment
 
