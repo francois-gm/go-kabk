@@ -55,10 +55,9 @@ In your Githup Desktop App (top right corner of the app):
 - Then, choose: `Github.com`
 - Name: *same as before (follows the name convention)*
 - Make sure 'keep this code private' is **not checked**! Otherwise your website won't be available online (!)
+- Organization = `kabk`
 
-Organization = `kabk`
-
-Tadah!
+**Tadah!**
 
 Now, you can do the following actions in order to 'update' your website 'fetch', 'commit', 'push' and 'pull'.
 
@@ -66,12 +65,12 @@ This will be your URL: https://kabk.github.io/go-theses-22-francois-girard-meuni
 
 But it throws an error 404! Oops.
 
-Just add an index.html file to your folder, make a 'commit', and 'push' that commit: this will update the github folder with your changes.
+Just add an `index.html` file to your folder, make a 'commit', and 'push' that commit: this will update the github folder with your changes.
 
 Them, on the Github website: https://github.com/kabk/
 
-Go to your repository folder, click over it. Once inside it, go to -> settings. Then -> Pages
-For 'source', choose 'main', and save.
+Go to your repository folder, click over it. Once inside it, go to -> `settings`. Then -> `Pages`
+For `source`, choose `main`, and **save**.
 
 
 
