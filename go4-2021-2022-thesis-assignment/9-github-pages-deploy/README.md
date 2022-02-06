@@ -45,13 +45,13 @@ Follow the official documentation instructions here: https://pages.github.com
 
 ### Folder name structure
 
-In your Githup Desktop App (top right corner of the app):
+In your Githup Desktop App (top left corner of the app):
 - `Add -> Create new repository`
 - ![Step 1](step-1-2.jpg)
 - Naming convention: `go-theses-[year]-firstname-lastname` (example: go-theses-22-francois-girard-meunier)
 - Path: *where you will be working on your thesis from your computer desktop drive.*
 - Other options: *as you wish (you can always add these files later if you want).*
-- After you have created your repository, publish it on the KABK Github (top right again)
+- After you have created your repository, publish it on the KABK Github (top left again)
 - ![Step 2](step-2-2.jpg)
 - Then, choose: `Github.com`
 - Name: *same as before (follows the name convention)*
