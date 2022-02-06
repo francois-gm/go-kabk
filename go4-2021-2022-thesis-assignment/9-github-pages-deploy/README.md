@@ -47,12 +47,12 @@ Follow the official documentation instructions here: https://pages.github.com
 
 In your Githup Desktop App (top right corner of the app):
 - `Add -> Create new repository`
-- ![Step 1](step-1.jpg)
+- ![Step 1](step-1-1.jpg)
 - Naming convention: `go-theses-[year]-firstname-lastname` (example: go-theses-22-francois-girard-meunier)
 - Path: *where you will be working on your thesis from your computer desktop drive.*
 - Other options: *as you wish (you can always add these files later if you want).*
 - After you have created your repository, publish it on the KABK Github (top right again)
-- ![Step 2](step-2.jpg)
+- ![Step 2](step-2-1.jpg)
 - Then, choose: `Github.com`
 - Name: *same as before (follows the name convention)*
 - Make sure 'keep this code private' is **not checked**! Otherwise your website won't be available online (!)
@@ -60,7 +60,7 @@ In your Githup Desktop App (top right corner of the app):
 
 **Tadah!**
 
-- ![Step 3](step-3.jpg)
+- ![Step 3](step-3-1.jpg)
 
 - Now, you can do the following actions in order to 'update' your website 'fetch', 'commit', 'push' and 'pull'.
 - This will be your URL: https://kabk.github.io/go-theses-22-francois-girard-meunier
@@ -68,8 +68,8 @@ In your Githup Desktop App (top right corner of the app):
 - Just add an `index.html` file to your folder, make a 'commit', and 'push' that commit: this will update the github folder with your changes.
 - Then, on the Github website: https://github.com/kabk/
 - Go to your repository folder, click over it. Once inside it, go to -> `settings`. Then -> `Pages`. For `source`, choose `main`, and **save**.
-- ![Step 4](step-4.jpg)
-- ![Step 5](step-5.jpg)
+- ![Step 4](step-4-1.jpg)
+- ![Step 5](step-5-1.jpg)
 
 Now it should be public and online at the said url :)
 
