@@ -69,7 +69,6 @@ In your Githup Desktop App (top right corner of the app):
 - Then, on the Github website: https://github.com/kabk/
 - Go to your repository folder, click over it. Once inside it, go to -> `settings`. Then -> `Pages`. For `source`, choose `main`, and **save**.
 - ![Step 4](step-4.jpg)
-
 - ![Step 5](step-5.jpg)
 
 Now it should be public and online at the said url :)
