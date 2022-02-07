@@ -48,7 +48,7 @@ Follow the official documentation instructions here: https://pages.github.com
 In your Githup Desktop App (top left corner of the app):
 - `Add -> Create new repository`
 - ![Step 1](step-1-2.jpg)
-- Naming convention: `go-theses-[year]-firstname-lastname` (example: go-theses-22-francois-girard-meunier)
+- Naming convention: `go-theses-[year]-firstname-lastname` (example: go-theses-22-francois-girard-meunier)... 'thes**e**s' with a 'e' (plural of thesis), and your first name + last name in **lowercase**.
 - Path: *where you will be working on your thesis from your computer desktop drive.*
 - Other options: *as you wish (you can always add these files later if you want).*
 - After you have created your repository, publish it on the KABK Github (top left again)
