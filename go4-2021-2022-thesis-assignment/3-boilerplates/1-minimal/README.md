@@ -1,3 +1,3 @@
-# A boilerplate template with 'boilerplate' (S)CSS
+# A boilerplate template with 'boilerplate' CSS
 
-With SASS, somewhat 'default' styling
+Somewhat 'default' styling
