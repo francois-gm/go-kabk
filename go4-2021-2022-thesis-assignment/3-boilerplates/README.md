@@ -51,7 +51,18 @@ You can also find fonts to use on a open-source license there:
 
 (if you use fonts that are hosted online you usually have to simply add the link provided to you inside your html `<head>`)
 
-After the @font-face are **CSS global variables**. Here you can add any values that will be re-used extensively within your website. You color palette is probably a good candidate. Margin values can also be. [more on CSS variables](https://www.w3schools.com/css/css3_variables.asp)
+## CSS variables
+
+In order to make our life easier, we'll be adding (after the @font-face property) our **CSS global variables**. CSS variables (here, declared globally withint the 'root' selector) can be re-used extensively within your website. Using CSS variables for you color palette is probably a good candidate. Margin values can also be. [More on CSS variables](https://www.w3schools.com/css/css3_variables.asp).
+
+Further links on CSS variables:
+
+- Ressource 1: https://css-tricks.com/a-complete-guide-to-custom-properties/
+- Ressource 2: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+- Example 1: https://codepen.io/chriscoyier/pen/ORdLvq?editors=0110
+- Example 2: https://googlechrome.github.io/samples/css-custom-properties/index.html
+
+## CSS file order
 
 Then you'll find (in order):
 
@@ -59,6 +70,12 @@ Then you'll find (in order):
 - **Page styles**, here you can start actually styling your website (!)
 - **Usability/Utility classes**: small classes you'll re-use to 'override' previous classes. Here I have included three classes (`.desktop, .mobile, .sr-only`)
 - **Media queries**: the breaking points here correspond more or less to *bootstrap*'s standard, although not entirely. Also, by changing the `font-size` value on the `<html>|<body>` elements at different screen sizes (via media queries), you can change the value of a `rem` (*Relative Em*, as a `rem` is equal to the value of `font-size` on the html/body element). It's an easy way to style for various screens, if you already use `rem`'s in your main css styles you won't have to write these lines again within the media queries unless you deem the ratio used previously not appropriate. Here I've already included `font-size` values for different breaking points, but you can change them of course.
+
+Further links on CSS media queries:
+
+- Ressource 1: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+- Ressource 2: https://css-tricks.com/a-complete-guide-to-css-media-queries/
+- Examples: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 ## JS boilerplate
 
