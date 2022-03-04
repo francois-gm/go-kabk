@@ -13,14 +13,13 @@ Sometimes it doesn't work because there is a typo, and it can prove frustrating 
 
 ### HTML
 
-- Are your html tags opened `<div>` and closed `</div>`?
-- Did you forget to close a tag?
+- Are your tags opened and **closed**?
 - Some tags don't need to be closed, like `<br>`, `<hr>`, `<img>`...
 - Are the links to your ressources loading? Sometimes you have to make sure you go back one level if your document and your ressources are in different folders, so `/folder/ressource.js` might not work but `.../folder/ressource.js` will. You can also test your ressource links by user the browser's developer tools.
 
 ### CSS
 
-- Are brackets opened and **closed**
+- Are brackets opened and **closed**?
 - Is the punctuation mark between your property and your value a colon, `:`, and is your punctuation mark after the value a semicolon, `;` (as in `color:blue;`)
 
 ## Refresh issues, website doesn't appear with new changes (cache issues)
