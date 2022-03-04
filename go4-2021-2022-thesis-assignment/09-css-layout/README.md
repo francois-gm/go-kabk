@@ -17,15 +17,21 @@ Interactive example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-lay
 
 Default behavior:
 
-- **block**: `div`, `ul`, `li`, `nav`, `main`, `p`, etc...
-- **inline**: `span`, `a`, `strong`, etc... 
+- **block** – `div`, `ul`, `li`, `nav`, `main`, `p`, etc...
+- **inline** – `span`, `a`, `strong`, etc... 
 
 Read more: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline
 
-- `display: inline;` – does not start on a new line and only takes up as much width as necessary.
+The behavior can be explicitely stated with CSS:
+
 - `display: block;` – always starts on a new line and takes up the full width available.
+- `display: inline;` – does not start on a new line and only takes up as much width as necessary.
 - `display: inline-block;` – like inline but does allow width and height properties.
 - `display: none;` – the element is not visible and not in the flow of the document.
+
+Two other properties are also relevant to control how elements behave between themselves (if used with position: static and position: relative), `float` and `clear`. The CSS `float` property specifies how an element should float in regard to surrounding elements. Valid values are `float: left;`, `float: right;`, and `float: none;`. [See examples of floating elements](https://www.w3schools.com/css/css_float_examples.asp), on the w3cschool.com.
+
+The CSS `clear` property specifies if elements can float beside the cleared element and on which side. Valid values are `clear: left;`, `clear: right;`, `clear: both;` and `clear: none;`. [See examples of clear elements](https://www.w3schools.com/css/https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
 
 ## Flexbox, grid
 
@@ -38,6 +44,12 @@ Read more: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline
 - `position: absolute;`
 - `position: relative;`
 - `position: sticky;`
+
+Two other properties are also relevant to control how elements behave between themselves (in conjuncture with position: static and position: relative), float and clear.
+
+The CSS float property specifies how an element should float in regard to surrounding elements. Valid values are float: left;, float: right;, and float: none;. See examples of floating elements, on the w3cschool.com.
+
+In conjunction with float, the CSS clear property specifies if elements can float beside the cleared element and on which side. Valid values are clear: left;, clear: right;, clear: both; and clear: none;. See examples of clear elements, on the w3cschool.com.
 
 
 
