@@ -69,7 +69,9 @@ Units (from w3schools.com):
 
 > "Legacy web CSS layouting has worked so far with elements defined as either block or inline that are made to float and clear in a relation between the previous (left) and next (right) element. This has previously worked fine when used in combination with percentages for responsive layouts, but this method has shown its when taking contemporary standards of responsiveness into account."
 
-A flexbox container is defined by the property `display: flex;`. Further `flex` properties are defined to control the presentation and ordering.
+Flexbox offers the possibility to specify via the container the presentation behavior of its children, as well as to push for element-specific overriding of the general container rules. A flexbox container is defined by the property `display: flex;`. Further `flex` properties are defined to control the presentation and ordering.
+
+![Flexbox](flexbox-basic-terminology.svg)
 
 Parent (container) properties:
 
@@ -85,13 +87,13 @@ Properties for the children (optional but allow more control):
 - `flex-grow`, `flex-shrink`, `flex-basis`: growing, shrinking, and default sizing behaviour.
 - `align-self`: overrides the parent alignment (values are the same that align-content).
 
-Learn everything about flexbox with examples through [CSS trick's A Complete Guide to Flexbox]((https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+Learn everything about flexbox with examples through [CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 ### Grid
 
-The CSS grid module is a recent addition to CSS (2017+) that offers deeper possibilities for layout than flexbox. The CSS grid is two dimensional, and works similarly to flexbox.
+The CSS grid module is a recent addition to CSS (2017+) that offers deeper possibilities for layout than flexbox. The CSS grid is two dimensional, and works similarly to flexbox. A grid container is defined by the property `display: grid;`. Further `grid` properties are defined to control the rows and columns.
 
-A grid container is defined by the property `display: grid;`. Further `grid` properties are defined to control the rows and columns.
+![Grid](flexbox-vs-grid.png)
 
 Parent (container) properties:
 
@@ -110,4 +112,6 @@ Properties for the children (optional but allow more control):
 
 Learn everything about grid with examples through the [Complete Guide to Grid target](https://css-tricks.com/snippets/css/complete-guide-grid/), on *css-tricks.com*
 
-Ressource: use the [CSS Grid Generator](https://grid.layoutit.com), on grid.layoutit.com
+Ressource: use the [CSS Grid Generator](https://grid.layoutit.com), on *grid.layoutit.com*
+
+### Calc()
