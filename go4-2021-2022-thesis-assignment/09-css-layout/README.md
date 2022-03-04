@@ -114,4 +114,20 @@ Learn everything about grid with examples through the [Complete Guide to Grid ta
 
 Ressource: use the [CSS Grid Generator](https://grid.layoutit.com), on *grid.layoutit.com*
 
-### Calc()
+### CSS calc(), and min-max properties
+
+`calc()` is a CSS function that allows defining value units as calculations of values. Calc accepts any value unit type (px, em, rem, %, vw, etc) and supports these operators: `+`, `-`, `*`, `/`. A great plus is that calc() accepts units of several types, so as an example it becomes possible to use relative units like percentage and subtract an absolute unit in pixels.
+
+```
+width: calc(100% - 20px);
+width: calc(100vmax - 2rem);
+width: calc( (100% / 6) - (1rem * 2) );
+padding: calc(1rem * 0.75 );
+font-size: calc(0.75rem + 2.5vw);
+…
+```
+
+### Object-fit
+
+> The CSS `object-fit` property is used to specify how an `<img>` or `<video>` should be resized to fit its container. This property tells the content to fill the container in a variety of ways; such as "preserve that aspect ratio" or "stretch up and take up as much space as possible". *From [Object-fit](https://www.w3schools.com/css/css3_object-fit.asp) on w3schools.com*
+
