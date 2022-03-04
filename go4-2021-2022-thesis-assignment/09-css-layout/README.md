@@ -65,7 +65,51 @@ Units (from w3schools.com):
 
 ## Layout with CSS flexbox and grid
 
+### Flexbox
+
 > "Legacy web CSS layouting has worked so far with elements defined as either block or inline that are made to float and clear in a relation between the previous (left) and next (right) element. This has previously worked fine when used in combination with percentages for responsive layouts, but this method has shown its when taking contemporary standards of responsiveness into account."
 
-- `display: flex;`
-- `display: grid;`
+A flexbox container is defined by the property `display: flex;`. Further `flex` properties are defined to control the presentation and ordering.
+
+Parent (container) properties:
+
+- `flex-direction`: *row, row-reverse, column, column-reverse*
+- `flex-wrap`: *nowrap, wrap, wrap-reverse* (either the content line clears or squeezes itself if content overloads)
+- `justify-content`: *flex-start, flex-end, center, space-between, space-around, space-evenly*
+- `align-items`: *flex-start, flex-end, center, stretch, baseline*
+- `align-content`: *flex-start, flex-end, center, stretch, space-between, space-around*
+
+Properties for the children (optional but allow more control):
+
+- `order`: number, allows a custom ordering based on the priority number of each child.
+- `flex-grow`, `flex-shrink`, `flex-basis`: growing, shrinking, and default sizing behaviour.
+- `align-self`: overrides the parent alignment (values are the same that align-content).
+
+Learn everything about flexbox with examples through the (link: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ text: Complete Guide to Flexbox target: _blank), on *css-tricks.com*
+
+Learn it all on [CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+### Grid
+
+The CSS grid module is a recent addition to CSS (2017+) that offers deeper possibilities for layout than flexbox. The CSS grid is two dimensional, and works similarly to flexbox.
+
+A grid container is defined by the property `display: grid;`. Further `grid` properties are defined to control the rows and columns.
+
+Parent (container) properties:
+
+- `grid-template-columns`: absolute unit (`px`), relative (`%`, `rem`), or `fr` (fraction of total size)
+- `grid-template-rows`: absolute unit (`px`), relative (`%`, `rem`), or `fr` (fraction of total size)
+- `grid-template-area`: defines area within the grid
+- `column-gap`,`row-gap`: flex-start, flex-end, center, stretch, baseline
+
+Like flexbox, the container also has justification and alignment properties.
+
+Properties for the children (optional but allow more control):
+
+- `grid-row-start`, `grid-row-end`, `grid-column-start`, `grid-column-end`: determines a grid item’s location within the grid by referring to specific grid lines.
+- `grid-area`: used to reference to areas set on the parent with *grid-template-area*.
+- `justify-self`, `align-self`, `place-self`: justification and/or alignment within a cell (start, end, center, stretch).
+
+Learn everything about grid with examples through the (link: https://css-tricks.com/snippets/css/complete-guide-grid/ text: Complete Guide to Grid target: _blank), on *css-tricks.com*
+
+Ressource: use the (link: https://grid.layoutit.com text: CSS Grid Generator target: _blank), on grid.layoutit.com
