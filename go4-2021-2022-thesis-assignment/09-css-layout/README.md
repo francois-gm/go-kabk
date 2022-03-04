@@ -33,11 +33,6 @@ Two other properties are also relevant to control how elements behave between th
 
 The CSS `clear` property specifies if elements can float beside the cleared element and on which side. Valid values are `clear: left;`, `clear: right;`, `clear: both;` and `clear: none;`. [See examples of clear elements](https://www.w3schools.com/css/https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
 
-## Flexbox, grid
-
-- `display: flex;`
-- `display: grid;`
-
 ## CSS Position
 
 The position property has the following possible values:
@@ -47,7 +42,6 @@ The position property has the following possible values:
 - `position: absolute;` – removed from the normal document flow (no space is created for the element in the page layout). Positioned relative to its closest parent, and position defined by the top, right, bottom and left values.
 - `position: fixed;` – same as absolute, but positioned relative to the viewport window, and always stays at the same location.
 - `position: sticky;` – positioned according to the normal flow of the document (like relative), but becomes fixed once the scrolling position reaches one of the defined sides of the element (the top, right, bottom or left value needs to be defined to make it work). The element ‘sticks’ momentarily. (CSS 3.0 value).
-
 
 ## CSS length units
 
@@ -69,3 +63,9 @@ Units (from w3schools.com):
 
 \* Viewport = the browser window size. If the viewport is 1200px wide, 1vw = 12px.
 
+## Layout with CSS flexbox and grid
+
+> "Legacy web CSS layouting has worked so far with elements defined as either block or inline that are made to float and clear in a relation between the previous (left) and next (right) element. This has previously worked fine when used in combination with percentages for responsive layouts, but this method has shown its when taking contemporary standards of responsiveness into account."
+
+- `display: flex;`
+- `display: grid;`
