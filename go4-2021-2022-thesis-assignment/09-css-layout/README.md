@@ -85,9 +85,7 @@ Properties for the children (optional but allow more control):
 - `flex-grow`, `flex-shrink`, `flex-basis`: growing, shrinking, and default sizing behaviour.
 - `align-self`: overrides the parent alignment (values are the same that align-content).
 
-Learn everything about flexbox with examples through the (link: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ text: Complete Guide to Flexbox target: _blank), on *css-tricks.com*
-
-Learn it all on [CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+Learn everything about flexbox with examples through [CSS trick's A Complete Guide to Flexbox]((https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 ### Grid
 
@@ -110,6 +108,6 @@ Properties for the children (optional but allow more control):
 - `grid-area`: used to reference to areas set on the parent with *grid-template-area*.
 - `justify-self`, `align-self`, `place-self`: justification and/or alignment within a cell (start, end, center, stretch).
 
-Learn everything about grid with examples through the (link: https://css-tricks.com/snippets/css/complete-guide-grid/ text: Complete Guide to Grid target: _blank), on *css-tricks.com*
+Learn everything about grid with examples through the [Complete Guide to Grid target](https://css-tricks.com/snippets/css/complete-guide-grid/), on *css-tricks.com*
 
-Ressource: use the (link: https://grid.layoutit.com text: CSS Grid Generator target: _blank), on grid.layoutit.com
+Ressource: use the [CSS Grid Generator](https://grid.layoutit.com), on grid.layoutit.com
