@@ -8,8 +8,8 @@ The css property `box-sizing` can be used to impact how the `padding` property i
 
 ![The box model](box-model.png)
 
-Read more: https://css-tricks.com/the-css-box-model/
-Interactive example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
+- Read more: https://css-tricks.com/the-css-box-model/
+- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
 
 ## *Block* or *inline*?
 
@@ -40,16 +40,30 @@ The CSS `clear` property specifies if elements can float beside the cleared elem
 
 ## CSS Position
 
-- `position: fixed;`
-- `position: absolute;`
-- `position: relative;`
-- `position: sticky;`
+The position property has the following possible values:
 
-Two other properties are also relevant to control how elements behave between themselves (in conjuncture with position: static and position: relative), float and clear.
-
-The CSS float property specifies how an element should float in regard to surrounding elements. Valid values are float: left;, float: right;, and float: none;. See examples of floating elements, on the w3cschool.com.
-
-In conjunction with float, the CSS clear property specifies if elements can float beside the cleared element and on which side. Valid values are clear: left;, clear: right;, clear: both; and clear: none;. See examples of clear elements, on the w3cschool.com.
+- `position: static;` – positioned according to the normal flow of the document and not affected by top, right, bottom, left and z-index properties (default value).
+- `position: relative;` – positioned according to the normal flow of the document, and then offset relative to itself based on the top, right, bottom and left values (if defined). Also affected by the z-index property (if defined).
+- `position: absolute;` – removed from the normal document flow (no space is created for the element in the page layout). Positioned relative to its closest parent, and position defined by the top, right, bottom and left values.
+- `position: fixed;` – same as absolute, but positioned relative to the viewport window, and always stays at the same location.
+- `position: sticky;` – positioned according to the normal flow of the document (like relative), but becomes fixed once the scrolling position reaches one of the defined sides of the element (the top, right, bottom or left value needs to be defined to make it work). The element ‘sticks’ momentarily. (CSS 3.0 value).
 
 
+## CSS length units
+
+CSS offers several different units for expressing dimensions. Many CSS properties take “length” values, such as width, margin, padding, font-size, etc. Length is a number followed by a length unit, such as 10px, 5%, etc. [Read more about css units](https://www.w3schools.com/css/css_units.asp), on the w3cschool.com.
+
+*Relative* length units: specify a length relative to another length property, better for responsive uses.
+
+Units (from w3schools.com):
+
+- `em` - Relative to the font-size of the element (2em means 2 times the size of the current font)
+- `ex` - Relative to the x-height of the current font (rarely used)
+- `ch` - Relative to width of the "0" (zero)
+- `rem` - Relative to font-size of the root element
+- `vw` - Relative to 1% of the width of the viewport*
+- `vh` - Relative to 1% of the height of the viewport*
+- `vmin` - Relative to 1% of viewport's* smaller dimension
+- `vmax` - Relative to 1% of viewport's* larger dimension
+- `%` - Relative to the parent element
 
