@@ -67,3 +67,5 @@ Units (from w3schools.com):
 - `vmax` - Relative to 1% of viewport's* larger dimension
 - `%` - Relative to the parent element
 
+\* Viewport = the browser window size. If the viewport is 1200px wide, 1vw = 12px.
+
