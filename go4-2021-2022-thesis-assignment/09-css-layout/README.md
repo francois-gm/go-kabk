@@ -43,26 +43,6 @@ The position property has the following possible values:
 - `position: fixed;` – same as absolute, but positioned relative to the viewport window, and always stays at the same location.
 - `position: sticky;` – positioned according to the normal flow of the document (like relative), but becomes fixed once the scrolling position reaches one of the defined sides of the element (the top, right, bottom or left value needs to be defined to make it work). The element ‘sticks’ momentarily. (CSS 3.0 value).
 
-## CSS length units
-
-CSS offers several different units for expressing dimensions. Many CSS properties take “length” values, such as width, margin, padding, font-size, etc. Length is a number followed by a length unit, such as 10px, 5%, etc. [Read more about css units](https://www.w3schools.com/css/css_units.asp), on the w3cschool.com.
-
-*Relative* length units: specify a length relative to another length property, better for responsive uses.
-
-Units (from w3schools.com):
-
-- `em` - Relative to the font-size of the element (2em means 2 times the size of the current font)
-- `ex` - Relative to the x-height of the current font (rarely used)
-- `ch` - Relative to width of the "0" (zero)
-- `rem` - Relative to font-size of the root element
-- `vw` - Relative to 1% of the width of the viewport*
-- `vh` - Relative to 1% of the height of the viewport*
-- `vmin` - Relative to 1% of viewport's* smaller dimension
-- `vmax` - Relative to 1% of viewport's* larger dimension
-- `%` - Relative to the parent element
-
-\* Viewport = the browser window size. If the viewport is 1200px wide, 1vw = 12px.
-
 ## Layout with CSS flexbox and grid
 
 ### Flexbox
@@ -114,7 +94,27 @@ Learn everything about grid with examples through the [Complete Guide to Grid ta
 
 Ressource: use the [CSS Grid Generator](https://grid.layoutit.com), on *grid.layoutit.com*
 
-### CSS calc(), and min-max properties
+## CSS length units
+
+CSS offers several different units for expressing dimensions. Many CSS properties take “length” values, such as width, margin, padding, font-size, etc. Length is a number followed by a length unit, such as 10px, 5%, etc. [Read more about css units](https://www.w3schools.com/css/css_units.asp), on the w3cschool.com.
+
+*Relative* length units: specify a length relative to another length property, better for responsive uses.
+
+Units (from w3schools.com):
+
+- `em` - Relative to the font-size of the element (2em means 2 times the size of the current font)
+- `ex` - Relative to the x-height of the current font (rarely used)
+- `ch` - Relative to width of the "0" (zero)
+- `rem` - Relative to font-size of the root element
+- `vw` - Relative to 1% of the width of the viewport*
+- `vh` - Relative to 1% of the height of the viewport*
+- `vmin` - Relative to 1% of viewport's* smaller dimension
+- `vmax` - Relative to 1% of viewport's* larger dimension
+- `%` - Relative to the parent element
+
+\* Viewport = the browser window size. If the viewport is 1200px wide, 1vw = 12px.
+
+## CSS calc(), and min-max properties
 
 `calc()` is a CSS function that allows defining value units as calculations of values. Calc accepts any value unit type (px, em, rem, %, vw, etc) and supports these operators: `+`, `-`, `*`, `/`. A great plus is that calc() accepts units of several types, so as an example it becomes possible to use relative units like percentage and subtract an absolute unit in pixels.
 
@@ -127,7 +127,7 @@ font-size: calc(0.75rem + 2.5vw);
 …
 ```
 
-### Object-fit
+## Object-fit
 
 > The CSS `object-fit` property is used to specify how an `<img>` or `<video>` should be resized to fit its container. This property tells the content to fill the container in a variety of ways; such as "preserve that aspect ratio" or "stretch up and take up as much space as possible". From [Object-fit](https://www.w3schools.com/css/css3_object-fit.asp) on *w3schools.com*
 
