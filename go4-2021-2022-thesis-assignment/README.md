@@ -15,7 +15,7 @@
 | 21/02 (4) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring + setting up landing page group |
 | ↓ &nbsp; **!!!!!!!** | **Milestone:** You've left the world of static design and are **coding/developing your webpage** |
 | 28/02 (-) | (~~spring break, no class~~) |
-| 07/03 (5) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) small group mentoring |
+| 07/03 (5) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring |
 | 14/03 (6) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring |
 | ↓ | **Milestone:** Your website is structurally sound, you are now adjusting elements more precisely |
 | 21/03 (7) | - (am: 1h) Group feedback / group troubleshooting \| <br> - (rest: 7h) individual mentoring |
