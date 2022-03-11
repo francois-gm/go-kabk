@@ -28,13 +28,13 @@
 - For individual mentoring slots, we expect to meet with each of you *about* once every two weeks (opt-in).
 - For small groups sessions, we'd like to have you at both of them.
 
-#### Mentoring (individual) slots schedule, 1 on 1 (4x, you attend *at least* 2 out of 4):
+#### Mentoring (individual) slots schedule, 1 on 1 (6x, you attend *at least* half):
 
 - 10:30 | 10:50 | 11:10 | 11:30 | 11:50 | 12:10 | 12:30
 - 60 min break
 - ~~13:50 | 14:10 | 14:30~~ | 14:50 | 15:10 | 15:30 | 15:50 | 16:10 | 16:30 | 16:50
 
-#### Mentoring (small groups) (5 per group) (2x, you attend 2 out of 2):
+#### Mentoring (small groups) (5 per group):
 
 - 10:30 | 11:30
 - 60 min lunch break
