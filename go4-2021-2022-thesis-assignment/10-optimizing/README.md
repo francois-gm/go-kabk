@@ -2,7 +2,7 @@
 
 1. [Proper files ressource size](#1-proper-files-ressource-size)
 2. [How properties affect page rendering](#2-how-properties-affect-page-rendering-)
-3. [Prefixing properties and property browser support](#3-prefixing-properties-and-property-browser)
+3. [Prefixing properties and property browser support](#3-prefixing-properties-and-property-browser-support)
 
 ## 1. Proper files ressource size
 
