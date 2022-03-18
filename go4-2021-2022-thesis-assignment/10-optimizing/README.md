@@ -1,8 +1,8 @@
 # Optimizing 🚀
 
-1. Proper files ressource size
-2. How properties affect page rendering
-3. Prefixing properties and property browser support
+1. [Proper files ressource size](#proper-files-ressource-size)
+2. [How properties affect page rendering](#how-properties-affect-page-rendering-)
+3. [Prefixing properties and property browser support](#prefixing-properties-and-property-browser)
 
 ## 1. Proper files ressource size
 
