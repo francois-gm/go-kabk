@@ -1,15 +1,46 @@
-# CSS layout
+# Optimizing
 
-## The box model
+1 - Proper ressource size
+2 - How properties affect page rendering
+3 - A bug is a rule
 
-The CSS box model is essentially a box that wraps around every HTML element. It is a **conceptual representation** (and not an actual property), that helps understand how margin, padding, borders values and the inner content of an element behave between each others. This visual model is used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
+## 1. Proper ressource size
 
-The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
+If one assumes that among a website's goals, **communication** takes precedence over **archiving**, then optimal page load and approriate ressoure size are indeed important.
 
-![The box model](box-model.png)
+Most designers/developers, still, would also find important to avoid too much quality loss. So, it's mostly about finding a sweet spot between what's good for the viewer's device and internet connection and what's good for their eyes as well.
 
-- Read more: https://css-tricks.com/the-css-box-model/
-- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
+### Images
+
+Image are important, and might get used a lot. The more there are, the more it becomes important and relevant to ensure they are delivered with at appropriate dimensions and file size.
+
+- **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), [Shift]+[Alt]+[Cmd]+[S], with the appropriate image width resizing and the quality setting at **60** or below.
+- If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
+
+**Format**: for raster (pixel-based) images, **always always always .jpg!** .jpg! .jpg! No .tif, and no other fancy image formats.
+\* You **might** get away with the following
+- A .gif **if** it's animated and small (like 200-300 pixels wide) and you make sure your .gif is under 250kb
+- A .png **if** it uses transparency and it's under 250kb
+- A .gif or a .png **if** they are compressed to only 2 or 4 colors and because of that they weight less than their .jpg equivalent at same size.
+- **if** it's not a raster image you can use .svg, which is vector-based (so no rasters-pixels). Advantages are that it can scale at any size and it weight small. Good for logos and buttons.
+
+**Dimensions**: a width of **2400px** for a **full size** design (an image that takes 100% of your browser), **1200px** if the image takes **half of your screen**. A 'retina' screen displays at a density of between 2x and 3x, so by aiming at a bit under 2x the size of a physical screen you should be good.
+**Target file size**: **75kb - 200kb** per image, depending on the image dimensions, whether it should take a full screen size or not.
+In photoshop, a compression rate (quality level) at 50-60% is sufficient without compromising the appearance.
+
+### Other media files
+
+- Videos: if using your own files within the `<video>` tag, the preferable file format is **.mp4**, use this video converter for that purpose: https://cloudconvert.com/mp4-converter, and try to keep it at **8mb / minute**. After Effects and Premiere settings should give fine results with h.264 and a bitrate compression rate of +/- 2.0.
+
+- Sound: if using your own files within the `<audio>` tag, the preferable file format is .mp3, use this audio converter for that purpose: https://online-audio-converter.com, and try to keep it at **1mb / minute**.
+
+### Fonts
+
+- **.woff2** is your friend. Use https://transfonter.org (or https://www.fontsquirrel.com/tools/webfont-generator) to generate your font files! It's okay to include other file formats as fallback (if the browser does not support woff2 which should be pretty rare in 2022). When dealing with 'fallbacks' you declare first your *best* option (so woff2 is the best, so it goes first).
+
+---
+
+
 
 ## *Block* or *inline*?
 
