@@ -13,7 +13,7 @@ Most designers/developers, still, would also find important to avoid too much qu
 ### Images
 
 - **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under `File->Export`), `[Shift]+[Alt]+[Cmd]+[S]`, with the appropriate image width resizing and the quality setting at **60** or below.
-- If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
+- If 'Save for Web (Legacy)' is not available, use **'Export As'** (under `File->Export`).
 
 **Format**: for raster (pixel-based) images, **always always always .jpg!** .jpg! .jpg! No .tif, and no other fancy image formats.
 
