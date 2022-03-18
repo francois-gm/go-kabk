@@ -29,9 +29,9 @@ In photoshop, a compression rate (quality level) at 50-60% is sufficient without
 
 In regards to your code, you can also use **lazy loading** if loading lots of images. What is lazy loading? Lazy loading is a method to only load images when they are close to the point of appearing on the screen, which can saves time and ressources.
 
-Since recently, it's possible to use lazy loading without any plugins, straight from the browser by adding a `loading='lazy'` attribute to your `<img>` tag. The method is supported by around 70% of web browsers (https://caniuse.com/loading-lazy-attr). See how it works: https://www.w3schools.com/tags/att_img_loading.asp
+Since recently, it's possible to use lazy loading without any plugins, straight from the browser by adding a `loading='lazy'` attribute to your `<img>` tag. The method is supported by around 70% of web browsers (https://caniuse.com/loading-lazy-attr). See [how it works](https://www.w3schools.com/tags/att_img_loading.asp) (on W3schools), or [read more here](https://web.dev/browser-level-image-lazy-loading/) (on web.dev).
 
-If you'd like to implement lazy loading and are fine to put more time to it to support 99% instead of 70% of browsers, you can also use ressources such as lazysizes (https://afarkas.github.io/lazysizes/index.html)
+If you'd like to implement lazy loading and are fine to put more time to it to support 99% instead of 70% of browsers, you can also use ressources such as the lazysizes javascript plugin (https://afarkas.github.io/lazysizes/index.html).
 
 ### Other media files
 
@@ -56,6 +56,6 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 
 **Tricks**
 
-- filter (blur) and mix-blend-mode, especially if stacked on each others, using high value (for blur), or applied on heavy elements like video.
-- use the `will-change` property on the parent of the ressource-heavy element, and specify the energy-hungry property within the `will-change` property. [more on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
-- Prefer the css `transform` property over `top | left | right | bottom` if you intend to animate (via a transition) the property. [more](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/) (*old*-ish ressource but still valid)
+- Be careful of not overusing the css `filter` (especially `filter: blur(value)`) and mix-blend-mode properties, especially if stacked on each others, using higher value (for blur), or applied on ressource heavy elements like video.
+- Animations can consume a lot too. Some properties are more 'expensive' than others to be animated. Prefer the css `transform` property over `top | left | right | bottom` if you intend to animate (via a transition) the property. [more](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/) (*old*-ish ressource but still valid)
+- Use the `will-change` property on the parent of the ressource-heavy element, and specify the energy-hungry property within the `will-change` property. [more on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change). This will force the browser to allocate some processing power to render the ressource, thus reducing lagging / slowness.
