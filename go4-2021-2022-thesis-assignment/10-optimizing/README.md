@@ -1,8 +1,8 @@
 # Optimizing 🚀
 
-1. [Proper files ressource size](#proper-files-ressource-size)
-2. [How properties affect page rendering](#how-properties-affect-page-rendering-)
-3. [Prefixing properties and property browser support](#prefixing-properties-and-property-browser)
+1. [Proper files ressource size](#1-proper-files-ressource-size)
+2. [How properties affect page rendering](#2-how-properties-affect-page-rendering-)
+3. [Prefixing properties and property browser support](#3-prefixing-properties-and-property-browser)
 
 ## 1. Proper files ressource size
 
@@ -79,7 +79,7 @@ Note that there are no rules about the amount of images you should provide (this
 
 - If you have a looooooooot of files, and it's very heavy, especially media files, you can also use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/ 
 
-## How properties affect page rendering 🐌
+## 2. How properties affect page rendering 🐌
 
 Some CSS properties can consume a lot of ressources. Most of you won't reach the point where your browser will start behaving *slower* but it's possible.
 
@@ -89,7 +89,7 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 - Animations can consume a lot too. Some properties are more 'expensive' than others to be animated. Prefer the css `transform` property over `top | left | right | bottom` if you intend to animate (via a transition) the property. [Read more](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/) (*old*-ish ressource but still valid)
 - Use the `will-change` property on the parent of the ressource-heavy element, and specify the energy-hungry property within the `will-change` property. [more on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change). This will force the browser to allocate some processing power to render the ressource, thus reducing lagging / slowness.
 
-## Prefixing properties and property browser support
+## 3. Prefixing properties and property browser support
 
 Sometimes some css properties work on 70-80% of browsers, and for others you need to 'prefix' it. If you're having troubles having consistent appearance only in some browsers (like, it works on Chrome but not Firefox), then make sure to double-check on https://www.caniuse.com . Here's an [example with variable fonts](https://caniuse.com/?search=variable%20fonts), where we can see that although it seems to work on 95% of browsers there are still some sub-properties that aren't supported by every browsers.
 
