@@ -62,9 +62,11 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 
 Sometimes some css properties work on 70-80% of browsers, and for others you need to 'prefix' it. If you're having troubles having consistent appearance only in some browsers (like, it works on Chrome but not Firefox), then make sure to double-check on https://www.caniuse.com . Here's an [example with variable fonts](https://caniuse.com/?search=variable%20fonts), where we can see that although it seems to work on 95% of browsers there are still some sub-properties that aren't supported by every browsers.
 
-Some properties might need do be also declared with prefixing in order to support older browser. Examples are:
+Some properties might need do be also declared with prefixing to support older browser. Examples are:
 
-- `position: sticky;` => `position: -webkit-sticky;` (for Safari, below 2017?)
-- `transform: scale(2);` => `-webkit-transform: scale(2);` (for Safari, below 2016?)
+- `position: sticky;` could also be declared like that: `position: -webkit-sticky;` (for Safari, below 2017?)
+- `transform: scale(2);` could also be declared like that: `-webkit-transform: scale(2);` (for Safari, below 2016?)
 
-As time passes by, whether a property needs to be prefixed as well or not depends on who's your audience.
+When you declare prefixed properties, you declare them in **addition** to the unprefixed properties.
+
+*As time passes by, whether a property needs to be prefixed as well or not depends on who's your audience.*
