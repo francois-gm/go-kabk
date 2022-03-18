@@ -1,9 +1,10 @@
 # Optimizing 🚀
 
-1. Proper ressource size
+1. Proper files ressource size
 2. How properties affect page rendering
+3. Prefixing properties and property browser support
 
-## 1. Proper ressource size
+## 1. Proper files ressource size
 
 If one assumes that among a website's goals, **communication** takes precedence over **archiving**, then optimal page load and approriate ressoure size are indeed important.
 
@@ -47,9 +48,6 @@ If you'd like to implement lazy loading and are fine to put more time to it to s
 
 - If you have a looooooooot of files, and it's very heavy, especially media files, you can also use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/ 
 
----
-
-
 ## How properties affect page rendering 🐌
 
 Some CSS properties can consume a lot of ressources. Most of you won't reach the point where your browser will start behaving *slower* but it's possible.
@@ -57,5 +55,16 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 **Tricks**
 
 - Be careful of not overusing the css `filter` (especially `filter: blur(value)`) and mix-blend-mode properties, especially if stacked on each others, using higher value (for blur), or applied on ressource heavy elements like video.
-- Animations can consume a lot too. Some properties are more 'expensive' than others to be animated. Prefer the css `transform` property over `top | left | right | bottom` if you intend to animate (via a transition) the property. [more](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/) (*old*-ish ressource but still valid)
+- Animations can consume a lot too. Some properties are more 'expensive' than others to be animated. Prefer the css `transform` property over `top | left | right | bottom` if you intend to animate (via a transition) the property. [Read more](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/) (*old*-ish ressource but still valid)
 - Use the `will-change` property on the parent of the ressource-heavy element, and specify the energy-hungry property within the `will-change` property. [more on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change). This will force the browser to allocate some processing power to render the ressource, thus reducing lagging / slowness.
+
+## Prefixing properties and property browser support
+
+Sometimes some css properties work on 70-80% of browsers, and for others you need to 'prefix' it. If you're having troubles having consistent appearance only in some browsers (like, it works on Chrome but not Firefox), then make sure to double-check on https://www.caniuse.com . Here's an [example with variable fonts](https://caniuse.com/?search=variable%20fonts), where we can see that although it seems to work on 95% of browsers there are still some sub-properties that aren't supported by every browsers.
+
+Some properties might need do be also declared with prefixing in order to support older browser. Examples are:
+
+- `position: sticky;` => `position: -webkit-sticky;` (for Safari, below 2017?)
+- `transform: scale(2);` => `-webkit-transform: scale(2);` (for Safari, below 2016?)
+
+As time passes by, whether a property needs to be prefixed as well or not depends on who's your audience.
