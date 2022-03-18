@@ -10,7 +10,7 @@ If one assumes that among a website's goals, **communication** takes precedence 
 
 Most designers/developers, still, would also find important to avoid too much quality loss. So, it's mostly about finding a sweet spot between what's good for the viewer's device and internet connection and what's good for their eyes as well.
 
-### Images
+### Images (files)
 
 - **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under `File->Export`), `[Shift]+[Alt]+[Cmd]+[S]`, with the appropriate image width resizing and the quality setting at **60** or below.
 - If 'Save for Web (Legacy)' is not available, use **'Export As'** (under `File->Export`).
@@ -28,11 +28,42 @@ You **might** get away with the following:
 **Target file size**: **75kb - 200kb** per image, depending on the image dimensions, whether it should take a full screen size or not.
 In photoshop, a compression rate (quality level) at 50-60% is sufficient without compromising the appearance.
 
+### Images (delivery)
+
+#### Lazy loading
+
 In regards to your code, you can also use **lazy loading** if loading lots of images. What is lazy loading? Lazy loading is a method to only load images when they are close to the point of appearing on the screen, which can saves time and ressources.
 
 Since recently, it's possible to use lazy loading without any plugins, straight from the browser by adding a `loading='lazy'` attribute to your `<img>` tag. The method is supported by around 70% of web browsers (https://caniuse.com/loading-lazy-attr). See [how it works](https://www.w3schools.com/tags/att_img_loading.asp) (on W3schools), or [read more here](https://web.dev/browser-level-image-lazy-loading/) (on web.dev).
 
 If you'd like to implement lazy loading and are fine to put more time to it to support 99% instead of 70% of browsers, you can also use ressources such as the lazysizes javascript plugin (https://afarkas.github.io/lazysizes/index.html).
+
+#### Using the srcset attribute
+
+You can also control which image you provide the viewer with depending on their device screen size using the srcset properties. This can be useful if, let's say you have a lot of full sized images on your design and you don't want to provide mobile visitors with 2400 pixel wide images (!), thus saving them some precious data.
+
+Read more: [Extensive reading](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/) (on css-tricks), [another extensive reading/guide](https://medium.com/@woutervanderzee/responsive-images-with-srcset-and-sizes-fc434845e948) (on medium.com), [*Kind of* straightforward guide](https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-use-html5-picture-for-responsive-images--cms-21015).
+
+Example:
+
+```
+<img 
+  alt="A wooden old round table with a green apple on it."
+  src="table-s.jpg"
+  srcset="
+    table-s.jpg  300w,
+    table-m.jpg  600w,
+    table-l.jpg  1200w,
+    table-xl.jpg 2000w
+  "
+  sizes="100vw"
+>
+```
+
+On that example, a default image is defined (with the src attribute) and four images are then provided with srcset, at sizes of 300w, 600w, 1200w and 2000w (here, the **w** for width is the pixel width of your image). Then, the sizes attribute says that the image will be displayed at 100vw, which means full screen (100 viewport width units = 100% of the screen width).
+
+Note that there are no rules about the amount of images you should provide (this depends on your design proposal).
+
 
 ### Other media files
 
