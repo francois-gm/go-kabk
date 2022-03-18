@@ -62,7 +62,6 @@ On that example, a default image is defined (with the `src` attribute) and four 
 
 Note that there are no rules about the amount of images you should provide (this depends on your design proposal). **The lazy loading and srcset properties are combinable.**
 
-
 ### Other media files
 
 - Videos: if using your own files within the `<video>` tag, the preferable file format is **.mp4**, use [this video converter for that purpose](https://cloudconvert.com/mp4-converter), and try to keep it at **8mb / minute**. After Effects and Premiere settings should give fine results with **h.264** and a **bitrate compression rate of +/- 2.0**.
