@@ -32,9 +32,9 @@ In photoshop, a compression rate (quality level) at 50-60% is sufficient without
 
 Code-wise, you can also use **lazy loading** if loading lots of images. What is lazy loading? Lazy loading is a method to **only load images when they are close to the point of appearing on the screen**, which can **saves time and ressources**.
 
-Since recently, it's possible to use lazy loading *without any plugins*, straight from the browser by adding a `loading='lazy'` attribute to your `<img>` tag. The method is supported by around 70% of web browsers (https://caniuse.com/loading-lazy-attr). See [how it works](https://www.w3schools.com/tags/att_img_loading.asp) (on W3schools), or [read more here](https://web.dev/browser-level-image-lazy-loading/) (on web.dev).
+Since recently, it's possible to use lazy loading *without any plugins*, straight from the browser by adding a `loading='lazy'` attribute to your `<img>` tag. The method is supported by [around 70% of web browsers](https://caniuse.com/loading-lazy-attr) (on caniuse.com). See [how it works](https://www.w3schools.com/tags/att_img_loading.asp) (on W3schools), or [read more here](https://web.dev/browser-level-image-lazy-loading/) (on web.dev).
 
-If you'd like to implement lazy loading and are fine to put more time to it to support 99% instead of 70% of browsers, you can also use ressources such as the lazysizes javascript plugin (https://afarkas.github.io/lazysizes/index.html).
+If you'd like to implement lazy loading and are fine to put more time to it to support 99% instead of 70% of browsers, you can also use ressources such as [the lazysizes javascript plugin](https://afarkas.github.io/lazysizes/index.html).
 
 #### Using the srcset attribute
 
@@ -70,11 +70,11 @@ Note that there are no rules about the amount of images you should provide (this
 
 ### Fonts
 
-- **.woff2** is your friend. Use https://transfonter.org (or https://www.fontsquirrel.com/tools/webfont-generator) to generate your font files! It's okay to include other file formats as fallback (if the browser does not support woff2 which should be pretty rare in 2022). When dealing with 'fallbacks' you declare first your *best* option (so woff2 is the best, so it goes first).
+- **.woff2** is your friend. Use tools like [transfonter.org](https://transfonter.org) (or [fontsquirrel.com](https://www.fontsquirrel.com/tools/webfont-generator)) to generate your font files! It's okay to include other file formats as fallback (if the browser does not support `woff2` which should be pretty rare in 2022). When dealing with 'fallbacks' you declare first your *best* option (so `woff2` is the best, so it goes first).
 
 ### General
 
-- If you have a looooooooot of files, and it's very heavy, especially media files, you can also use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/ 
+- If you have a lot of files, and it's very heavy, especially media files, you can also use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/ 
 
 ## 2. How properties affect page rendering 🐌
 
