@@ -58,7 +58,7 @@ Example:
 >
 ```
 
-On that example, a default image is defined (with the src attribute) and four images are then provided with srcset, at sizes of 300w, 600w, 1200w and 2000w (here, the **w** for width is the pixel width of your image). Then, the sizes attribute says that the image will be displayed at 100vw, which means full screen (100 viewport width units = 100% of the screen width).
+On that example, a default image is defined (with the `src` attribute) and four images are then provided with `srcset`, at sizes of `300w`, `600w`, `1200w` and `2000w` (here, the **w** for width is the pixel width of your image). Then, the `sizes` attribute says that the image will be displayed at 100vw, which means full screen (100 viewport width units = 100% of the screen width). The sizes attribute also takes media queries, so as an example you can tell that if the device screen is smaller the image will be full sized but on a bigger screen they will only be 50% wide.
 
 Note that there are no rules about the amount of images you should provide (this depends on your design proposal). **The lazy loading and srcset properties are combinable.**
 
