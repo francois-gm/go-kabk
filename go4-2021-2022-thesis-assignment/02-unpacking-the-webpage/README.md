@@ -36,7 +36,7 @@ Some criteria to keep in mind:
 - **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), [Shift]+[Alt]+[Cmd]+[S], with the appropriate image width resizing and the quality setting at **60** or below.
 - If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
 - Your **images should not be too big in relationship with the space they occupy**. Consider capping images at *2400px* width for full screen width images, *1200px* for 50% screen width, and *900px* for 33% screen width.
-- If you use the html `<video>` tag, export your video to .mp4 -> https://cloudconvert.com/mp4-converter and **adjust the quality so you are at under 2mb per minute.**
+- If you use the html `<video>` tag, export your video to .mp4 -> https://cloudconvert.com/mp4-converter and **adjust the quality so you are at under 8mb per minute.**
 - Same applies with the `<audio>` tag, use .mp3 -> https://online-audio-converter.com and **adjust so you're under 1mb / minute.**
 - If your media file is verrrrrrrrrrrrry heavy, consider using Vimeo, YouTube or Soundcloud and embed it on your website using the provided embed code. Some of these services provide an API to control play/pause, volume, etc, through Javascript.
 - If your page is really image-heavy, consider implementing your images with a lazyload: https://afarkas.github.io/lazysizes/index.html
