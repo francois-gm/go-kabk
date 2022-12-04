@@ -47,6 +47,7 @@ You can also find fonts to use on a open-source license there:
 
 - https://usemodify.com
 - https://www.velvetyne.fr
+- https://www.design-research.be/by-womxn/
 - https://fonts.google.com
 
 (if you use fonts that are hosted online you usually have to simply add the link provided to you inside your html `<head>`)
