@@ -1,8 +1,43 @@
-# Thesis as-a-webpage assignment
+# Thesis as a webpage assignment
 
 ## Class structure
 
 ### Planning
+
+- **Schedule**: (almost) **every Wednesday**, from **December 14th** up to **March 15th**, from **9h** to **17h**.
+- **Duration**: **9 classes** spread on 15 weeks.
+- **Deadline**: greenlight and digital thesis deadline on **Thursday March 16th**.
+
+### Activities
+
+- Individual feedback (**sign-up** sheet, **15 minutes slots**) on most classes.
+- The possibility of making small groups feedback (4-5 people, sign-up sheet, 60 minutes) if the occasion proves useful.
+- **Self-directed** (if not meeting for feedback, you'd be expected to advance/work on your project)
+- In addition, we aim to schedule, when appropriate, about **one hour** of that class for presenting **relevant** knowledge **related to the assignment**. This will be communicated based on feedback and needs.
+
+### Working methodology and milestones
+
+Since this assignment is **concurrent** to the writing of the thesis itself, our working methodology needs to adapt to this reality. Conceptualization, design and programming will have to happen at the same time that your thesis content is being produced. In order to do so, we suggest you to **work with placeholder** or semi-placeholder **content**. Maybe you have a loose structure with temporary titles that give a hint of your direction and theme? You might also have visual content (visual essay content?) that can serve as temporary illustrations within your website?
+
+Questions to ask **now or soon**:
+
+- Which **types of content** would my thesis website need to accomodate? Lots of visual materials, maybe videos, or audio?
+- Which **type of writing / tone?** An academic research will command an appropriate use of footnotes. Something akin of a *deambulation* at the edges of theory and fiction might have looser or expressive typographic elements.
+- What are my **actual abilities**, in relation to this assignment? Be realistic, and remember that the criterias for succeeding this assignment are based on technical requirements, they should be attainable by each of you and do not necessarily require extensive coding abilities/confidence. We will provide you with ressources and suggestions but in the end you are the one to make your (technical) choices based on your abilities.
+
+Questions to ask **at some point later**:
+
+- **How can my topic can translate into visual design choices?** Shall my topic translate into visual design choices? Which types of ingredients can I play with (*color, typography, layout, interaction patterns...*).
+- Which **types of functionalities** could enrich my visitor/reader's experience **without feeling gimmicky**?
+- Are my design choices **appropriate for any screen sizes**? Would my website be accessible to most users and most usage contexts?
+
+Questions to ask **before delivering your project**:
+
+- **Bring your thesis website a test drive**. Navigate and rate your experience. Criterias to take into account: *intuitive patterns, loads fast, optimized content and media, legible sizes depending on screen sizes, right timing for animations and transitions, and accessibility-compliant*. Based on that, see the last details that can be improved.
+- Can my thesis website be **archived** through the university research portal (assignment requirement) 
+
+
+
 
 | Class  | Activities|
 | -------- | ---------------------|
