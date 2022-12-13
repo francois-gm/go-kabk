@@ -33,13 +33,14 @@ Source: https://after8books.com
 
 ## 2) The Good, The Bad, and the... (20min)
 
-This time, you'll be assigned a website and will be assigned either to take the 'good' (positive/supportive) side or the 'bad' (negative/critical) side. Please elaborate on the five points below, with one (short) sentence each. Try to convince us, but also be *fair play* ;)
+This time, you'll be assigned a website and will be assigned either to take the 'good' (positive/supportive) side or the 'bad' (negative/critical) side. Please elaborate on the five points below, with one (short) sentence each. For each points, are the solution 'adequate' according to you and how it 'should' be (in terms of affordance). Try to convince us, but also be *fair play* ;)
 
 1. Appearance
 2. Movement
 3. Structure
 4. Navigation
-5. Adequacy/functionality
+5. Functionality (does it do what it should)
+6. Accessibility
 
 After you have your points ready, the website will be made visible to the rest of the group and both sides will, in a exchange, present their points. Then, the group will vote on whether the *good* or *bad* has convinced its audience.
 
