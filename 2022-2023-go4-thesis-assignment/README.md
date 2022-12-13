@@ -58,6 +58,7 @@ Questions to ask **before delivering your project**:
 ## Thesis landing page (non-graded)
 
 - We'll need a small group to make a landing page for this year's theses. As examples, here are the landing pages of [2022](https://kabk.github.io/go-theses-22/), [2021](https://kabk.github.io/go-theses-21/), [2020](https://kabk.github.io/go-theses-20/), and [2019](https://kabk.github.io/go-theses-19/). It would be nice to have this sorted out **before spring break**.
+- This year, we would like to put an emphasis on the graduating student web thesises as a compendium of related works/documents, so more to be felt as a  'reader' of interconnected documents (that can be laterally navigated) rather than a top-down collection of individual self-contained autonomous documents (as it was in the last few years).
 
 ## First class
 
