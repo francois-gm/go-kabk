@@ -41,7 +41,7 @@ Questions to ask **at some point later**:
 Questions to ask **before delivering your project**:
 
 - **Bring your thesis website a test drive**. Navigate and reflect on your experience. Also let your friends try your website, and observe them while doing it. Criterias to take into account: *intuitive patterns, loads fast, optimized content and media, legible sizes depending on screen sizes, right timing for animations and transitions, accessible...* Based on these experiences, see remaining details that can be improved.
-- Can my thesis website be **archived** through the university research portal (assignment requirement) 
+- Can my thesis website be **archived** through the university research portal (assignment requirement). In most circumstances it will be, you will need to make sure your website is *static* (as self-contained *html* document with its contained ressources), and be mindful about how you use *Javascript* (if you use it).
 
 ### Milestones
 
@@ -62,21 +62,21 @@ Questions to ask **before delivering your project**:
 
 ## First class
 
-Intro (**10h-11h**): **all** (group A + B) <br>
-Morning (**11h-13h30**): group **A** <br>
-Afternoon (**14h15-18h**): group **B** <br>
+Morning (**10h-13h30**): group **A** <br
+Afternoon (**14h30-18h**): group **B** <br>
 
 | - | - |
 | -------- | --------------------- |
-| 9:00-10:00 | (intro, this document and more) |
-| 10:00-11:20 | **A1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
-| 10:00-11:20 | **A2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 11:20-11:40 | **Break** |
-| 11:40-13:00 | **A1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 11:40-13:00 |**A2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
-| 13:00-14:00 | **Lunch** |
-| 14:45-16:00 | **B1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
-| 14:45-16:00 | **B2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 15:20-15:40 | **Break** |
-| 16:45-18:00 | **B1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 16:45-18:00 | **B2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 10:00-10:30 | **Group A**, intro (this document and more)
+| 10:30-11:50 | **A1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 10:30-11:50 | **A2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 11:50-12:10 | **Break** |
+| 12:10-13:30 | **A1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 12:10-13:30 | **A2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 13:30-14:30 | **Lunch** |
+| 14:30-15:00 | **Group B**, intro (this document and more)
+| 15:00-16:20 | **B1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 15:00-16:20 | **B2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 16:20-16:40 | **Break** |
+| 16:40-18:00 | **B1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 16:40-18:00 | **B2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
