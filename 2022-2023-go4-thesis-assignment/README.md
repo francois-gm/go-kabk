@@ -51,7 +51,7 @@ Questions to ask **before delivering your project**:
 ↓ (January) You have design sketches and/or code sketches <br>
 ↓ (end January) You've left the world of static design and are fully committed to **coding/developing your actual thesis webpage.** <br>
 ↓ (mid February) Your website is structurally sound, you are now adjusting elements more precisely. <br>
-↓ (March) You've replaced your placeholder content by your actual content.
+↓ (March) You've replaced your placeholder content by your actual content. <br>
 ↓ (March) You are debugging / fine-tuning details across several screen sizes (mobile/desktop), and you are deploying on GitHub. <br>
 ↓ (mid March) (deadline) **Your website is online (yay!)**
 
@@ -67,16 +67,16 @@ Afternoon (**14h30-18h**): group **B** <br>
 
 | - | - |
 | -------- | --------------------- |
-| 10:00-10:40 | **Group A**, intro (this document)
-| 10:40-12:00 | **A1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
-| 10:40-12:00 | **A2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 12:00-12:20 | **Break** |
-| 12:20-13:40 | **A1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 12:20-13:40 | **A2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
-| 13:40-14:20 | **Lunch** |
-| 14:20-15:00 | **Group B**, intro (this document)
-| 15:00-16:20 | **B1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
-| 15:00-16:20 | **B2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 16:20-16:40 | **Break** |
-| 16:40-18:00 | **B1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 16:40-18:00 | **B2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 10:00-10:30 | **Group A**, intro (this document)
+| 10:30-12:00 | **A1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 10:30-12:00 | **A2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 12:00-12:15 | **Break** |
+| 12:15-13:45 | **A1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 12:15-13:45 | **A2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 13:45-14:15 | **Lunch** |
+| 14:15-14:45 | **Group B**, intro (this document)
+| 14:45-16:15 | **B1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 14:45-16:15 | **B2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 16:15-16:30 | **Break** |
+| 16:30-18:00 | **B1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 16:30-18:00 | **B2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
