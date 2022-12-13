@@ -78,5 +78,5 @@ Afternoon (**14h-17h**): group **B** <br>
 | 14:00-15:20 | **B1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
 | 14:00-15:20 | **B2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
 | 15:20-15:40 | **Break** |
-|- 15:40-17:00 | **B1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-|- 15:40-17:00 | **B2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 15:40-17:00 | **B1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 15:40-17:00 | **B2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
