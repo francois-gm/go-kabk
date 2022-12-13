@@ -62,8 +62,8 @@ Questions to ask **before delivering your project**:
 
 ## First class
 
-Morning (**10h-13h30**): group **A** <br>
-Afternoon (**14h30-18h**): group **B** <br>
+Morning (**10h-13h45**): group **A** <br>
+Afternoon (**14h15-18h**): group **B** <br>
 
 | - | - |
 | -------- | --------------------- |
