@@ -6,47 +6,53 @@ A quick exercice about looking at and describing web experiences
 
 Write in **max 150 words** a visiting experience. Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
 
-- https://worldonawire.net/
-- https://www.arngren.net
-- https://www.art.yale.edu
-- https://www.berkshirehathaway.com
-- https://www.documenta14.de/en/plain/
-- https://www.spacejam.com/1996/
-- http://users.wfu.edu/ecarlson/index.html
-- http://1x-upon.com/~despens/
-- https://www.marktplaats.nl
-- http://ayearofconsciouspractice.com
-- https://www.transavia.com/en-EU/home/
-- https://biblio-graph.org
-- https://theotherinterface.hetnieuweinstituut.nl
-- https://www.itsabook.de/
-- http://schemasofuncertainty.com
-- https://cecile-bortoletti.com
-- https://www.howtowinat.photography/en
-- http://blommers-schumm.com
-- http://vytautaskumza.com
-- http://www.sexyland.world/
-- https://weekend.thehaguecontemporary.nl/
-- http://sfpc.io/fall-2021/rtp/index.html
-- https://wordsonfashionwebsites.com
-- https://www.poetryproject.org
-- https://www.aux-sonic.com/
-- https://2018.transmediale.de
-- https://janniswichmann.com/de
-- http://go-wander.org
-- http://html.energy
-- http://tombubul.info
-- https://gossipsweb.net
-- http://radio.garden
-- https://www.glazespectrum.com
-- https://www.nts.live
-- https://www.rijksakademie.nl
-- https://solar.lowtechmagazine.com (if not working, 
-- https://2122.schauspielhaus.ch/en/
-- http://info.cern.ch
-- https://liebermannkiepereddemann.de
-- https://www.dailymail.co.uk/
-- https://www.lingscars.com
+A1 
+
+1. https://www.kunstinstituutmelly.nl/ (art institution)
+2. https://www.marktplaats.nl (merchant website)
+3. https://after8books.com (publisher)
+4. https://www.transavia.com/en-EU/home/ (travel and transportation)
+5. http://vytautaskumza.com (photographer)
+6. http://radio.garden (online radio)
+7. https://biblio-graph.org (research/archive platform)
+8. https://worldonawire.net/ (editorial platform)
+9. https://www.dailymail.co.uk/ (newspaper)
+
+A2
+
+1. https://mcachicago.org/ (art institution)
+2. https://www.arngren.net (merchant website)
+3. https://www.sternberg-press.com (publisher)
+4. https://www.berkshirehathaway.com (investment firm)
+5. http://blommers-schumm.com (photographers)
+6. http://schemasofuncertainty.com (editorial platform)
+7. https://abcdinamo.com (type foundry)
+8. https://2122.schauspielhaus.ch/en/ (art platform)
+9. https://www.spacejam.com/1996/ (movie promotional website)
+
+B1
+
+1. (http://www.sexyland.world/) [cultural institution]
+2. (http://users.wfu.edu/ecarlson/index.html) [personal website]
+3. (https://www.lingscars.com) [merchant website]
+4. (https://www.itsabook.de/) [publishing event]
+5. (https://theotherinterface.hetnieuweinstituut.nl) [research/archive platform]
+6. (https://migle-editions.com/) [merchant website]
+7. (https://yctm.e-flux.com/) [editorial platform]
+8. (https://www.documenta14.de/en/plain/)[artistic platform]
+9. (https://www.rijksakademie.nl)[post-graduate artistic education]
+
+B2
+
+1. (https://www.poetryproject.org)
+2. (https://2018.transmediale.de) (art festival)
+3. (https://wordsonfashionwebsites.com)
+4. (https://www.nightjet.com/en/) (travel and transportation)
+5. (https://janniswichmann.com/de) (personal/portfolio website)
+6. (https://www.glazespectrum.com) (archive website)
+7. (http://info.cern.ch)
+8. (https://www.denhaag.nl/en.htm)
+9. (https://www.nts.live) (online radio)
 
 ### Word(s) bank
 
