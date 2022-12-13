@@ -67,14 +67,14 @@ Afternoon (**14h30-18h**): group **B** <br>
 
 | - | - |
 | -------- | --------------------- |
-| 10:00-10:30 | **Group A**, intro (this document)
-| 10:30-11:50 | **A1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
-| 10:30-11:50 | **A2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 11:50-12:10 | **Break** |
-| 12:10-13:30 | **A1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 12:10-13:30 | **A2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
-| 13:30-14:30 | **Lunch** |
-| 14:30-15:00 | **Group B**, intro (this document)
+| 10:00-10:40 | **Group A**, intro (this document)
+| 10:40-12:00 | **A1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 10:40-12:00 | **A2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 12:00-12:20 | **Break** |
+| 12:20-13:40 | **A1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 12:20-13:40 | **A2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 13:40-14:20 | **Lunch** |
+| 14:20-15:00 | **Group B**, intro (this document)
 | 15:00-16:20 | **B1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
 | 15:00-16:20 | **B2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
 | 16:20-16:40 | **Break** |
