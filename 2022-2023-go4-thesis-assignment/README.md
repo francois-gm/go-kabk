@@ -10,7 +10,7 @@
 
 ### Planning
 
-- **Schedule**: (almost) **every Wednesday**, from **December 14th** up to **March 15th**, from **9h** to **17h**.
+- **Schedule**: (almost) **every Wednesday**, from **December 14th** up to **March 15th**, from **10h** to **18h**.
 - **Duration**: **9 classes** spread on 15 weeks.
 - **Deadline**: greenlight and digital thesis deadline on **Thursday March 16th**.
 
@@ -20,7 +20,7 @@
 - The possibility of making small groups feedback (4-5 people, sign-up sheet, 60 minutes) if the occasion proves useful.
 - **Self-directed** (if not meeting for feedback, you'd be expected to advance/work on your project)
 - In addition, we aim to schedule, when appropriate, about **one hour** of that class for presenting **relevant** knowledge **related to the assignment**. This will be communicated based on feedback and needs.
-- **You don't have to sign-up every week**, but we **suggest** you to sign-up **two classes out of three**. This means you'll meet with François about 3 times out of 9 classes, and Thomas about 3 times out of 9 classes.
+- In order to pass, attendance is set at 7 classes out of 9 (80%). This means you'll meet with François 3 to 4 times and with Thomas 3 to 4 times out of 9 classes.
 
 ### Working methodology
 
@@ -45,7 +45,7 @@ Questions to ask **before delivering your project**:
 
 ### Milestones
 
-↓ (December) You're familiar with your thesis topic and your angle of resarch, you have conceptual ideas of *potentialities*. <br>
+↓ (December) You're familiar with your thesis topic and your angle of research, you have conceptual ideas of *potentialities*. <br>
 ↓ (December) You are organizing your working content for the assignment (placeholder materials). <br>
 ↓ (January) You have ideas related to the structure, navigation, visual appearance and effects. You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you. <br>
 ↓ (January) You have design sketches and/or code sketches <br>
@@ -62,9 +62,9 @@ Questions to ask **before delivering your project**:
 
 ## First class
 
-Intro (**9h-10h**): **all** (group A + B) <br>
-Morning (**10h-13h**): group **A** <br>
-Afternoon (**14h-17h**): group **B** <br>
+Intro (**10h-11h**): **all** (group A + B) <br>
+Morning (**11h-13h30**): group **A** <br>
+Afternoon (**14h15-18h**): group **B** <br>
 
 | - | - |
 | -------- | --------------------- |
@@ -75,8 +75,8 @@ Afternoon (**14h-17h**): group **B** <br>
 | 11:40-13:00 | **A1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
 | 11:40-13:00 |**A2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
 | 13:00-14:00 | **Lunch** |
-| 14:00-15:20 | **B1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
-| 14:00-15:20 | **B2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 14:45-16:00 | **B1** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 14:45-16:00 | **B2** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
 | 15:20-15:40 | **Break** |
-| 15:40-17:00 | **B1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
-| 15:40-17:00 | **B2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+| 16:45-18:00 | **B1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
+| 16:45-18:00 | **B2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
