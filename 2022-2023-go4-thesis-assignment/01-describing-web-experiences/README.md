@@ -4,7 +4,7 @@ A quick exercice about looking at and describing web experiences
 
 ## 1) Website as a Narrative Experience (25min)
 
-Visit an (assigned) website and review describe its experience. Write it in **max 75 words**. Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects. *The word bank and assigned websites are in the annex below.* Suggestion: less words and precise words, is more.
+Visit an (assigned) website and review describe its experience. Write it in **max 75 words** (use [wordcounter.net](https://wordcounter.net) to count words). Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects. *The word bank and assigned websites are in the annex below.* Suggestion: less words and precise words, is more.
 
 After, each student reads its prompt to the group. After all prompts are read, websites are presented in a second table turn.
 
