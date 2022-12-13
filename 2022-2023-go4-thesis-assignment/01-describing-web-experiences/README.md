@@ -4,9 +4,13 @@ A quick exercice about looking at and describing web experiences
 
 ## Website as a Narrative Experience
 
-Write in **max 150 words** a visiting experience. Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
+Visit an (assigned) website and review your experience. Write in **max 150 words** your visiting experience. Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
 
-A1 
+A monochrome website with a classic appearance. A subtle touch of functional fantasy: a saturated accent color for navigational devices. Few variations in terms of size, almost typological in look. It's ambivalent whether this is neutral, dry, vernacular or generous? textual differentiations are minimal; uppercase and normal case, but regardless the structure and the information is obvious and clear. Thousands of occurences are accessible as a long list with several filtering and sorting options, which makes the experience of finding interesting items to add to your basket easy. A little 'unicode' heart as language, a quote in serif are warm touches...
+
+strong accent color for links and navigation. A 'neutral'/default typeface
+
+### A1 
 
 1. [Art institution](https://www.kunstinstituutmelly.nl/)
 2. [Merchant website](https://www.marktplaats.nl)
@@ -18,7 +22,7 @@ A1
 8. [Editorial platform](https://worldonawire.net/)
 9. [Newspaper](https://www.dailymail.co.uk/)
 
-A2
+### A2
 
 1. [Art institution](https://mcachicago.org/)
 2. [Merchant website](https://www.arngren.net)
@@ -30,7 +34,7 @@ A2
 8. [Art event](https://2122.schauspielhaus.ch/en/)
 9. [Movie promotional website](https://www.spacejam.com/1996/)
 
-B1
+### B1
 
 1. [cultural institution](http://www.sexyland.world/)
 2. [personal website](http://users.wfu.edu/ecarlson/index.html)
@@ -42,7 +46,7 @@ B1
 8. [artistic platform](https://www.documenta14.de/en/plain/)
 9. [Art education](https://www.rijksakademie.nl)
 
-B2
+### B2
 
 1. [Cultural institution](https://www.poetryproject.org)
 2. [Art event](https://2018.transmediale.de)
