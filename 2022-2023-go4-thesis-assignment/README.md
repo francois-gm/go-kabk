@@ -48,10 +48,10 @@ Questions to ask **before delivering your project**:
 (December) ↓ You're familiar with your thesis topic and your angle of resarch, you have conceptual ideas of *potentialities* <br>
 (January) ↓ You have ideas related to the structure, navigation, visual appearance and effects. You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you. <br>
 (January) ↓ You have design sketches and/or code sketches <br>
-(end January) ↓ You've left the world of static design and are fully committed to **coding/developing your actual thesis webpage**
-(mid February)↓ Your website is structurally sound, you are now adjusting elements more precisely
-(March)↓ You are debugging / fine-tuning details across several screen sizes (mobile/desktop), and you are deploying on GitHub.
-(mid March)↓ (Deadline) | **Your website is online (yay!)** |
+(end January) ↓ You've left the world of static design and are fully committed to **coding/developing your actual thesis webpage.** <br>
+(mid February)↓ Your website is structurally sound, you are now adjusting elements more precisely. <br>
+(March)↓ You are debugging / fine-tuning details across several screen sizes (mobile/desktop), and you are deploying on GitHub. <br>
+(mid March)↓ (deadline) **Your website is online (yay!)**
 
 ## Thesis landing page (non-graded)
 
@@ -59,9 +59,9 @@ Questions to ask **before delivering your project**:
 
 ## First class
 
-Intro (9h-10h): all (group A + B)
-Morning (10h-13h): group A
-Afternoon (14h-17h): group B
+Intro (9h-10h): all (group A + B) <br>
+Morning (10h-13h): group A <br>
+Afternoon (14h-17h): group B <br>
 
 - 9:00-10:00 (intro, this document and +)
 - 10:00-11:20 A1 sub-group with Thomas (Workshop *Tooling* + *Web Typography*)
@@ -69,7 +69,7 @@ Afternoon (14h-17h): group B
 - 11:20-11:40 **Break**
 - 11:40-13:00 A1 sub-group with François (Workshop *Describing web experiences* + *CSS layouting*)
 - 11:40-13:00 A2 sub-group with Thomas (Workshop *Tooling* + *Web Typography*)
-
+- 13:00-14:00 **Lunch**
 - 14:00-15:20 B1 sub-group with Thomas (Workshop *Tooling* + *Web Typography*)
 - 14:00-15:20 B2 sub-group with François (Workshop *Describing web experiences* + *CSS layouting*)
 - 15:20-15:40 **Break**
