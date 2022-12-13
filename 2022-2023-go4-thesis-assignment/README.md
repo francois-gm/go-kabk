@@ -41,7 +41,7 @@ Questions to ask **at some point later**:
 Questions to ask **before delivering your project**:
 
 - **Bring your thesis website a test drive**. Navigate and reflect on your experience. Also let your friends try your website, and observe them while doing it. Criterias to take into account: *intuitive patterns, loads fast, optimized content and media, legible sizes depending on screen sizes, right timing for animations and transitions, accessible...* Based on these experiences, see remaining details that can be improved.
-- Can my thesis website be **archived** through the university research portal (assignment requirement). In most circumstances it will be, you will need to make sure your website is *static* (as self-contained *html* document with its contained ressources), and be mindful about how you use *Javascript* (if you use it).
+- Can my thesis website be **archived** through the university research portal (assignment requirement)? In most circumstances it will be, you will need to make sure your website is *static* (as self-contained *html* document with its contained ressources), and be mindful about how you use *Javascript* (if you use it).
 
 ### Milestones
 
