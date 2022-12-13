@@ -131,3 +131,14 @@ font-size: calc(0.75rem + 2.5vw);
 
 > The CSS `object-fit` property is used to specify how an `<img>` or `<video>` should be resized to fit its container. This property tells the content to fill the container in a variety of ways; such as "preserve that aspect ratio" or "stretch up and take up as much space as possible". From [Object-fit](https://www.w3schools.com/css/css3_object-fit.asp) on *w3schools.com*
 
+## Extra
+
+CSS selectors / properties:
+
+- https://css-tricks.com/almanac/
+- https://www.w3schools.com/cssref/
+
+UI patterns / component types:
+
+- http://ui-patterns.com/patterns
+- https://material.io/components
