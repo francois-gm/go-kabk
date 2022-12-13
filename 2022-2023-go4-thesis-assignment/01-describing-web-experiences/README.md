@@ -1,33 +1,12 @@
-# Introductory / writing assignments
+# Describing web experiences
 
-A quick assignment for presenting each’s thesis, beyond the previous *abstract* (1h?)
+A quick exercice about looking at and describing web experiences
 
-## A website as a written experience
+## Website as a Narrative Experience
 
-### 1. Narrow it down. (8 min) (+4 min group read)
+Write in **max 150 words** a visiting experience. Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
 
-Write in **a few ultrashort** sentences (max 10-12 words). Use a descriptive writing style, with no subjects.
-
-- Subject (a name, or a combination of select words, the studied *object*)
-- Tone (personal, distanced, analytical, lyrical, light, deep, digressive, focused)
-- Methodology (academic study, enumeration-comparison, field study, autoethnography, creative writing, (speculative) fiction)
-- Reference material (if the study subject features one proheminently that is unavoidable to the understanding of the topic)
-- Flow (chronological, nonlinear, slow, fast-paced, punctuated, repetition-driven, emphasising, understating)
-- Stance / closure (opinionated, revendicative, precautious, nuanced, belief-in-facts, embracing the conundrum, optimistic, pessimistic)
-
-Example:
-
-```
-A first-person, slightly digressive back-and-forth.
-An inquiry on chronometry and the labouring body. 
-A punctuation of historical technological milestones.
-And personal familial observations.
-Interrogative by nature – no precise roadmap.
-```
-
-### 2. See, structure, navigate (10 min) (+6 min group read)
-
-Write in **max 150 words** a visiting experience (featuring your thesis). Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
+### Word(s) bank
 
 **Appearance**:
 
@@ -98,7 +77,6 @@ Write in **max 150 words** a visiting experience (featuring your thesis). Consid
 Everything on the same level of hierarchy, and monochrome.
 Neither hard nor soft, but kind of impersonal. 
 It’s kind of distilled, but it’s not about being straight to the point. 
-It’s efficient yet it doesn’t provide with candies.
 
 Movement is sharp, like a tickling clock. 
 It goes only in one direction. 
@@ -111,53 +89,10 @@ Think in terms of task completion, its time equivalent, and unlocking ‘feature
 Kind of being rewarded when reaching a milestone but not really.
 ```
 
-### 4. Talk elements and properties (10 min) (+6 min group read)
 
-Choose a CSS property and/or selector. Choose a UI pattern or a component type. Combine them. Write a few short sentences to describe how they complement, enhance, or interfere with each other. Use a descriptive writing style, with no subjects.
+## The Good, the Bad and the ...
 
-CSS selectors / properties:
 
-- https://css-tricks.com/almanac/
-- https://www.w3schools.com/cssref/
 
-UI patterns / component types:
 
-- http://ui-patterns.com/patterns
-- https://material.io/components
 
-```
-A fixed navigational card acting as controls:  
-an IP address, a chronometer, and a list of checkboxes corresponding to ‘chapters’. 
-
-The card has a CSS border on one direction only. 
-The direction is changed with a keyframe-animation...
-from top-left-bottom-right (1 second each), 
-and the colour is changed, 
-dimming 100% to 50% to 100% (but no animation) 
-within sixty iterations.
-```
-
-<!--
-
-### 5. Combine it (15 min) (+10 min group read)
-
-Write in **150-200 words** a website experience featuring your thesis work while describing the somatic experience as well as the features used to achieve the experience. Write in first persion (I).
-
-```
-I arrive on the website, I ‘punch in’ with my IP address, and a chronometer starts. 
-There are checkboxes. I can only click the first one.
-An informative prompt appears and I'm informed by the nature of my visit.
-
-I scroll down through linear text on a two-column layout.
-Sometimes is on the right, sometimes on the left, but never on both sides simultaneously.
-
-I see my progress by looking at a (word) counter that estimate how much words I’ve read. 
-When there are medias, I have to click / tap over them to show them. 
-And when I’m at the bottom, I can only click 'next' (you can't go *back* in time).
-
-After I’ve gone through all the sections, I'm at the *end*.
-The chronometer stops, the content dissolves and a prompt informs me that the website 
-will become accessible only after a 15 minutes break.
-```
-
--->
