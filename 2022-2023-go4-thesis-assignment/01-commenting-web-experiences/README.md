@@ -1,33 +1,15 @@
-# Introductory / writing assignments
+# Commenting web experiences
 
-A quick assignment for presenting each’s thesis, beyond the previous *abstract* (1h?)
+## The good, the bad and the... (10min)
 
-## A website as a written experience
+### 1. Analyse a website and describe your navigation experience.
 
-### 1. Narrow it down. (8 min) (+4 min group read)
-
-Write in **a few ultrashort** sentences (max 10-12 words). Use a descriptive writing style, with no subjects.
-
-- Subject (a name, or a combination of select words, the studied *object*)
-- Tone (personal, distanced, analytical, lyrical, light, deep, digressive, focused)
-- Methodology (academic study, enumeration-comparison, field study, autoethnography, creative writing, (speculative) fiction)
-- Reference material (if the study subject features one proheminently that is unavoidable to the understanding of the topic)
-- Flow (chronological, nonlinear, slow, fast-paced, punctuated, repetition-driven, emphasising, understating)
-- Stance / closure (opinionated, revendicative, precautious, nuanced, belief-in-facts, embracing the conundrum, optimistic, pessimistic)
-
-Example:
-
-```
-A first-person, slightly digressive back-and-forth.
-An inquiry on chronometry and the labouring body. 
-A punctuation of historical technological milestones.
-And personal familial observations.
-Interrogative by nature – no precise roadmap.
-```
+a) find only *positive* qualities.
+b) find only *negative* qualities.
 
 ### 2. See, structure, navigate (10 min) (+6 min group read)
 
-Write in **max 150 words** a visiting experience (featuring your thesis). Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
+Write in **max 150 words** a visiting experience. Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects.
 
 **Appearance**:
 
@@ -110,34 +92,6 @@ Maybe it only scrolls in one direction? Going back seems painful.
 Think in terms of task completion, its time equivalent, and unlocking ‘features’. 
 Kind of being rewarded when reaching a milestone but not really.
 ```
-
-### 4. Talk elements and properties (10 min) (+6 min group read)
-
-Choose a CSS property and/or selector. Choose a UI pattern or a component type. Combine them. Write a few short sentences to describe how they complement, enhance, or interfere with each other. Use a descriptive writing style, with no subjects.
-
-CSS selectors / properties:
-
-- https://css-tricks.com/almanac/
-- https://www.w3schools.com/cssref/
-
-UI patterns / component types:
-
-- http://ui-patterns.com/patterns
-- https://material.io/components
-
-```
-A fixed navigational card acting as controls:  
-an IP address, a chronometer, and a list of checkboxes corresponding to ‘chapters’. 
-
-The card has a CSS border on one direction only. 
-The direction is changed with a keyframe-animation...
-from top-left-bottom-right (1 second each), 
-and the colour is changed, 
-dimming 100% to 50% to 100% (but no animation) 
-within sixty iterations.
-```
-
-<!--
 
 ### 5. Combine it (15 min) (+10 min group read)
 
