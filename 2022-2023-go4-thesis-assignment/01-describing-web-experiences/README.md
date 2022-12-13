@@ -32,15 +32,15 @@ A2
 
 B1
 
-1. (http://www.sexyland.world/) [cultural institution]
-2. (http://users.wfu.edu/ecarlson/index.html) [personal website]
-3. (https://www.lingscars.com) [merchant website]
-4. (https://www.itsabook.de/) [publishing event]
-5. (https://theotherinterface.hetnieuweinstituut.nl) [research/archive platform]
-6. (https://migle-editions.com/) [merchant website]
-7. (https://yctm.e-flux.com/) [editorial platform]
-8. (https://www.documenta14.de/en/plain/)[artistic platform]
-9. (https://www.rijksakademie.nl)[post-graduate artistic education]
+1. [http://www.sexyland.world/](cultural institution)
+2. [http://users.wfu.edu/ecarlson/index.html](personal website)
+3. [https://www.lingscars.com](merchant website)
+4. [https://www.itsabook.de/](publishing event)
+5. [https://theotherinterface.hetnieuweinstituut.nl](research/archive platform)
+6. [https://migle-editions.com/](merchant website)
+7. [https://yctm.e-flux.com/](editorial platform)
+8. [https://www.documenta14.de/en/plain/](artistic platform)
+9. [https://www.rijksakademie.nl](post-graduate artistic education)
 
 B2
 
