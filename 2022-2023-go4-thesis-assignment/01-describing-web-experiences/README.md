@@ -8,7 +8,7 @@ Visit an (assigned) website and review describe its experience. Write it in **ma
 
 After, each student reads its prompt to the group. After all prompts are read, websites are presented in a second table turn.
 
-8 minutes for writing, 2 minutes each for presenting.
+**8 minutes** for writing, **2 minutes** each for presenting.
 
 ```
 
@@ -41,7 +41,7 @@ This time, you'll be assigned a website and will be assigned either to take the 
 
 After you have your points ready, the website will be made visible to the rest of the group and both sides will, in a exchange, present their points. Then, the group will vote on whether the *good* or *bad* has convinced its audience.
 
-8 minutes for writing, 3 minutes per website presentation.
+**8 minutes** for writing, **3 minutes** per website presentation.
 
 ## Annex
 
