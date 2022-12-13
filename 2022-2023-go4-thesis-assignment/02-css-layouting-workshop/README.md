@@ -1,28 +1,17 @@
-# CSS layout
+# CSS layouting workshop
 
-## The box model
+## How layout was done
 
-The CSS box model is essentially a box that wraps around every HTML element. It is a **conceptual representation** (and not an actual property), that helps understand how margin, padding, borders values and the inner content of an element behave between each others. This visual model is used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
-
-The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
-
-![The box model](box-model.png)
-
-- Read more: https://css-tricks.com/the-css-box-model/
-- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
-
-## *Block* or *inline*?
+### *Block* or *inline*?
 
 *Block* and *inline* are two types of layout behaviors for HTML tags. A block element always starts on a new line, takes up the full available width (stretches out to the left and right as far as it can), and has a top and a bottom margin. Divs and HTML5 semantic layout tags are block elements. An inline element does not start on a new line and only takes up as much width as necessary.
+
+Mono-directional. Always goes from top left to bottom right, or top right to bottom left. **Like a typewriter.**
 
 Default behavior:
 
 - **block** – `div`, `ul`, `li`, `nav`, `main`, `p`, etc...
-- **inline** – `span`, `a`, `strong`, etc... 
-
-Read more: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline
-
-The behavior can be explicitely stated with CSS:
+- **inline** – `span`, `a`, `strong`, etc...
 
 - `display: block;` – always starts on a new line and takes up the full width available.
 - `display: inline;` – does not start on a new line and only takes up as much width as necessary.
@@ -33,15 +22,16 @@ Two other properties are also relevant to control how elements behave between th
 
 The CSS `clear` property specifies if elements can float beside the cleared element and on which side. Valid values are `clear: left;`, `clear: right;`, `clear: both;` and `clear: none;`. [See examples of clear elements](https://www.w3schools.com/css/https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
 
-## CSS Position
+### The box model
 
-The position property has the following possible values:
+The CSS box model is essentially a box that wraps around every HTML element. It is a **conceptual representation** (and not an actual property), that helps understand how margin, padding, borders values and the inner content of an element behave between each others. This visual model is used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
 
-- `position: static;` – positioned according to the normal flow of the document and not affected by top, right, bottom, left and z-index properties (default value).
-- `position: relative;` – positioned according to the normal flow of the document, and then offset relative to itself based on the top, right, bottom and left values (if defined). Also affected by the z-index property (if defined).
-- `position: absolute;` – removed from the normal document flow (no space is created for the element in the page layout). Positioned relative to its closest parent, and position defined by the top, right, bottom and left values.
-- `position: fixed;` – same as absolute, but positioned relative to the viewport window, and always stays at the same location.
-- `position: sticky;` – positioned according to the normal flow of the document (like relative), but becomes fixed once the scrolling position reaches one of the defined sides of the element (the top, right, bottom or left value needs to be defined to make it work). The element ‘sticks’ momentarily. (CSS 3.0 value).
+The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
+
+![The box model](box-model.png)
+
+- Read more: https://css-tricks.com/the-css-box-model/
+- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
 
 ## Layout with CSS flexbox and grid
 
@@ -93,6 +83,28 @@ Properties for the children (optional but allow more control):
 Learn everything about grid with examples through the [Complete Guide to Grid target](https://css-tricks.com/snippets/css/complete-guide-grid/), on *css-tricks.com*
 
 Ressource: use the [CSS Grid Generator](https://grid.layoutit.com), on *grid.layoutit.com*
+
+
+
+
+
+
+## CSS Position
+
+The position property has the following possible values:
+
+- `position: static;` – positioned according to the normal flow of the document and not affected by top, right, bottom, left and z-index properties (default value).
+- `position: relative;` – positioned according to the normal flow of the document, and then offset relative to itself based on the top, right, bottom and left values (if defined). Also affected by the z-index property (if defined).
+- `position: absolute;` – removed from the normal document flow (no space is created for the element in the page layout). Positioned relative to its closest parent, and position defined by the top, right, bottom and left values.
+- `position: fixed;` – same as absolute, but positioned relative to the viewport window, and always stays at the same location.
+- `position: sticky;` – positioned according to the normal flow of the document (like relative), but becomes fixed once the scrolling position reaches one of the defined sides of the element (the top, right, bottom or left value needs to be defined to make it work). The element ‘sticks’ momentarily. (CSS 3.0 value).
+
+
+
+
+
+
+
 
 ## CSS length units
 
