@@ -4,7 +4,7 @@ A quick exercice about looking at and describing web experiences
 
 ## 1) Website as a Narrative Experience (25min)
 
-Visit an (assigned) website and review describe its experience. Write it in **max 150 words**. Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects. *The word bank and assigned websites are in the annex below.*
+Visit an (assigned) website and review describe its experience. Write it in **max 75 words**. Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects. *The word bank and assigned websites are in the annex below.* Suggestion: less words and precise words, is more.
 
 After, each student reads its prompt to the group. After all prompts are read, websites are presented in a second table turn.
 
@@ -13,19 +13,16 @@ After, each student reads its prompt to the group. After all prompts are read, w
 ```
 
 A monochrome website with a classic appearance. 
-A subtle touch of functional fantasy: a saturated accent color for navigational devices. 
-A little 'unicode' heart as language, a quote in serif are warm touches... 
-Few variations in terms of size, almost typological in look. 
-It's ambivalent whether this is neutral, dry, vernacular or generous? 
-Textual differentiations are minimal; uppercase and normal case, 
-but regardless the structure and the information is obvious and clear. 
-The website has very few text animations, subtle and barely noticeable. 
+A subtle touch of functional fantasy for the navigation. 
+Few variations in terms of size, almost typological in look.
+Very static feel and standard structure.
+Neutral, dry, vernacular or generous? 
 
-Thousands of content occurences are accessible as a long list 
-with several filtering through categories and sorting options. 
-The emphasis is on the experience of browsing through items that can be added to your basket. 
-Items can be bought but it feels more like an archive, a library, a catalog.
-The structure is conventional, and navigation happens mostly 'top to bottom', but not only.
+Clear and obvious structure and information.
+Thousands of content elements all accessible as a long list 
+Several filtering through categories and sorting options. 
+Items can be added to your basket. 
+But it feels more like an archive, a catalog.
 
 Source: https://after8books.com
 
