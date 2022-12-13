@@ -57,7 +57,7 @@ Properties for the children (optional but allow more control):
 - `flex-grow`, `flex-shrink`, `flex-basis`: growing, shrinking, and default sizing behaviour.
 - `align-self`: overrides the parent alignment (values are the same that align-content).
 
-Learn everything about flexbox with examples through [CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+Learn everything about flexbox with examples through [CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). Or also through this [CodePen](https://codepen.io/enxaneta/pen/adLPwv)
 
 ### Grid
 
@@ -83,5 +83,12 @@ Units (from w3schools.com):
 
 \* Viewport = the browser window size. If the viewport is 1200px wide, 1vw = 12px.
 
-## Also in the layouting compendium: <br>
-## CSS Position, CSS calc(), and min-max properties, Object-fit
+### Also in the layouting compendium: CSS Position, CSS calc(), and min-max properties, Object-fit
+
+## Flexbox exercice
+
+We'll wortk together on one document sharing the same html elements. For this exercice, you are only allowed to write CSS code. Each one of you will be assigned to a 'media query', this is a specific screen state (dimension, or ratio). You will 'sketch' an arrangement of 16 blocks on a post-it (1 minute), and then give it to me. Then the post-its will be re-sorted to each of you.
+
+Arrangement:
+- Each block has a number (from 1 to 16, which is the html document's order).
+- You can play with order, direction, space between, but also the block's sizes, margins and paddings. You can also play with the padding of the container block.
