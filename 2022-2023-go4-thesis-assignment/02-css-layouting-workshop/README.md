@@ -84,8 +84,10 @@ Units (from w3schools.com):
 
 ## Flexbox exercice
 
-We'll wortk together on one document sharing the same html elements. For this exercice, you are only allowed to write CSS code. Each one of you will be assigned to a 'media query', this is a specific screen state (dimension, or ratio). You will 'sketch' an arrangement of 16 blocks on a post-it (1 minute), and then give it to me. Then the post-its will be re-sorted to each of you.
+We'll wortk together on one document sharing the same html elements. For this exercice, you are only allowed to write CSS code. Each one of you will be assigned to a 'media query', this is a specific screen state (dimension, or ratio). You will 'sketch' an arrangement of 16 blocks on a post-it (1 minute), and then try to reproduce it in CSS.
 
 Arrangement:
 - Each block has a number (from 1 to 16, which is the html document's order).
 - You can play with order, direction, space between, but also the block's sizes, margins and paddings. You can also play with the padding of the container block.
+
+Queries 6-14 are mobile-tablet, queries 15-28 are desktop, and queries 29-38 are 'square' ratio.
