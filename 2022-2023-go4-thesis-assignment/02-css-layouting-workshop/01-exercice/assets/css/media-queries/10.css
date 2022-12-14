@@ -1,0 +1,120 @@
+
+
+
+@media (min-width: 500px) and (max-width: 549px) {
+
+	div.document-wrapper{
+		/* pick a background color */
+		background-color: rgba(255,255,125,1);
+		/* add optionnal padding to the wrapper */
+		padding: 0%;
+	}
+
+	div.document-container{
+		/* choose the parent flexible settings */
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-content: center;
+		flex-wrap: nowrap;
+	}
+
+	div.document-container div{
+		/* change width and height */
+		width: 10%;
+		height: 10%;
+		/* change mix blend mode */
+		mix-blend-mode: multiply;
+	}
+
+	div.document-container div p{
+		/* turn off text help */
+		/* display: none; */
+	}
+
+	/* individual blocks */
+
+	/* 
+		can be changed...
+		width: %;
+		height: %;
+		order: 1;
+		opacity: 1;
+		align-self: value;
+	*/
+
+	div.document-container div:nth-of-type(even){
+
+	}
+
+	div.document-container div:nth-of-type(odd){
+
+	}
+
+	div.document-container div:nth-of-type(1){
+
+	}
+
+	div.document-container div:nth-of-type(2){
+
+	}
+
+	div.document-container div:nth-of-type(3){
+
+	}
+
+	div.document-container div:nth-of-type(4){
+	
+	}
+
+	div.document-container div:nth-of-type(5){
+
+	}
+
+	div.document-container div:nth-of-type(6){
+
+	}
+
+	div.document-container div:nth-of-type(7){
+
+	}
+
+	div.document-container div:nth-of-type(8){
+	
+	}
+
+	div.document-container div:nth-of-type(9){
+
+	}
+
+	div.document-container div:nth-of-type(10){
+
+	}
+
+	div.document-container div:nth-of-type(11){
+	
+	}
+
+	div.document-container div:nth-of-type(12){
+
+	}
+
+	div.document-container div:nth-of-type(13){
+	
+	}
+
+	div.document-container div:nth-of-type(14){
+	
+	}
+
+	div.document-container div:nth-of-type(15){
+	
+	}
+
+	div.document-container div:nth-of-type(16){
+		
+	}
+
+}
+
+
