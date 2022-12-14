@@ -24,14 +24,7 @@ The CSS `clear` property specifies if elements can float beside the cleared elem
 
 ### The box model
 
-The CSS box model is essentially a box that wraps around every HTML element. It is a **conceptual representation** (and not an actual property), that helps understand how margin, padding, borders values and the inner content of an element behave between each others. This visual model is used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
-
-The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
-
 ![The box model](box-model.png)
-
-- Read more: https://css-tricks.com/the-css-box-model/
-- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
 
 ## Layout with CSS flexbox and grid
 
