@@ -84,7 +84,7 @@ Units (from w3schools.com):
 
 ## Flexbox exercice
 
-We'll wortk together on one document sharing the same html elements. For this exercice, you are only allowed to write CSS code. Each one of you will be assigned to a 'media query', this is a specific screen state (dimension, or ratio). You will 'sketch' an arrangement of 16 blocks on a post-it (1 minute), and then try to reproduce it in CSS.
+We'll wortk together on one document sharing the same html elements. For this exercice, you are only allowed to write CSS code. Each one of you will be assigned to a 'media query', this is a specific screen state (dimension, or ratio). You will 'sketch' an arrangement of 16 blocks on a post-it (1 minute), and then try to reproduce it in CSS (10-15 minutes).
 
 Arrangement:
 - Each block has a number (from 1 to 16, which is the html document's order).
