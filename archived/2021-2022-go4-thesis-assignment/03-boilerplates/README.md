@@ -46,8 +46,9 @@ You can use [transfonter](https://transfonter.org) to generate web fonts from lo
 You can also find fonts to use on a open-source license there:
 
 - https://www.velvetyne.fr
-- https://www.design-research.be/by-womxn/
 - https://usemodify.com
+- https://www.design-research.be/by-womxn/
+- https://www.design-research.be/by-womxn/
 - https://v-fonts.com/licenses/open-source
 - https://fonts.google.com
 
