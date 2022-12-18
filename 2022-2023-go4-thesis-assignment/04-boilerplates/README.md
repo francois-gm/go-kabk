@@ -2,7 +2,7 @@
 
 > Boilerplate text, or simply boilerplate, is any written text (copy) that can be reused in new contexts or applications without significant changes to the original. The term is used in reference to statements, contracts and computer code, and is used in the media to refer to hackneyed or unoriginal writing. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Boilerplate_text))
 
-In order to support good working practices, how about starting with a 'boilerplate'? Within that folder you'll find two boilerplates, one that is only html and another one with an additional CSS boilerplate.
+In order to support good working practices, how about starting with a 'boilerplate'? Within that folder you'll find two boilerplates, one that is only html and another one with an additional CSS boilerplate. You'll also find a more 'experimental' styled page based on the boilerplate.
 
 ## Why a boilerplate?
 
