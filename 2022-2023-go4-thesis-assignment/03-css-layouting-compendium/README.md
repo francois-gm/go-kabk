@@ -143,7 +143,7 @@ UI patterns / component types:
 - http://ui-patterns.com/patterns
 - https://material.io/components
 
-## Flexbox exercice (from the workshop)
+## Flexbox exercice (for the workshop)
 
 We'll wortk together on one document sharing the same html elements. For this exercice, you are only allowed to write CSS code. Each one of you will be assigned to a 'media query', this is a specific screen state (dimension, or ratio). You will 'sketch' an arrangement of 16 blocks on a post-it (1 minute), and then try to reproduce it in CSS (10-15 minutes).
 
