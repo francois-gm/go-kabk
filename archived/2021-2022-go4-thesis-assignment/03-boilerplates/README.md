@@ -45,9 +45,10 @@ It starts with **@font-face properties**. These properties allow you to import y
 You can use [transfonter](https://transfonter.org) to generate web fonts from local files.
 You can also find fonts to use on a open-source license there:
 
-- https://usemodify.com
 - https://www.velvetyne.fr
 - https://www.design-research.be/by-womxn/
+- https://usemodify.com
+- https://v-fonts.com/licenses/open-source
 - https://fonts.google.com
 
 (if you use fonts that are hosted online you usually have to simply add the link provided to you inside your html `<head>`)
