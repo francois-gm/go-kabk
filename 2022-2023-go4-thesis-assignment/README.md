@@ -47,9 +47,9 @@ Questions to ask **before delivering your project**:
 
 ↓ (December) You're familiar with your thesis topic and your angle of research, you have conceptual ideas of *potentialities*. <br>
 ↓ (December) You are organizing your working content for the assignment (placeholder materials). <br>
-↓ (January) You have ideas related to the structure, navigation, visual appearance and effects. You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you. <br>
-↓ (January) You have design sketches and/or code sketches <br>
-↓ (end January) You've left the world of static design and are fully committed to **coding/developing your actual thesis webpage.** <br>
+↓ (end January) You have ideas related to the structure, navigation, visual appearance and effects. You started collecting references (*codepens, CSStricks, are.na, etc*) that could help you. <br>
+↓ (end January) You have design sketches and/or code sketches <br>
+↓ (from February 1st) You've left the world of static design and are fully committed to **coding/developing your actual thesis webpage.** <br>
 ↓ (mid February) Your website is structurally sound, you are now adjusting elements more precisely. <br>
 ↓ (March) You've replaced your placeholder content by your actual content. <br>
 ↓ (March) You are debugging / fine-tuning details across several screen sizes (mobile/desktop), and you are deploying on GitHub. <br>
