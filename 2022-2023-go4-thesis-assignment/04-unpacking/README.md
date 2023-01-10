@@ -9,8 +9,8 @@ So, when it's on the web, you can't have the ultimate control on viewing context
 ## Ressources toolbox (sections)
 
 - [HTML tags and semantic HTML](#semantic-html-)
-- [The CSS 'cascade'](#css-cascade)
-- [CSS properties and values](#css-properties)
+- [The CSS 'cascade'](#the-css-cascade)
+- [CSS properties and values](#css-properties-and-values)
 - [Designing, dealing with across multiple devices](#designing-across-multiple-devices)
 - [Footnotes](#footnotes)
 - [Extras](#extras)
@@ -51,6 +51,21 @@ Use the `<figure>` tag for images / visual medias:
 Put your footnotes in a `<footer>` tag if at the end of your document, in a `<aside>` tag is presented as a sidebar…<br>
 Put your table of contents inside a `<nav>` tag.<br>
 Put your thesis title inside the `<h1>` tag, the `<h1>` being inside the `<header>` tag, use the right tags for the right elements (`h1`, `h2`, […] `p`, `ul`, `ol`, `blockquote`, `a`, `sup`, etc)
+
+## The CSS cascade
+
+*Selectors, inheritance, specificity*
+
+- [CSS specificity, and how it works](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+- [The 'cascade'](https://css-tricks.com/the-c-in-css-the-cascade/)
+- [CSS 'inheritance'](https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance)
+- [CSS selectors cheat list](https://www.w3schools.com/cssref/css_selectors.php)
+- [CSS selectors almanach on *CSS Tricks*](https://css-tricks.com/almanac/selectors/)
+- [The 'nth-of-type(x)' selector](https://css-tricks.com/almanac/selectors/n/nth-of-type/)
+
+## CSS properties and values
+
+
 
 ## A 'technically' good website 📌
 
