@@ -11,7 +11,7 @@ So, when it's on the web, you can't have the ultimate control on viewing context
 - [HTML tags and semantic HTML](#semantic-html-)
 - [The CSS 'cascade'](#the-css-cascade)
 - [CSS properties and values](#css-properties-and-values)
-- [Designing, dealing with across multiple devices](#designing-across-multiple-devices)
+- [Designing and making the web across multiple devices](#designing-and-making-the-web-across-multiple-devices)
 - [Footnotes](#footnotes)
 - [Extras](#extras)
 - [Ressources](#ressources-)
@@ -114,6 +114,8 @@ font-size: calc(0.75rem + 2.5vw);
 
 
 ***
+
+## Designing and making the web across multiple devices
 
 ## A 'technically' good website 📌
 
