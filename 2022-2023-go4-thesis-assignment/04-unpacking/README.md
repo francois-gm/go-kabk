@@ -77,13 +77,6 @@ Read more:
 - [More about the *box model*](https://css-tricks.com/the-css-box-model/)
 - [Cool interactive demo of the *box model*](http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html)
 
-Layouting:
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-Media queries:
-https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
-https://css-tricks.com/a-complete-guide-to-css-media-queries/
-
 ## CSS length units
 
 CSS offers several different units for expressing dimensions. Many CSS properties take “length” values, such as width, margin, padding, font-size, etc. Length is a number followed by a length unit, such as 10px, 5%, etc. [Read more about css units](https://www.w3schools.com/css/css_units.asp), on the w3cschool.com.
@@ -126,9 +119,7 @@ font-size: calc(0.75rem + 2.5vw);
 
 ### Accessibility ♿
 
-You can yourself make a test and press [Cmd]+[+], you'll likely zoom on the webpage (use [Cmd]+[-] for zooming out). This feature is actually used for folks with different viewing abilities that need it to see the content. Also: think about browser-activated 'dark' feature, text-to-speach devices, etc. There are dozens of thousands of possible combinations of browsers/versions + screen devices + interacting methods (hover/touch). It will be impossible to predict/force all outcomes to look *as* you wish 100%.
-
-It is better to have less differentiation, somewhat a ‘universal’, ‘one-size-fits-all’ approach… and of course to **follow semantic html**!
+You can yourself make a test and press [Cmd]+[+], you'll likely zoom on the webpage (use [Cmd]+[-] for zooming out). This feature is actually used for folks with different viewing abilities that need it to see the content. Also: think about browser-activated 'dark' feature, text-to-speach devices, etc. There are dozens of thousands of possible combinations of browsers/versions + screen devices + interacting methods (hover/touch).
 
 ### Design, mobile-first 📱
 
