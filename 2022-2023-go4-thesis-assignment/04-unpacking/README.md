@@ -112,10 +112,7 @@ font-size: calc(0.75rem + 2.5vw);
 …
 ```
 
-- [https://css-tricks.com/a-complete-guide-to-calc-in-css/](Read the complete guide on CSS Tricks)
-
-
-***
+[Read the complete guide on CSS Calc on CSS Tricks](https://css-tricks.com/a-complete-guide-to-calc-in-css)
 
 ## Designing and making the web across multiple devices
 
