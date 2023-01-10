@@ -12,7 +12,7 @@ So, when it's on the web, you can't have the ultimate control on viewing context
 - [The CSS 'cascade'](#the-css-cascade)
 - [CSS properties and values](#css-properties-and-values)
 - [Designing and making the web across multiple devices](#designing-and-making-the-web-across-multiple-devices)
-- [Footnotes](#what-about-footnotes)
+- [Footnotes](#what-about-footnotes-)
 - [Ressources](#ressources-)
 
 ## Semantic html ✅
