@@ -128,7 +128,7 @@ When designing, think *mobile-first*. But what does that mean, exactly? Mobiles 
 
 Above examples are: a device with a square screen ratio, device with stylus, slow/small/low-res device (the 3310), smart watch, device with a trackball (!), foldable screen device (!!), tablet that is bigger than a desktop (!!!)... 🥴
 
-This is why CSS media queries are for: https://css-tricks.com/a-complete-guide-to-css-media-queries/
+This is what CSS media queries are for: https://css-tricks.com/a-complete-guide-to-css-media-queries/
 
 #### Design for responsive/mobile ✏️
 
