@@ -138,7 +138,7 @@ This is what CSS media queries are for: https://css-tricks.com/a-complete-guide-
 5. **Think of the invisible structure of your website**, where every html tag is a division/box, from main container boxes to sub-containers, and then your content inside these boxes.
 6. **Paper and pen can be useful!** Draw your website's structure on a piece of paper, this will help visualize what contains what.
 
-##### Code, debug and test, for responsive/mobile 🛠️🔎
+#### Code, debug and test, for responsive/mobile 🛠️🔎
 
 1. Use **CSS3 units** such as relative ems (rem), viewport units (`vw`, `vh`, `vmin`, `vmax`), and CSS variables: `--my-variable: myvalue;`.
 2. The **`flexbox`** CSS property is super handy to set up a layout. You can easily change your order by changing the `flex` properties inside your `@media-queries` ! https://css-tricks.com/snippets/css/a-guide-to-flexbox/
