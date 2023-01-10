@@ -1,20 +1,56 @@
 # Unpacking 📦
 
-Who, when, where and how is a website is accessed / consumed… ? A website is at most a space (a tool/platform/container) for accessing **content**. CSS offers **directives** regarding appearance (not absolute *obligations*, based on browser user preferences). 
+Who, when, where and how is a website is accessed and consumed? 
 
-So, when it's on the web, you can't have the ultimate control on viewing contexts and your visitors: you have to embrace this 'flexibility' of contexts. 
+A website can be thought as a space, a tool, a platform, a container, for accessing **content**. It works like an elastic, and flexes to accomodate its content. The *CSS* (Cascade Style Sheet) offers **directives** regarding visual appearance, which are not absolute obligations, but work in hand with the user's device and their browsing preferences ('dark mode' being a preference, as an example).
 
-A good website is like an *elastic*, expanding and contracting nicely based on its amount and type of content.
+So, when it's on the web, you can't have the ultimate control on viewing contexts and your visitors: you need to embrace this 'flexibility' of contexts and display contexts. 
 
-- [A 'technically' good website](#a-technically-good-website-)
-- [Ressources optimization tricks and do's](#ressources-optimization-tricks-and-dos-)
-- [Coherent and semantic HTML](#coherent-and-semantic-html-)
-- [What about footnotes?](#what-about-footnotes-)
-- [Accessibility](#accessibility-)
-- [Design, mobile-first](#design-mobile-first-)
-- [Code, debug and test, for responsive/mobile](#code-debug-and-test-for-responsivemobile-️)
-- [Performance issues](#performance-issues-)
+## Ressources toolbox (sections)
+
+- [HTML tags and semantic HTML](#semantic-html-)
+- [The CSS 'cascade'](#css-cascade)
+- [CSS properties and values](#css-properties)
+- [Designing, dealing with across multiple devices](#designing-across-multiple-devices)
+- [Footnotes](#footnotes)
+- [Extras](#extras)
 - [Ressources](#ressources-)
+
+## Semantic html ✅
+
+> What are Semantic Elements? Semantic elements clearly **describe their meaning** through how the code is written.
+> Examples of non-semantic HTML elements: `<div>` and `<span>` - Tell nothing about their content. 
+> Examples of semantic elements: `<nav>`, `<header>`, `<form>`, `<table>`, and `<article>` - their content is clearly defined (you know what it is about without seeing it).
+
+*Find more about semantic HTML*
+
+> Read more on the [W3school](https://www.w3schools.com/html/html5_semantic_elements.asp)
+  
+- Cheat sheet 1: [Codecademy description of semantic elements](https://www.codecademy.com/learn/learn-html/modules/learn-semantic-html/cheatsheet)
+- Cheat sheet 2: [MDN html cheatsheet](https://developer.mozilla.org/en-US/docs/Learn/HTML/Cheatsheet)
+- Cheat sheet 3: [MDN html semantic blocks](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
+  
+*Why is it important?*
+
+1. Folks using screen readers (accessibility helping devices) can access your website
+2. You put chances on your side to be future-proof 🤞
+3. Your website can be *indexed* by search engines, can be scraped by APIs and and is also readable through 'reading mode' on safari
+4. It might look better when printed, exported to .pdf, or exported to other formats
+
+### What could be a *semantic* structure in the context of the thesis-as-a-website assignment?
+
+Use the `<figure>` tag for images / visual medias:
+  
+```
+  <figure>
+      <img src="path/to/your/image.jpg" alt="A painted representation of a forest with a big blue lake">
+      <figcaption>Painting of a forest with a blue lake by Jane Doe</figcaption>
+  </figure>
+```
+
+Put your footnotes in a `<footer>` tag if at the end of your document, in a `<aside>` tag is presented as a sidebar…<br>
+Put your table of contents inside a `<nav>` tag.<br>
+Put your thesis title inside the `<h1>` tag, the `<h1>` being inside the `<header>` tag, use the right tags for the right elements (`h1`, `h2`, […] `p`, `ul`, `ol`, `blockquote`, `a`, `sup`, etc)
 
 ## A 'technically' good website 📌
 
@@ -42,38 +78,7 @@ Some criteria to keep in mind:
 - If your page is really image-heavy, consider implementing your images with a lazyload: https://afarkas.github.io/lazysizes/index.html
 - Use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/ 
 
-### Coherent and semantic html ✅
 
-> What are Semantic Elements? A semantic element clearly **describes its meaning** to both the browser and the developer. 
-> Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content. 
-> Examples of semantic elements: `<nav>`, `<header>`, `<form>`, `<table>`, and `<article>` - Clearly defines its content.
-> Read more on the [W3school](https://www.w3schools.com/html/html5_semantic_elements.asp)
-  
-- Cheat sheet 1: [Codecademy description of semantic elements](https://www.codecademy.com/learn/learn-html/modules/learn-semantic-html/cheatsheet)
-- Cheat sheet 2: [MDN html cheatsheet](https://developer.mozilla.org/en-US/docs/Learn/HTML/Cheatsheet)
-- Cheat sheet 3: [MDN html semantic blocks](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
-  
-*Why is it important?*
-
-1. Folks using screen readers (accessibility helping devices) can access your website
-2. You put chances on your side to be future-proof 🤞
-3. Your website can be *indexed* by search engines, can be scraped by APIs and and is also readable through 'reading mode' on safari
-4. It might look better when printed, exported to .pdf, or exported to other formats
-
-What could be a *semantic* structure inthe context of this assignment?
-
-Use the `<figure>` tag for images / visual medias:
-  
-```
-  <figure>
-      <img src="path/to/your/image.jpg" alt="A painted representation of a forest with a big blue lake">
-      <figcaption>Painting of a forest with a blue lake by Jane Doe</figcaption>
-  </figure>
-```
-
-Put your footnotes in a `<footer>` tag if at the end of your document, in a `<aside>` tag is presented as a sidebar...<br>
-Put your table of contents inside a `<nav>` tag.<br>
-Put your thesis title inside the `<h1>` tag, the `<h1>` being inside the `<header>` tag, use the right tags for the right elements (`hX`, `p`, `ul`, `ol`, `blockquote`, `a`, `sup`, etc)
 
 ### What about footnotes? 📖
 
