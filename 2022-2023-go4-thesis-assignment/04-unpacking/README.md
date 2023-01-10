@@ -13,7 +13,6 @@ So, when it's on the web, you can't have the ultimate control on viewing context
 - [CSS properties and values](#css-properties-and-values)
 - [Designing and making the web across multiple devices](#designing-and-making-the-web-across-multiple-devices)
 - [Footnotes](#footnotes)
-- [Extras](#extras)
 - [Ressources](#ressources-)
 
 ## Semantic html ✅
@@ -72,10 +71,18 @@ Four main families of CSS properties
 - Font, color, opacity, and other decorative properties
 - Transition and transform properties
 
-- [CSS properties almanach on *CSS Tricks*](https://css-tricks.com/almanac/properties/)
+Read more:
 
+- [CSS properties almanach on *CSS Tricks*](https://css-tricks.com/almanac/properties/)
 - [More about the *box model*](https://css-tricks.com/the-css-box-model/)
 - [Cool interactive demo of the *box model*](http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html)
+
+Layouting:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Media queries:
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+https://css-tricks.com/a-complete-guide-to-css-media-queries/
 
 ## CSS length units
 
@@ -117,38 +124,6 @@ font-size: calc(0.75rem + 2.5vw);
 
 ## Designing and making the web across multiple devices
 
-## A 'technically' good website 📌
-
-Some criteria to keep in mind:
-
-- **Ressources loads fast** (under 300ms) or are splitted to avoid excessive load times
-- **Interaction elements are properly timed** ([300ms, no endless transitions](https://ux.stackexchange.com/questions/66604/optimal-duration-for-animating-transitions ))
-- **Coherent, semantic, and acknowledging expectable design patterns** (it's okay to be *original* and a bit of unexpectedness can be fine if thought carefully, on the other hand you'll likely have to guide your visitor about usage and expectation).
-- **Suggests the website structure/hierarchy in the design** (breadcrumbs, menu as sitemap, table of contents). *Where am I?*
-- **Avoid interfering with native/expected browser behaviors** and user preferences (scrolling functionalities, light/dark modes, cursor suggesting an element can be clicked, etc). 
-- **Similar ease of use regardless of devices**, screen sizes, interaction methods: [60% users on mobile devices](https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet) (1 column, menu shortcuts, touch event), 40% on desktop (1 or multi-column, extended menu, mouse hover), phablets, foldable phones, mega-big ipads, etc…
-- Is **understandable / accessible even unstyled** (uses appropriate html tags and page structure!!!). Can be navigated with the [tab] key / focus on accessibility mode, and screen readers (visual impairments, hearing impairment, etc).
-- Takes into account a ‘performance’ budget for client-side features / properties that are resource-intensive (*ie* don't animate too much properties especially if they are ressource-demanding and you stack them one on top of the other).
-
-### Ressources optimization tricks and do's 🚀
-
-- **Use .jpg for images**, avoid .png over 500kb (and use only for transparency or if file is smaller than .jpg), avoid .gif over 500kb (and use only for moving or if smaller than .jpg).
-- Consider using .svg files (yes!) instead of .png files
-- **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), [Shift]+[Alt]+[Cmd]+[S], with the appropriate image width resizing and the quality setting at **60** or below.
-- If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
-- Your **images should not be too big in relationship with the space they occupy**. Consider capping images at *2400px* width for full screen width images, *1200px* for 50% screen width, and *900px* for 33% screen width.
-- If you use the html `<video>` tag, export your video to .mp4 -> https://cloudconvert.com/mp4-converter and **adjust the quality so you are at under 8mb per minute.**
-- Same applies with the `<audio>` tag, use .mp3 -> https://online-audio-converter.com and **adjust so you're under 1mb / minute.**
-- If your media file is verrrrrrrrrrrrry heavy, consider using Vimeo, YouTube or Soundcloud and embed it on your website using the provided embed code. Some of these services provide an API to control play/pause, volume, etc, through Javascript.
-- If your page is really image-heavy, consider implementing your images with a lazyload: https://afarkas.github.io/lazysizes/index.html
-- Use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/ 
-
-
-
-### What about footnotes? 📖
-
-See the ressource part of this Github's '[What about footnotes?](../5-footnotes)' page.
-
 ### Accessibility ♿
 
 You can yourself make a test and press [Cmd]+[+], you'll likely zoom on the webpage (use [Cmd]+[-] for zooming out). This feature is actually used for folks with different viewing abilities that need it to see the content. Also: think about browser-activated 'dark' feature, text-to-speach devices, etc. There are dozens of thousands of possible combinations of browsers/versions + screen devices + interacting methods (hover/touch). It will be impossible to predict/force all outcomes to look *as* you wish 100%.
@@ -182,17 +157,9 @@ This is why CSS media queries are for: https://css-tricks.com/a-complete-guide-t
 
 More tips about debugging on this Github's '[How-to-how](../3-how-to-how)' page.
 
-### Performance issues 🐌
+## What about footnotes? 📖
 
-Some CSS properties can consume a lot of ressources. Most of you won't reach the point where your browser will start behaving *slower* but it's possible.
-
-**Tricks**
-
-- filter (blur) and mix-blend-mode, especially if stacked on each others, using high value (for blur), or applied on heavy elements like video.
-- use the `will-change` property on the parent of the ressource-heavy element, and specify the energy-hungry property within the `will-change` property. [more on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change)
-- Prefer the css `transform` property over `top | left | right | bottom` if you intend to animate (via a transition) the property. [more](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/) (*old*-ish ressource but still valid)
-
----
+See the ressource part of this Github's '[What about footnotes?](../5-footnotes)' page.
 
 ## Ressources 🧰
 
