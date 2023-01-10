@@ -5,7 +5,7 @@
 3. [Prefixing properties and property browser support](#3-prefixing-properties-and-property-browser-support)
 
 
-*In short*
+### *In short*
 
 - **Use .jpg for images**, avoid .png (only if transparency) and .gif (only if animated) over 500kb.
 - Consider using .svg files (yes!) instead of .png files
@@ -17,8 +17,6 @@
 - If your media file is verrrrrrrrrrrrry heavy, consider using Vimeo, YouTube or Soundcloud and embed it on your website using the provided embed code. Some of these services provide an API to control play/pause, volume, etc, through Javascript.
 - If your page is really image-heavy, consider implementing your images with a lazyload: https://afarkas.github.io/lazysizes/index.html, or the browser's default lazy loading option (https://web.dev/browser-level-image-lazy-loading/)
 - Use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/ 
-
-***
 
 ## 1. Proper files ressource size
 
