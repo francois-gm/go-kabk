@@ -4,6 +4,20 @@
 2. [How properties affect page rendering](#2-how-properties-affect-page-rendering-)
 3. [Prefixing properties and property browser support](#3-prefixing-properties-and-property-browser-support)
 
+
+### In short
+
+- **Use .jpg for images**, avoid .png over 500kb (and use only for transparency or if file is smaller than .jpg), avoid .gif over 500kb (and use only for moving or if smaller than .jpg).
+- Consider using .svg files (yes!) instead of .png files
+- **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), [Shift]+[Alt]+[Cmd]+[S].
+- If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
+- Your **images should not be too big in relationship with the space they occupy**.
+- If you use the html `<video>` tag, export your video to .mp4 -> https://cloudconvert.com/mp4-converter and **adjust the quality so you are at under 8mb per minute.**
+- Same applies with the `<audio>` tag, use .mp3 -> https://online-audio-converter.com and **adjust so you're under 1mb / minute.**
+- If your media file is verrrrrrrrrrrrry heavy, consider using Vimeo, YouTube or Soundcloud and embed it on your website using the provided embed code. Some of these services provide an API to control play/pause, volume, etc, through Javascript.
+- If your page is really image-heavy, consider implementing your images with a lazyload: https://afarkas.github.io/lazysizes/index.html, or the browser's default lazy loading option (https://web.dev/browser-level-image-lazy-loading/)
+- Use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/ 
+
 ## 1. Proper files ressource size
 
 If one assumes that among a website's goals, **communication** takes precedence over **archiving**, then optimal page load and appropriate ressoure size are indeed important. Most designers/developers, still, would also find important to avoid too much quality loss. So, it's mostly about finding a *sweet spot* between what's good for the viewer's device and internet connection and what's good for their eyes as well.
