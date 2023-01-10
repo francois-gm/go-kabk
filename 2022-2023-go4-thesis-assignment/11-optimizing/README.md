@@ -7,7 +7,7 @@
 
 ### In short
 
-- **Use .jpg for images**, avoid .png over 500kb (and use only for transparency or if file is smaller than .jpg), avoid .gif over 500kb (and use only for moving or if smaller than .jpg).
+- **Use .jpg for images**, avoid .png (only if transparency) and .gif (only if animated) over 500kb.
 - Consider using .svg files (yes!) instead of .png files
 - **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), [Shift]+[Alt]+[Cmd]+[S].
 - If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
