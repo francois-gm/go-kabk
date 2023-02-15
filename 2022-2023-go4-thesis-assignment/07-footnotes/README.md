@@ -36,9 +36,10 @@ In the previous examples, footnotes are produced by using links with anchor (`#a
 More examples:
 
 - Default and accessible html footnotes with hyperlinks (similar to the previous example): https://codepen.io/SitePoint/pen/QbMgvY
-- Footnotes as 'tooltips' popups with a javascript/jQuery library: http://www.bigfootjs.com/
-- ... as 'tooltips' but vanilla javascript: https://goblindegook.github.io/littlefoot/
-- JQuery Sidenotes: https://acdlite.github.io/jquery.sidenotes/
+- Footnotes as 'tooltips', with vanilla javascript: https://goblindegook.github.io/littlefoot/
+- JQuery Sidenotes: https://acdlite.github.io/jquery.sidenotes/ (old, deprecated)
+- Bruno Correia's Sidenotes.js https://github.com/bcorreia/sidenotes.js
 - A bit like JQuery Sidenotes (custom): http://contemporary-home-computing.org/affordance/
 - Tufte CSS: https://edwardtufte.github.io/tufte-css/
+- Molly White's Annotate.js https://github.com/molly/annotate
 - For reading, sidenotes in web design: https://www.gwern.net/Sidenotes
