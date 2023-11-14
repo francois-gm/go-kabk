@@ -3,6 +3,7 @@
 ## The assignment
 
 - Conceptualize, design and code a web version of your thesis in the form of a one-pager website.
+- Work with code in your website sketching process (we won't look at your .pdf or 'indesign' website sketches proposal).
 - Publish (deploy) it on the KABK's GitHub repo.
 - Ensure it is archivable on the university's *researchcatalogue.net*.
 
@@ -38,7 +39,7 @@ Questions to ask **at some point later**:
 
 Questions to ask **before delivering your project**:
 
-- **Bring your thesis website a test drive**. Navigate and reflect on your experience. Also let your friends try your website, and observe them while doing it. Criterias to take into account: *intuitive patterns, loads fast, optimized content and media, legible sizes depending on screen sizes, right timing for animations and transitions, accessible...* Based on these experiences, see remaining details that can be improved.
+- **Bring your thesis website for a test drive**. Navigate on your website and reflect on your 'user' experience. Also **let your friends try your website, and observe them while doing it**. Criterias to take into account: *intuitive patterns, loads fast, optimized content and media, legible sizes depending on screen sizes, right timing for animations and transitions, accessible...* Based on these experiences, see remaining details that can be improved.
 - Can my thesis website be **archived** through the university research portal (assignment requirement)? In most circumstances it will be, you will need to make sure your website is *static* (as self-contained *html* document with its contained ressources), and be mindful about how you use *Javascript* (if you use it).
 
 ### Milestones
@@ -64,7 +65,7 @@ Afternoon (**14h15-18h**): group **B** <br>
 
 | - | - |
 | -------- | --------------------- |
-| 10:00-10:30 | **Group A**, intro (this document)
+| 09:30-10:30 | **Group A**, intro (this document)
 | 10:30-12:00 | **A1** sub-group with **Thomas** (Activity: *generating a webpage structure with Pandoc + Word*) |
 | 10:30-12:00 | **A2** sub-group with **François** (Workshop *Describing web experiences*) |
 | 12:00-12:15 | **Break** |
@@ -81,16 +82,16 @@ Afternoon (**14h15-18h**): group **B** <br>
 
 ## Class 2 (11th of December)
 
-Group A in morning (10h-13h45) <br>
-Group B in afternoon (14h30-18h) <br>
+Group A in morning (9h30-13h45) <br>
+Group B in afternoon (14h15-18h) <br>
 
 - **François**: HTML, boilerplate and html/document structure
 - **Thomas**: HTML, images and footnotes
 
 ## Class 3 (18th of December)
 
-Group A in morning (10h-13h45) <br>
-Group B in afternoon (14h30-18h) <br>
+Group A in morning (9h30-13h45) <br>
+Group B in afternoon (14h15-18h) <br>
 
 - **François**: CSS, layout and grid
 - **Thomas**: CSS, typography
