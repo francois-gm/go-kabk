@@ -82,10 +82,13 @@ Afternoon (**14h15-18h**): group **B** <br>
 ## Class 2 (11th of December)
 
 (Same structure, group A in morning, B in afternoon)
-**François**: HTML, boilerplate and html/document structure
-**Thomas**: HTML, images and footnotes
+
+- **François**: HTML, boilerplate and html/document structure
+- **Thomas**: HTML, images and footnotes
 
 ## Class 3 (18th of December)
 
-**François**: CSS, layout and grid
-**Thomas**: CSS, typography
+(Same structure, group A in morning, B in afternoon)
+
+- **François**: CSS, layout and grid
+- **Thomas**: CSS, typography
