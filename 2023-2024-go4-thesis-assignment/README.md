@@ -81,16 +81,26 @@ Afternoon (**14h15-18h**): group **B** <br>
 
 ## Class 2 (11th of December)
 
-Group A in morning (10h-13h45)
-Group B in afternoon (14h30-18h)
+Group A in morning (10h-13h45) <br>
+Group B in afternoon (14h30-18h) <br>
 
 - **François**: HTML, boilerplate and html/document structure
 - **Thomas**: HTML, images and footnotes
 
 ## Class 3 (18th of December)
 
-Group A in morning (10h-13h45)
-Group B in afternoon (14h30-18h)
+Group A in morning (10h-13h45) <br>
+Group B in afternoon (14h30-18h) <br>
 
 - **François**: CSS, layout and grid
 - **Thomas**: CSS, typography
+
+## Class 4 (8th of December)
+
+First hour: Github Pages (with François) <br>
+Rest: Assignment-based mentoring
+
+## Classes 5+
+
+Assignment-based mentoring
+
