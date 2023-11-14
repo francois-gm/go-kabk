@@ -77,3 +77,10 @@ Afternoon (**14h15-18h**): group **B** <br>
 | 16:15-16:30 | **Break** |
 | 16:30-18:00 | **B1** sub-group with **François** (Workshop *Describing web experiences* + *CSS layouting*) |
 | 16:30-18:00 | **B2** sub-group with **Thomas** (Workshop *Tooling* + *Web Typography*) |
+
+
+## Class of 11th of December
+
+## Class of 18th of December
+
+
