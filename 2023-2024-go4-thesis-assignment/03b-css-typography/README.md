@@ -3,16 +3,28 @@
 ## HTML-related typography elements
 
 Paragraph text: 
+
 `<p>My paragraph [...] end of paragraph.</p>`
 
+---
+
 Superscript (footnote markers, etc.): 
+
 `<sup>1</sup>`
 
+---
+
 Hyperlink:
+
 `<a href="/to/my/link.html">my link</a>`
 
+---
+
 Quote (looks indented):
+
 `<blockquote>My quote [...] end of quote.</blockquote>`
+
+---
 
 *Unordered* list:
 ```
@@ -21,6 +33,8 @@ Quote (looks indented):
   <li>Unordered list item 2\</li>
 </ul>
 ```
+
+---
 
 *Ordered* list:
 ```
