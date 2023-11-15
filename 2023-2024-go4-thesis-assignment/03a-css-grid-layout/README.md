@@ -153,22 +153,6 @@ font-size: calc(0.75rem + 2.5vw);
 …
 ```
 
-## Object-fit
-
-> The CSS `object-fit` property is used to specify how an `<img>` or `<video>` should be resized to fit its container. This property tells the content to fill the container in a variety of ways; such as "preserve that aspect ratio" or "stretch up and take up as much space as possible". From [Object-fit](https://www.w3schools.com/css/css3_object-fit.asp) on *w3schools.com*
-
-## Extra
-
-CSS selectors / properties:
-
-- https://css-tricks.com/almanac/
-- https://www.w3schools.com/cssref/
-
-UI patterns / component types:
-
-- http://ui-patterns.com/patterns
-- https://material.io/components
-
 ## The box model
 
 The *box model* is a representation of the html elements' expected behaviour regarding margin, padding, borders values and the inner content of an element. This visual model is also used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
@@ -179,13 +163,3 @@ The css property `box-sizing` can be used to impact how the `padding` property i
 
 - Read more: https://css-tricks.com/the-css-box-model/
 - Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
-
-## Flexbox exercice (from the workshop)
-
-We'll wortk together on one document sharing the same html elements. For this exercice, you are only allowed to write CSS code. Each one of you will be assigned to a 'media query', this is a specific screen state (dimension, or ratio). You will 'sketch' an arrangement of 16 blocks on a post-it (1 minute), and then try to reproduce it in CSS (10-15 minutes).
-
-Arrangement:
-- Each block has a number (from 1 to 16, which is the html document's order).
-- You can play with order, direction, space between, but also the block's sizes, margins and paddings. You can also play with the padding of the container block.
-
-Queries 6-14 are mobile-tablet, queries 15-28 are desktop, and queries 29-38 are 'square' ratio.
