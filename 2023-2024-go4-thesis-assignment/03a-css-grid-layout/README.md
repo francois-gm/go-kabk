@@ -31,7 +31,7 @@ In addition:
 
 Read more: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline
 
-![block vs. inline](block_vs_inline-2.png)
+![block vs. inline](block_vs_inline.png)
 
 ## The *float* and *clear* properties
 
