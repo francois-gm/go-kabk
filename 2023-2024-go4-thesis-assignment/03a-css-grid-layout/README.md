@@ -39,7 +39,7 @@ Read more: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline
 .myclass{
   display: block;
   float: left; // the element floats to the left
-  clear: right; // the element after this element will next, on the the right, if there is enough space
+  clear: right; // the element after this element will float right of this element, if there is enough space
 }
 ```
 
