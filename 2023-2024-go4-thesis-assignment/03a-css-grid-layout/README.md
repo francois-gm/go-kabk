@@ -73,7 +73,7 @@ There are several behaviours tyoes for positioning your elements with CSS.
 
 ## Layout with CSS flexbox and grid
 
-### Flexbox
+### Flexbox (recommended)
 
 Flexbox is offers the possibility to specify via the *parent container* the presentation behavior of elements inside it. 
 
@@ -97,7 +97,7 @@ Use these on the children (optional):
 
 👉 Additional 'cheat-sheet' ressource (recommended): ✨[CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)✨.
 
-### Grid
+### Grid (advanced only)
 
 ![Grid](flexbox-vs-grid.png)
 
