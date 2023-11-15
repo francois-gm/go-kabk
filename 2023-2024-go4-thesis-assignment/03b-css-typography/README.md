@@ -2,20 +2,33 @@
 
 ## HTML-related typography elements
 
-`<p>My paragraph [...]</p>`
+Paragraph text: 
+`<p>My paragraph [...] end of paragraph.</p>`
 
-\<sup>1\</sup>
+Superscript (footnote markers, etc.): 
+`<sup>1</sup>`
 
-\<a href="\to/my/link.html">my link\</a>
+Hyperlink:
+`<a href="/to/my/link.html">my link</a>`
 
-\<blockquote>my quote\</blockquote>
+Quote (looks indented):
+`<blockquote>My quote [...] end of quote.</blockquote>`
 
-\<ul>
-\<li>list item 1\</li>
-\<li>list item 2\</li>
-\</ul>
+*Unordered* list:
+```
+<ul>
+  <li>Unordered list item 1\</li>
+  <li>Unordered list item 2\</li>
+</ul>
+```
 
-\<ol></ol>
+*Ordered* list:
+```
+<ol>
+  <li>Ordered list item 1\</li>
+  <li>Ordered list item 2\</li>
+</ol>
+```
 
 
 ## CSS and typography
