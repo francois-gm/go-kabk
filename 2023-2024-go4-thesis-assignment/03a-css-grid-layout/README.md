@@ -95,7 +95,7 @@ Use these on the children (optional):
 - `flex-grow`, `flex-shrink`, `flex-basis`: growing, shrinking, and default sizing behaviour.
 - `align-self`: overrides the parent alignment (values are the same that align-content).
 
-👉 ✨[CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)✨.
+👉 Additional 'cheat-sheet' ressource (recommended): ✨[CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)✨.
 
 ### Grid
 
