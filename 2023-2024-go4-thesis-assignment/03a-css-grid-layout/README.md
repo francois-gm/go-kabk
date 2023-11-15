@@ -1,6 +1,6 @@
 # CSS layout
 
-## The *display* property: *Block* or *inline*?
+## The *display* property: *Block* and *inline*?
 
 *Block* and *inline* are two value types of basic layout behaviors for HTML tags. 
 
@@ -75,27 +75,29 @@ There are several behaviours tyoes for positioning your elements with CSS.
 
 ### Flexbox
 
-> "Legacy web CSS layouting has worked so far with elements defined as either block or inline that are made to float and clear in a relation between the previous (left) and next (right) element. This has previously worked fine when used in combination with percentages for responsive layouts, but this method has shown its when taking contemporary standards of responsiveness into account."
+Flexbox is offers the possibility to specify via the *parent container* the presentation behavior of elements inside it. 
 
-Flexbox offers the possibility to specify via the container the presentation behavior of its children, as well as to push for element-specific overriding of the general container rules. A flexbox container is defined by the property `display: flex;`. Further `flex` properties are defined to control the presentation and ordering.
+The *parent container* has the property value `display: flex;`.
 
 ![Flexbox](flexbox-basic-terminology.svg)
 
-Parent (container) properties:
+Optional properties and values for flexbox (after setting **display: flex;**):
 
-- `flex-direction`: *row, row-reverse, column, column-reverse*
-- `flex-wrap`: *nowrap, wrap, wrap-reverse* (either the content line clears or squeezes itself if content overloads)
+Use these on the parent (container):
+
+- `flex-direction`: *row, row-reverse, column, column-reverse* - Chooses the presentation direction of children elements.
+- `flex-wrap`: *nowrap, wrap, wrap-reverse* - Either the content line **is cleared** (wrap) or **squeezes itself** (nowrap) within the line if content overloads.
 - `justify-content`: *flex-start, flex-end, center, space-between, space-around, space-evenly*
 - `align-items`: *flex-start, flex-end, center, stretch, baseline*
 - `align-content`: *flex-start, flex-end, center, stretch, space-between, space-around*
 
-Properties for the children (optional but allow more control):
+Use these on the children (optional):
 
 - `order`: number, allows a custom ordering based on the priority number of each child.
 - `flex-grow`, `flex-shrink`, `flex-basis`: growing, shrinking, and default sizing behaviour.
 - `align-self`: overrides the parent alignment (values are the same that align-content).
 
-Learn everything about flexbox with examples through [CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+✨👉 Learn everything about flexbox with examples through [CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 ### Grid
 
