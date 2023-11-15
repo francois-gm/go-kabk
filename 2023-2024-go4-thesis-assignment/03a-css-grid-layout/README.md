@@ -68,7 +68,6 @@ There are several behaviours tyoes for positioning your elements with CSS.
   display: block;
   right: 10px;
   bottom: 10px;
-
 }
 ```
 
