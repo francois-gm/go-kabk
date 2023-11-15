@@ -2,7 +2,7 @@
 
 ## The *display* property: *Block* or *inline*?
 
-*Block* and *inline* are two types of basic layout behaviors for HTML tags. 
+*Block* and *inline* are two value types of basic layout behaviors for HTML tags. 
 
 A **block** element always starts on a new line, takes up the full available width of the parent (stretches out to the left and right as far as it can), and has a top and a bottom margin. A **`<div>`** is a block element, as well as most non-typography html elements and elements that are containers for typography (think of **`<p>`**).
 
@@ -33,13 +33,26 @@ Read more: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline
 
 ## The *float* and *clear* properties
 
-Two other properties are also relevant to control how elements behave between themselves (if used with position: static and position: relative), `float` and `clear`. The CSS `float` property specifies how an element should float in regard to surrounding elements. Valid values are `float: left;`, `float: right;`, and `float: none;`. [See examples of floating elements](https://www.w3schools.com/css/css_float_examples.asp), on the w3cschool.com.
+*Float* and *clear* are CSS properties that specify how an element will behave in relationship to the next one. In an way, what they do are akin to **line breaks** for text, but with with HTML *block* elements.
 
-The CSS `clear` property specifies if elements can float beside the cleared element and on which side. Valid values are `clear: left;`, `clear: right;`, `clear: both;` and `clear: none;`. [See examples of clear elements](https://www.w3schools.com/css/https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
+```
+.myclass{
+  display: block;
+  float: left; // the element floats to the left
+  clear: right; // the element after this element will next, on the the right, if there is enough space
+}
+```
+
+Floating elements can have 'float' `left` or `right` values.
+
+Floating element scan have 'clear' `left`, `right` or `both` (goes on the new line, below) values.
+
+[See examples of floating elements](https://www.w3schools.com/css/css_float_examples.asp), on the w3cschool.com.
+[See examples of clear elements](https://www.w3schools.com/css/https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
 
 ## The box model
 
-The *box model* helps understand how margin, padding, borders values and the inner content of an element behave between each others. This visual model is also used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
+The *box model* is a representation of the html elements' expected behaviour regarding margin, padding, borders values and the inner content of an element. This visual model is also used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
 
 The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
 
