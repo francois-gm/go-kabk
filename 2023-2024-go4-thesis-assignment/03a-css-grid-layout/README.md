@@ -14,11 +14,15 @@ Elements have their display behaviour defined by default, but they can be define
 .myclass{
   display: block;
 }
+```
+
 ... or
+
 ```
 .myclass{
   display inline;
 }
+```
 
 In addition:
 
