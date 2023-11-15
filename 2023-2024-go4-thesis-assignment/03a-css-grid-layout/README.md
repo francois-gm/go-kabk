@@ -60,7 +60,6 @@ There are several behaviours tyoes for positioning your elements with CSS.
 * `position: sticky;` - a mix between relative and fixed (elements seem like 'sticking' when scrolling).
 
 ```
-
 // the element is fixed at the bottom right part of the page
 
 .myclass{
