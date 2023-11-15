@@ -72,8 +72,8 @@ There are several behaviours tyoes for positioning your elements with CSS.
 
 ## *Margin* and *padding* properties
 
-Margin: space **outside** of the block.
-Padding: space **inside** the block.
+- Margin: space **outside** of the block.
+- Padding: space **inside** the block.
 
 ### The box model
 
@@ -84,7 +84,6 @@ The css property `box-sizing` can be used to impact how the `padding` property i
 ![The box model](box-model.png)
 
 - Read more: https://css-tricks.com/the-css-box-model/
-- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
 
 ## CSS length units
 
