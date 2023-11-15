@@ -47,7 +47,7 @@ Floating elements can have 'float' `left` or `right` values.
 
 Floating element scan have 'clear' `left`, `right` or `both` (goes on the new line, below) values.
 
-[See examples of floating elements](https://www.w3schools.com/css/css_float_examples.asp), on the w3cschool.com.
+[See examples of floating elements](https://www.w3schools.com/css/css_float_examples.asp), on the w3cschool.com. <br>
 [See examples of clear elements](https://www.w3schools.com/css/https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
 
 ## CSS Position
