@@ -79,11 +79,9 @@ There are several behaviours tyoes for positioning your elements with CSS.
 
 The *box model* is a representation of the html elements' expected behaviour regarding margin, padding, borders values and the inner content of an element. This visual model is also used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
 
-The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
+The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. ([Read more on w3schools.com](https://www.w3schools.com/css/css3_box-sizing.asp))
 
 ![The box model](box-model.png)
-
-- Read more: https://css-tricks.com/the-css-box-model/
 
 ## CSS length units
 
