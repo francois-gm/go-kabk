@@ -52,13 +52,25 @@ Floating element scan have 'clear' `left`, `right` or `both` (goes on the new li
 
 ## CSS Position
 
-The position property has the following possible values:
+There are several behaviours tyoes for positioning your elements with CSS. 
 
-- `position: static;` – positioned according to the normal flow of the document and not affected by top, right, bottom, left and z-index properties (default value).
-- `position: relative;` – positioned according to the normal flow of the document, and then offset relative to itself based on the top, right, bottom and left values (if defined). Also affected by the z-index property (if defined).
-- `position: absolute;` – removed from the normal document flow (no space is created for the element in the page layout). Positioned relative to its closest parent, and position defined by the top, right, bottom and left values.
-- `position: fixed;` – same as absolute, but positioned relative to the viewport window, and always stays at the same location.
-- `position: sticky;` – positioned according to the normal flow of the document (like relative), but becomes fixed once the scrolling position reaches one of the defined sides of the element (the top, right, bottom or left value needs to be defined to make it work). The element ‘sticks’ momentarily. (CSS 3.0 value).
+– `position: **relative**;` - relatively to the position of the previous HTML element, within the parent element. When using 'relative' you might also combine it with 'float' and 'clear' properties.
+– `position:  **absolute**;` - based on values defined by you (top, bottom, right, left), within the parent element.
+– `position:  **fixed**;` - based on values defined by you (top, bottom, right, left), and stays fixed: is not affected by scrolling.
+– `position: **sticky**;` - a mix between relative and fixed (elements seem like 'sticking' when scrolling).
+
+```
+
+// the element is fixed at the bottom right part of the page
+
+.myclass{
+  position:fixed;
+  display: block;
+  right: 10px;
+  bottom: 10px;
+
+}
+```
 
 ## The box model
 
