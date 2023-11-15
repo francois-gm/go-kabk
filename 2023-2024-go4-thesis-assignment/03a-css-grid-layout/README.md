@@ -79,8 +79,6 @@ Flexbox is offers the possibility to specify via the *parent container* the pres
 
 The *parent container* has the property value `display: flex;`.
 
-![Flexbox](flexbox-basic-terminology.svg)
-
 Optional properties and values for flexbox (after setting **display: flex;**):
 
 Use these on the parent (container):
