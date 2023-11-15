@@ -8,6 +8,10 @@ A **block** element always starts on a new line, takes up the full available wid
 
 An **inline** element does not start on a new line and only takes up as much width as necessary. This is the behaviour of typography-based html elements like the **`<sup>`** (footnote marker), the **`<span>`** or **`<a>`** (hyperlinks).
 
+
+![block vs. inline](block_vs_inline.png)
+
+
 Elements have their display behaviour defined by default, but they can be defined with CSS through following property:
 
 ```
@@ -30,8 +34,6 @@ In addition:
 - `display: none;` – the element is not visible and not in the flow of the document.
 
 Read more: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline
-
-![block vs. inline](block_vs_inline.png)
 
 ## The *float* and *clear* properties
 
