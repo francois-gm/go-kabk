@@ -2,17 +2,21 @@
 
 ## HTML-related typography elements
 
-\<p></p>
+`<p>My paragraph [...]</p>`
 
-\<sup></sup>
+\<sup>1\</sup>
 
-\<a href=""></a>
+\<a href="\to/my/link.html">my link\</a>
 
-\<blockquote></blockquote>
+\<blockquote>my quote\</blockquote>
 
-\<ul></ul>
+\<ul>
+\<li>list item 1\</li>
+\<li>list item 2\</li>
+\</ul>
 
 \<ol></ol>
+
 
 ## CSS and typography
 
