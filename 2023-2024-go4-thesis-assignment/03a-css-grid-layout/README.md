@@ -34,7 +34,7 @@ See a demo of 'block' and 'inline' elements: http://web.simmons.edu/~grovesd/com
 
 ## The *float* and *clear* properties
 
-*Float* and *clear* are CSS properties that specify how an element will behave in relationship to the next one. In an way, what they do are akin to **line breaks** for text, but with with HTML *block* elements.
+*Float* and *clear* are CSS properties that specify how an element will behave in relationship to the next one. In an way, what they do are akin to textual **line breaks**, but with with HTML *block* elements.
 
 ```
 .myclass{
