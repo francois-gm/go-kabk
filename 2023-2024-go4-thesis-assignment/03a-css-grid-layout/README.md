@@ -54,10 +54,10 @@ Floating element scan have 'clear' `left`, `right` or `both` (goes on the new li
 
 There are several behaviours tyoes for positioning your elements with CSS. 
 
-– `position: **relative**;` - relatively to the position of the previous HTML element, within the parent element. When using 'relative' you might also combine it with 'float' and 'clear' properties.
-– `position:  **absolute**;` - based on values defined by you (top, bottom, right, left), within the parent element.
-– `position:  **fixed**;` - based on values defined by you (top, bottom, right, left), and stays fixed: is not affected by scrolling.
-– `position: **sticky**;` - a mix between relative and fixed (elements seem like 'sticking' when scrolling).
+* `position: relative;` - relatively to the position of the previous HTML element, within the parent element. When using 'relative' you might also combine it with 'float' and 'clear' properties.
+* `position:  absolute;` - based on values defined by you (top, bottom, right, left), within the parent element.
+* `position:  fixed;` - based on values defined by you (top, bottom, right, left), and stays fixed: is not affected by scrolling.
+* `position: sticky;` - a mix between relative and fixed (elements seem like 'sticking' when scrolling).
 
 ```
 
