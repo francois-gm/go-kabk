@@ -50,7 +50,7 @@ Floating element scan have 'clear' `left`, `right` or `both` (goes on the new li
 [See examples of floating elements](https://www.w3schools.com/css/css_float_examples.asp), on the w3cschool.com. <br>
 [See examples of clear elements](https://www.w3schools.com/css/https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
 
-## CSS Position
+## The *position* property
 
 There are several behaviours tyoes for positioning your elements with CSS. 
 
@@ -71,17 +71,6 @@ There are several behaviours tyoes for positioning your elements with CSS.
 
 }
 ```
-
-## The box model
-
-The *box model* is a representation of the html elements' expected behaviour regarding margin, padding, borders values and the inner content of an element. This visual model is also used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
-
-The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
-
-![The box model](box-model.png)
-
-- Read more: https://css-tricks.com/the-css-box-model/
-- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
 
 ## Layout with CSS flexbox and grid
 
@@ -182,6 +171,17 @@ UI patterns / component types:
 
 - http://ui-patterns.com/patterns
 - https://material.io/components
+
+## The box model
+
+The *box model* is a representation of the html elements' expected behaviour regarding margin, padding, borders values and the inner content of an element. This visual model is also used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
+
+The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
+
+![The box model](box-model.png)
+
+- Read more: https://css-tricks.com/the-css-box-model/
+- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
 
 ## Flexbox exercice (from the workshop)
 
