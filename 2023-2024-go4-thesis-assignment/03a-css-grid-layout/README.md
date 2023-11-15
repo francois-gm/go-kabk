@@ -71,6 +71,47 @@ There are several behaviours tyoes for positioning your elements with CSS.
 }
 ```
 
+## *Margin* and *padding* properties
+
+Margin: space **outside** of the block.
+Padding: space **inside** the block.
+
+### The box model
+
+The *box model* is a representation of the html elements' expected behaviour regarding margin, padding, borders values and the inner content of an element. This visual model is also used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
+
+The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
+
+![The box model](box-model.png)
+
+- Read more: https://css-tricks.com/the-css-box-model/
+- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
+
+## CSS length units
+
+Some units useful for layouting:
+
+- `vw` - Relative to 1% of the width of the viewport*
+- `vh` - Relative to 1% of the height of the viewport*
+- `vmin` - Relative to 1% of viewport's* smaller dimension
+- `vmax` - Relative to 1% of viewport's* larger dimension
+- `%` - Relative to the parent element
+
+\* Viewport = the browser window size. If the viewport is 1200px wide, 1vw = 12px.
+
+## CSS calc(), and min-max properties
+
+Sometimes you would like to combine two different types of units in one value (!) You can do this with the `calc()` function.
+
+```
+width: calc(100% - 20px);
+width: calc(100vmax - 2rem);
+width: calc( (100% / 6) - (1rem * 2) );
+padding: calc(1rem * 0.75 );
+font-size: calc(0.75rem + 2.5vw);
+…
+```
+
 ## Layout with CSS flexbox and grid
 
 ### Flexbox (recommended)
@@ -119,47 +160,3 @@ Properties for the children (optional but allow more control):
 Learn everything about grid with examples through the [Complete Guide to Grid target](https://css-tricks.com/snippets/css/complete-guide-grid/), on *css-tricks.com*
 
 Ressource: use the [CSS Grid Generator](https://grid.layoutit.com), on *grid.layoutit.com*
-
-## CSS length units
-
-CSS offers several different units for expressing dimensions. Many CSS properties take “length” values, such as width, margin, padding, font-size, etc. Length is a number followed by a length unit, such as 10px, 5%, etc. [Read more about css units](https://www.w3schools.com/css/css_units.asp), on the w3cschool.com.
-
-*Relative* length units: specify a length relative to another length property, better for responsive uses.
-
-Units (from w3schools.com):
-
-- `em` - Relative to the font-size of the element (2em means 2 times the size of the current font)
-- `ex` - Relative to the x-height of the current font (rarely used)
-- `ch` - Relative to width of the "0" (zero)
-- `rem` - Relative to font-size of the root element
-- `vw` - Relative to 1% of the width of the viewport*
-- `vh` - Relative to 1% of the height of the viewport*
-- `vmin` - Relative to 1% of viewport's* smaller dimension
-- `vmax` - Relative to 1% of viewport's* larger dimension
-- `%` - Relative to the parent element
-
-\* Viewport = the browser window size. If the viewport is 1200px wide, 1vw = 12px.
-
-## CSS calc(), and min-max properties
-
-`calc()` is a CSS function that allows defining value units as calculations of values. Calc accepts any value unit type (px, em, rem, %, vw, etc) and supports these operators: `+`, `-`, `*`, `/`. A great plus is that calc() accepts units of several types, so as an example it becomes possible to use relative units like percentage and subtract an absolute unit in pixels.
-
-```
-width: calc(100% - 20px);
-width: calc(100vmax - 2rem);
-width: calc( (100% / 6) - (1rem * 2) );
-padding: calc(1rem * 0.75 );
-font-size: calc(0.75rem + 2.5vw);
-…
-```
-
-## The box model
-
-The *box model* is a representation of the html elements' expected behaviour regarding margin, padding, borders values and the inner content of an element. This visual model is also used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
-
-The css property `box-sizing` can be used to impact how the `padding` property is calculated in relationship to the width or height of the element. (Read more: https://www.w3schools.com/css/css3_box-sizing.asp)
-
-![The box model](box-model.png)
-
-- Read more: https://css-tricks.com/the-css-box-model/
-- Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
