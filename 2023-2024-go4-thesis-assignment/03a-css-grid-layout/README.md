@@ -48,7 +48,7 @@ Floating elements can have 'float' `left` or `right` values.
 
 Floating element scan have 'clear' `left`, `right` or `both` (goes on the new line, below) values.
 
-See examples of [floating elements](https://www.w3schools.com/css/css_float_examples.asp) and [clear elements](https://www.w3schools.com/css/https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
+See examples of [floating elements](https://www.w3schools.com/css/css_float_examples.asp) and [clear elements](https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
 
 ## The *position* property
 
@@ -95,11 +95,9 @@ Use these on the children (optional):
 - `flex-grow`, `flex-shrink`, `flex-basis`: growing, shrinking, and default sizing behaviour.
 - `align-self`: overrides the parent alignment (values are the same that align-content).
 
-👉 Learn everything about flexbox with examples through ✨[CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)✨.
+👉 ✨[CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)✨.
 
 ### Grid
-
-The CSS grid module is a recent addition to CSS (2017+) that offers deeper possibilities for layout than flexbox. The CSS grid is two dimensional, and works similarly to flexbox. A grid container is defined by the property `display: grid;`. Further `grid` properties are defined to control the rows and columns.
 
 ![Grid](flexbox-vs-grid.png)
 
