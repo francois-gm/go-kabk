@@ -50,6 +50,16 @@ Floating element scan have 'clear' `left`, `right` or `both` (goes on the new li
 [See examples of floating elements](https://www.w3schools.com/css/css_float_examples.asp), on the w3cschool.com.
 [See examples of clear elements](https://www.w3schools.com/css/https://www.w3schools.com/css/css_float_clear.asp), on the w3cschool.com.
 
+## CSS Position
+
+The position property has the following possible values:
+
+- `position: static;` – positioned according to the normal flow of the document and not affected by top, right, bottom, left and z-index properties (default value).
+- `position: relative;` – positioned according to the normal flow of the document, and then offset relative to itself based on the top, right, bottom and left values (if defined). Also affected by the z-index property (if defined).
+- `position: absolute;` – removed from the normal document flow (no space is created for the element in the page layout). Positioned relative to its closest parent, and position defined by the top, right, bottom and left values.
+- `position: fixed;` – same as absolute, but positioned relative to the viewport window, and always stays at the same location.
+- `position: sticky;` – positioned according to the normal flow of the document (like relative), but becomes fixed once the scrolling position reaches one of the defined sides of the element (the top, right, bottom or left value needs to be defined to make it work). The element ‘sticks’ momentarily. (CSS 3.0 value).
+
 ## The box model
 
 The *box model* is a representation of the html elements' expected behaviour regarding margin, padding, borders values and the inner content of an element. This visual model is also used in your browser's 'developers tool', so if you’re working on or analyzing a website you’ll see it.
@@ -60,18 +70,6 @@ The css property `box-sizing` can be used to impact how the `padding` property i
 
 - Read more: https://css-tricks.com/the-css-box-model/
 - Cool interactive demo example: http://web.simmons.edu/~grovesd/comm244/notes/week6/box-layout-demo.html
-
-
-
-## CSS Position
-
-The position property has the following possible values:
-
-- `position: static;` – positioned according to the normal flow of the document and not affected by top, right, bottom, left and z-index properties (default value).
-- `position: relative;` – positioned according to the normal flow of the document, and then offset relative to itself based on the top, right, bottom and left values (if defined). Also affected by the z-index property (if defined).
-- `position: absolute;` – removed from the normal document flow (no space is created for the element in the page layout). Positioned relative to its closest parent, and position defined by the top, right, bottom and left values.
-- `position: fixed;` – same as absolute, but positioned relative to the viewport window, and always stays at the same location.
-- `position: sticky;` – positioned according to the normal flow of the document (like relative), but becomes fixed once the scrolling position reaches one of the defined sides of the element (the top, right, bottom or left value needs to be defined to make it work). The element ‘sticks’ momentarily. (CSS 3.0 value).
 
 ## Layout with CSS flexbox and grid
 
