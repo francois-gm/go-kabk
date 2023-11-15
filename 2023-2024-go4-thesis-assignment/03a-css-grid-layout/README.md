@@ -2,8 +2,6 @@
 
 ## The *display* property: *Block* and *inline*?
 
-![block vs. inline](block_vs_inline.png)
-
 *Block* and *inline* are two value types of basic layout behaviors for HTML tags. 
 
 A **block** element always starts on a new line, takes up the full available width of the parent (stretches out to the left and right as far as it can), and has a top and a bottom margin. A **`<div>`** is a block element, as well as most non-typography html elements and elements that are containers for typography (think of **`<p>`**).
@@ -31,7 +29,8 @@ In addition:
 - `display: inline-block;` – like inline but does allow width and height properties.
 - `display: none;` – the element is not visible and not in the flow of the document.
 
-Read more: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline
+See a demo of 'inline' elements: http://web.simmons.edu/~grovesd/comm244/notes/week4/inline-demo-outlines. <br>
+See a demo of 'block' and 'inline' elements: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline-demo.
 
 ## The *float* and *clear* properties
 
