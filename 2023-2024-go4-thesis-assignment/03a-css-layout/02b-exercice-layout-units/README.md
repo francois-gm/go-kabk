@@ -1,4 +1,4 @@
-# CSS layout units exercice
+# CSS layout units exercise
 
 ## a) Open this document, and let's do some unit changes...
 
