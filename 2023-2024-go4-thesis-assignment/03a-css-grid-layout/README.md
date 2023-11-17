@@ -126,11 +126,30 @@ Use these on the parent (container):
 - `align-items`: *flex-start, flex-end, center, stretch, baseline*
 - `align-content`: *flex-start, flex-end, center, stretch, space-between, space-around*
 
-Use these on the children (optional):
+Optional for children elements (optional):
 
 - `order`: number, allows a custom ordering based on the priority number of each child.
 - `flex-grow`, `flex-shrink`, `flex-basis`: growing, shrinking, and default sizing behaviour.
 - `align-self`: overrides the parent alignment (values are the same that align-content).
+
+```
+.parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.parent .children{
+  flex-grow:1;
+}
+
+.parent .children.is-larger{
+  flex-grow:2;
+}
+```
 
 👉 Additional 'cheat-sheet' ressource (recommended): ✨[CSS trick's A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)✨.
 
