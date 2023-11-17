@@ -1,4 +1,4 @@
-# CSS layout
+# CSS layout units
 
 ## The *display* property: *Block* and *inline*?
 

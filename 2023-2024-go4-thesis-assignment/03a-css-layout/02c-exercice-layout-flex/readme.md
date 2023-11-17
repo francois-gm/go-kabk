@@ -1,4 +1,4 @@
-# CSS layout
+# CSS Flex
 
 ## The *display* property: *Block* and *inline*?
 
