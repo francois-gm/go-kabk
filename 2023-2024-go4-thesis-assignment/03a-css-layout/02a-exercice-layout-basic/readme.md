@@ -2,8 +2,23 @@
 
 ## a) Have a look at the two examples:
 
-- A
-- B
+- 'inline' elements: http://web.simmons.edu/~grovesd/comm244/notes/week4/inline-demo-outlines. <br>
+- 'block' and 'inline' elements: http://web.simmons.edu/~grovesd/comm244/notes/week4/block-inline-demo.
+
+## b) Go at: https://www.kabk.nl/en/
+
+- Do 'command + shift + C' (the shortcut for accessing your browser's *developer tools*)
+- Create a new stylesheet rule from your browser inspector (click on the '+' button in Chrome):
+
+```
+// '*' means 'every elements'
+
+  * {
+    outline: 1px solid #F00;
+  }
+```
+
+Look at the page, resize it, and look at how blocks behave. Can you see 'block' and 'inline' elements?
 
 ## b) Open this document, and let's do some changes...
 
