@@ -17,9 +17,9 @@
 
 (*document has two blocks, absolutely positionned, side by side*)
 
-- Block A takes the full width minus block B, Block B has fixed width.
-- Block A takes a percentage plus a fixed value, Block B takes a percentage minus a fixed value.
-- Try other combinations and look at the behaviour (while resizing your window).
+- Block A takes the **full width *minus* block B**, Block B has **fixed width**.
+- Block A takes a **percentage plus a fixed value**, Block B takes a **percentage minus a fixed value**.
+- Try **other combinations** and look at the behaviour (**while resizing your window**).
 
 Advanced option with CSS variable:
 
