@@ -4,15 +4,14 @@
 
 (*document has a dozen blocks, relatively positionned*)
 
-- Changing width of a selector with 'px' value.
-- Changing width of a selector with '%' value.
-- Changing width of a selector with 'vw' value.
-- Changing width of a selector with 'vmin' value.
-
-- Changing height of a selector with 'px' value.
-- Changing height of a selector with '%' value.
-- Changing height of a selector with 'vh' value.
-- Changing height of a selector with 'vmin' value.
+- Changing **`width`** of a selector with **`px`** value.
+- Changing **`width`** of a selector with **`%`** value.
+- Changing **`width`** of a selector with **`vw`** value.
+- Changing **`width`** of a selector with **`vmin`** value.
+- Changing **`height`** of a selector with **`px`** value.
+- Changing **`height`** of a selector with **`%`** value.
+- Changing **`height`** of a selector with **`vh`** value.
+- Changing **`height`** of a selector with **`vmin`** value.
 
 ## b) Open this document, and let's use the 'calc' function...
 
