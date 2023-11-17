@@ -1,4 +1,4 @@
-# CSS basic layout exercice
+# CSS basic layout exercise
 
 ## a) Have a look at the two examples:
 
