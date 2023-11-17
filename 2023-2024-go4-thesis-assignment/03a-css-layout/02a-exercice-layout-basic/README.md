@@ -22,6 +22,8 @@ Look at the page, resize it, and look at how blocks behave. Can you see 'block' 
 
 ## b) Open this document, and let's do some changes...
 
+(*document has 12 blocks relatively positionned*)
+
 - Adding margin to one element
 - Adding padding to another element
 - Adding a border to that same element
@@ -30,6 +32,8 @@ Look at the page, resize it, and look at how blocks behave. Can you see 'block' 
 - Changing one element to 'position: absolute;'
 - Changing one element to 'position: fixed;'
 
-## c) Open this document, and reproduce one of the following:
+## c) Re-open the same document, and reproduce one of the following:
+
+(*document has 12 blocks relatively positionned*)
 
 (12 different layout thumbnails)
