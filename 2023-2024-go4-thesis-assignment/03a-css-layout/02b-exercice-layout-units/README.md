@@ -2,7 +2,7 @@
 
 ## a) Open this document, and let's do some unit changes...
 
-(*document has a dozen blocks, relatively positionned*)
+(*document has 12 blocks, relatively positionned*)
 
 - Changing **`width`** of a selector with **`px`** value.
 - Changing **`width`** of a selector with **`%`** value.
