@@ -13,9 +13,9 @@
 ```
 // '*' means 'every elements'
 
-  * {
-    outline: 1px solid #F00;
-  }
+* {
+ outline: 1px solid #F00;
+}
 ```
 
 Look at the page, resize it, and look at how blocks behave. Can you see 'block' and 'inline' elements?
