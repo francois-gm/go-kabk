@@ -5,7 +5,7 @@ Common issues...
 - [Typos](#typos)
 - [Refresh issues, cache](#refresh-issues-website-doesnt-appear-with-new-changes-cache-issues)
 - [Finding information online](#finding-information-online)
-- For ressources, also see the ressource part of this Github's '[Unpacking the webpage](../2-unpacking-the-webpage#ressources-)' page.
+- For ressources, also see the ressource part of this Github's '[Unpacking the webpage](../999-unpacking#ressources-)' page.
 
 ## Typos
 
