@@ -10,6 +10,10 @@ In this module:
 Index:
 
 - [CSS layout](01-css-layout)
+  - CSS basic
+  - [CSS units for layout](01-css-layout#css-length-units)
+  - [CSS flexbox](01-css-layout#flexbox)
+  - [CSS grid](01-css-layout#grid-advanced-only)
 - [Exercice 1, basic CSS layout](02a-exercice-layout-basic)
 - [Exercice 2, CSS units for layout](02b-exercice-layout-units)
 - [Exercice 3, CSS flexbox](02c-exercice-layout-flex)
