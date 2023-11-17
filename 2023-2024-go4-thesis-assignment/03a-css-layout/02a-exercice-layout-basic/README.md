@@ -22,7 +22,7 @@ Look at the page, resize it, and look at how blocks behave. Can you see 'block' 
 
 ## b) Open this document, and let's do some changes...
 
-(*document has 12 blocks relatively positionned*)
+(*document has 12 blocks, relatively positionned*)
 
 - Adding margin to one element
 - Adding padding to another element
@@ -34,6 +34,6 @@ Look at the page, resize it, and look at how blocks behave. Can you see 'block' 
 
 ## c) Re-open the same document, and reproduce one of the following:
 
-(*document has 12 blocks relatively positionned*)
+(*document has 12 blocks, relatively positionned*)
 
 (12 different layout thumbnails)
