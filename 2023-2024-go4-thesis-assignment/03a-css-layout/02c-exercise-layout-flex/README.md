@@ -12,4 +12,6 @@
 - Push half of the blocks at the beginning and half at the end of the page?
 - How about the layout becomes one column on smaller screen, but multi-column on bigger screen?
 
+Some more exercise here: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills
+
 Have more time? How about a game of [Flexbox Froggy?](https://flexboxfroggy.com/#en)
