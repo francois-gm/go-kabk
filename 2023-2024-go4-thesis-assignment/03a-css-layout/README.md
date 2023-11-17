@@ -2,11 +2,16 @@
 
 In this module:
 
-- Basic layout (display *block* vs *inline*, *clear*, *float*, and CSS position);
-- CSS units for layout
-- CSS flexbox for layout (recommended)
-- CSS grid (advanced, for those who feel like it)
+- [Basic layout (display *block* vs *inline*, *clear*, *float*, and CSS position)](01-css-layout#css-layout)
+- [CSS units for layout](01-css-layout#css-layout)
+- [CSS flexbox for layout (recommended)](01-css-layout#css-layout)
+- [CSS grid (advanced, for those who feel like it)](01-css-layout#css-layout)
 
-Content:
+Index:
 
-[Unpacking the webpage](01-css-layout)
+- [CSS layout](01-css-layout)
+- [Exercice 1, basic CSS layout](02a-exercice-layout-basic)
+- [Exercice 2, CSS units for layout](02b-exercice-layout-units)
+- [Exercice 3, CSS flexbox](02c-exercice-layout-flex)
+
+
