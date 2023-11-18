@@ -1,4 +1,4 @@
-# A 'boilerplate'
+# A HTML boilerplate
 
 > Boilerplate text, or simply boilerplate, is any written text (copy) that can be reused in new contexts or applications without significant changes to the original. The term is used in reference to statements, contracts and computer code, and is used in the media to refer to hackneyed or unoriginal writing. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Boilerplate_text))
 

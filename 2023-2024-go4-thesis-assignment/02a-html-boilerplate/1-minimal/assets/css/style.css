@@ -4,13 +4,15 @@
 
 /* @FONT FACE (enable the use of 'custom fonts' inside your document) */
 
+/* 
+  You can use 'fontsquirrel' (https://www.fontsquirrel.com) 
+  or 'transfonter' (https://transfonter.org)
+  to generate your own font for the web from .ttf or .oft files 
+*/
+
 @font-face {
     font-family: 'Your Font Name';
-    src: url('../fonts/yourfontname/yourfontname-roman.woff2'),
-         url('../fonts/yourfontname/yourfontname-roman.woff'),
-         url('../fonts/yourfontname/yourfontname-roman.eot'),
-         url('../fonts/yourfontname/yourfontname-roman.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/yourfontname/yourfontname-roman.ttf') format('truetype');
+    src: url('../fonts/yourfontname/yourfontname-roman.woff2');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -18,11 +20,7 @@
 
 @font-face {
     font-family: 'Your Font Name';
-    src: url('../fonts/yourfontname/yourfontname-italic.woff2'),
-         url('../fonts/yourfontname/yourfontname-italic.woff'),
-         url('../fonts/yourfontname/yourfontname-italic.eot'),
-         url('../fonts/yourfontname/yourfontname-italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/yourfontname/yourfontname-italic.ttf') format('truetype');
+    src: url('../fonts/yourfontname/yourfontname-italic.woff2');
     font-weight: normal;
     font-style: italic;
     font-display: block;
@@ -33,15 +31,15 @@
 /* VARIABLES */
 
 :root {
-  /* Color settings */
+  /* Color values */
   --color-background: rgba(255,255,255,1);
   --color-text: rgba(0,0,0,1);
   --color-text-link: rgba(0,0,255,0.8);
   --color-text-link-hover: rgba(0,0,255,0.4);
-  /* Font settings */
+  /* Font values */
   --font-family: 'Your Font Name', 'Helvetica', 'Arial', sans-serif;
   --font-size: 24px;
-  /* Margins settings */
+  /* Margin value */
   --margin: 1rem;
 }
 
@@ -75,10 +73,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a:focus-visible {
-  color: var(--color-text-link-hover);
-  text-decoration: none;
-}
 
 h1{
   /* h1 style */
@@ -144,119 +138,72 @@ summary{
 
 
 
-/* GENERAL USABILITY */
+/* UTILITY CLASSES */
 
 /* hide desktop mobile etc */
 
-.desktop {
+.desktop-only {
   display: block;
 }
 
-.mobile {
+.mobile-only {
   display: none;
 }
 
-/* if you want to hide something visually but want to keep it readable / accessible for screen readers (sr) */
-
-.sr-only {
-  border: 0 !important;
-  clip: rect(1px, 1px, 1px, 1px) !important;
-  -webkit-clip-path: inset(50%) !important;
-  clip-path: inset(50%) !important;
-  height: 1px !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  padding: 0 !important;
-  position: absolute !important;
-  width: 1px !important;
-  white-space: nowrap !important;
-}
 
 
 
 
+/* WEBSITE MEDIA QUERIES */
 
-
-/* MEDIA QUERIES */
-
-/* responsive typeface */
-
-@media (max-width: 298px) { 
-  :root{ --font-size: 15px; } html, body {font: var(--font-size) var(--font-family);} 
-}
-@media (min-width: 299px) and (max-width: 339px) { 
-  :root{ --font-size: 16px; } html, body {font: var(--font-size) var(--font-family);} 
-}
-@media (min-width: 340px) and (max-width: 439px) { 
-  :root{ --font-size: 17px; } html, body {font: var(--font-size) var(--font-family);} 
-}
-@media (min-width: 440px) and (max-width: 599px) { 
-  :root{ --font-size: 18px; } html, body {font: var(--font-size) var(--font-family);}
-}
-@media (min-width: 600px) and (max-width: 779px) { 
-  :root{ --font-size: 19px; } html, body {font: var(--font-size) var(--font-family);}
-}
-@media (min-width: 780px) and (max-width: 992px) { 
-  :root{ --font-size: 20px; } html, body {font: var(--font-size) var(--font-family);}
-}
-@media (min-width: 993px) and (max-width: 1200px) { 
-  :root{ --font-size: 22px; } html, body {font: var(--font-size) var(--font-family);}
-}
-@media (min-width: 1201px) and (max-width: 1319px) { 
-  :root{ --font-size: 24px; } html, body {font: var(--font-size) var(--font-family);}
-}
-@media (min-width: 1320px) and (max-width: 1619px) { 
-  :root{ --font-size: 26px; } html, body {font: var(--font-size) var(--font-family);}
-}
-@media (min-width: 1620px) and (max-width: 1879px) { 
-  :root{ --font-size: 28px; } html, body {font: var(--font-size) var(--font-family);}
-}
-@media (min-width: 1880px) { 
-  :root{ --font-size: 30px; } html, body {font: var(--font-size) var(--font-family);}
-}
-
-
-
-/* website media queries */
+/* styles for 'mobile', screen sizes up to 779px, should covers 'mobile' and 'tablet' */
+/* style this one first and then use the subsequent ones in a cascading way (from general to specific) */
 
 @media (max-width: 779px) {
 
-  /* styles for screen sizes 779px, should covers 'mobile' and 'tablet' */
-  /* style this one first and then use the two others to 'override' some styles (exceptions/details) */
+  /* your 'mobile' overriding css properties here */
 
 
 
+  /* utility classes, mobile */
 
+  .desktop-only{
+    display:none;
+  }
 
-
-  /* utilities */
-
-  .desktop{display:none!important;}
-  .mobile{display:block;}
+  .mobile-only{
+    display:block;
+  }
 
 }
 
 
+
+/* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
 
 @media (max-width: 339px) {
 
-  /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
+  /* your overriding css properties here */
 
 }
 
 
+
+/* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
 
 @media (max-width: 779px) and (orientation: landscape) {
 
-  /* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
+   /* your overriding css properties here */
 
 }
 
 
 
+/* use this query to apply style for 'small' desktop screens */
+
 @media (min-width: 780px) and (max-width: 992px) {
 
-  /* use this query to apply style for 'small' desktop screens */
+  /* your overriding css properties here */
 
 }
 
