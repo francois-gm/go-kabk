@@ -1,3 +1,3 @@
 # A boilerplate template without CSS styles
 
-Default browser styling html
+The true default styling from the browser.
