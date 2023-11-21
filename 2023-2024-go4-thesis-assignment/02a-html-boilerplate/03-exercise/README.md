@@ -1,5 +1,7 @@
 # A little exercise
 
+Spend a ten minutes using CSS and the boilerplate to style your page based on the qualities you've received.
+
 Each of gets a quality in each of this list:
 
 A) Color theme
@@ -28,7 +30,6 @@ E) Alignment
 - Centered festival
 - Various alignments
 
-
 | # | A) | B) | C) | D) | E) |
 | -- | ------- | ------- | ------- | ------- | ------- |
 | 1 | Black and white | Are there any blocks here? | Big is better | Different scales of text | Various alignments |
@@ -42,5 +43,3 @@ E) Alignment
 | 9 | Black and white | blocks appear, hard edges and contrast in blocks | Small is better | Different scales of text | Various alignments |
 | 10 | Main color, accent color | Blocks are suggested, rounded edges or opacious blocks | Balanced is better | Monotextual | Structured alignments |
 | 11 | Monochrome | Blocks appear, hard edges and contrast in blocks | Big is better | Different scales of text | Centered festival |
-
-Spend a ten minutes using CSS and the boilerplate to style your page based on the qualities you've received.
