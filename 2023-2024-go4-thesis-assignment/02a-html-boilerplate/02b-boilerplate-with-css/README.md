@@ -1,3 +1,3 @@
 # A boilerplate template with 'boilerplate' CSS
 
-Somewhat 'default' styling
+'Default'-ish styling
