@@ -77,7 +77,7 @@ Then you'll find (in order):
 - **General styles** for most common semantic html tags, like `h1,h2,h3,h4,h5,h6,p,ol,ul,hr`... This will apply to any tags (unspeficity) within your pages.
 - **Page styles**, here you can start actually styling your website (!)
 - **Usability/Utility classes**: small classes you'll re-use to 'override' previous classes. Here I have included three classes (`.desktop, .mobile, .sr-only`)
-- **Media queries**: the breaking points here correspond more or less to *bootstrap*'s standard, although not entirely. Also, by changing the `font-size` value on the `<html>|<body>` elements at different screen sizes (via media queries), you can change the value of a `rem` (*Relative Em*, as a `rem` is equal to the value of `font-size` on the html/body element). It's an easy way to style for various screens, if you already use `rem`'s in your main css styles you won't have to write these lines again within the media queries unless you deem the ratio used previously not appropriate. Here I've already included `font-size` values for different breaking points, but you can change them of course.
+- **Media queries**: the breaking point values are pretty standard here. Also, by changing the `font-size` value on the `<html>|<body>` elements at different screen sizes (via media queries), you can change the value of a `rem` (*Relative Em*, as a `rem` is equal to the value of `font-size` on the html/body element). It's an easy way to style for various screens.
 
 Further links on CSS media queries:
 
