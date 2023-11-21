@@ -28,16 +28,17 @@ E) Alignment
 - Centered festival
 - Various alignments
 
-1 - Black and white | Are there any blocks here? | Big is better | Different scales of text | Various alignments
-2 - Monochrome | Blocks appear, hard edges and constrast in blocks | Small is better | Monotextual | Centered festival
-3 -
-4 -
-5 - 
-6 -
-7 -
-8 -
-9 -
-10 -
-11 -
+| # | A) | B) | C) | D) | E) |
+| 1 | Black and white | Are there any blocks here? | Big is better | Different scales of text | Various alignments |
+| 2 | Monochrome | Blocks appear, hard edges and constrast in blocks | Small is better | Monotextual | Centered festival |
+| 3 | - | - | - | - | - |
+| 4 | - | - | - | - | - |
+| 5 | - | - | - | - | - |
+| 6 | - | - | - | - | - |
+| 7 | - | - | - | - | - |
+| 8 | - | - | - | - | - |
+| 9 | - | - | - | - | - |
+| 10 | - | - | - | - | - |
+| 11 | - | - | - | - | - |
 
 Spend a ten minutes using CSS and the boilerplate to style your page based on the qualities you've received.
