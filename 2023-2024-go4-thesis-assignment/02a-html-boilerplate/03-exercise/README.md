@@ -1,34 +1,48 @@
 # A little exercise
 
-Spend a ten minutes using CSS and the boilerplate to style your page based on the qualities you've received.
+Use the boilerplate with css presented to you previously.
+Then spend 10-15 minutes using CSS and the boilerplate to style your page based on the qualities you've received.
 
 Each of gets a quality in each of this list:
 
-A) Color theme
+***
+
+A) **Color theme**
+
 - Black and white
 - Monochrome
 - Main color, accent color
 - Flashy it hurts / no system is the system
 
-B) Blocks appearance
+***
+
+B) **Blocks appearance**
 - Blocks appear, hard edges and contrast in blocks
 - Blocks are suggested, rounded edges or opacious blocks
 - Are there any blocks here?
 
-C) Size
+***
+
+C) **Size**
 - Big is better
 - Balanced is better
 - Small is better
 
-D) Text contrast
+***
+
+D) **Text contrast**
 - Different scales of text
 - Subtle text variations
 - Monotextual
 
-E) Alignment
+***
+
+E) **Alignment**
 - Structured alignments
 - Centered festival
 - Various alignments
+
+***
 
 | # | A) | B) | C) | D) | E) |
 | -- | ------- | ------- | ------- | ------- | ------- |
