@@ -1,23 +1,28 @@
-# A HTML boilerplate
+# Starting right (with a HTML boilerplate/starterkit)
 
-In order to support good working practices, how about starting with a 'boilerplate'? Within that folder you'll find two boilerplates, one that is only html and another one with an additional CSS boilerplate. You'll also find a more 'experimental' styled page based on the boilerplate.
+To support good working practices, let's make sure we have the same foundation. 
+
+Within this page, you'll find two options, one that has only html elements, and another one with an additional an CSS starter stylesheet.
 
 ## Why a boilerplate?
 
-Because some elements might not deserve to be rethought of, conceptually (ie standardized things that never/barely change in time).
-Because the more you'll work on your project, the more working with a simple and ordered file system appears beneficial.
+- Because some *standards* don't need to be thought, and don't change.
+- And because the more you'll work on your project, the more having a some order becomes beneficial.
 
 ## About the folder's structure
 
-Since you'd likely benefit from avoiding having endless unordered files of various levels on importance all over, I propose the following:
+Your website folder will include several files and sub-folders. With a few, it's fine, but the bigger it gets, the more it becomes important to have a logical way to order all that.
+
+For your **website ressource**, let's order them in this sub-folder:
 `/assets/..`
+
 This folder contains elements required for your website to run. These elements are likely to be required on **all** your pages. Inside this folder, you can find a /css subfolder, a /fonts subfolder, a /images subfolder and a /js subfolder.
 `/content/..`
 Put your images, videos, files, etc there...
 
-Your pages (index.htm but also other pages) can stay on the top level of your folder.
+Your pages (index.html but also other pages) can stay on the top level of your folder.
 
-## HTML boilerplate
+## The HTML boilerplate
 
 For the **HTML** boilerplate, here are the following components:
 
@@ -27,7 +32,6 @@ For the **HTML** boilerplate, here are the following components:
 - The meta viewport tag ( `<meta name="viewport" content="width=device-width,initial-scale=1.0">` ), you need this for the website to work out 'responsively'.
 - Meta tags (title, keywords...)
 - Favicon links (.png works, 512x512px), before delivery your final webpage you can use https://www.favicon-generator.org to generate your favicons + code
-- Open Graph meta tags (for link sharing, maybe not very important unless you want to share your work on a fb/twitter).
 - CSS stylesheet links (no CSS in your html document please! neither within `<style>` tags nor as `inline` css properties!)
 - Javascript scripts links (no Javascript within `<script>` tags inside your html document, please!)
 
@@ -57,10 +61,8 @@ In order to make our life easier, we'll be adding (after the @font-face property
 
 Further links on CSS variables:
 
-- Ressource 1: https://css-tricks.com/a-complete-guide-to-custom-properties/
-- Ressource 2: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
-- Example 1: https://codepen.io/chriscoyier/pen/ORdLvq?editors=0110
-- Example 2: https://googlechrome.github.io/samples/css-custom-properties/index.html
+- Ressource: https://css-tricks.com/a-complete-guide-to-custom-properties/
+- Example: https://codepen.io/chriscoyier/pen/ORdLvq?editors=0110
 
 ## CSS file order
 
@@ -73,10 +75,9 @@ Then you'll find (in order):
 
 Further links on CSS media queries:
 
-- Ressource 1: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
-- Ressource 2: https://css-tricks.com/a-complete-guide-to-css-media-queries/
+- Ressource: https://css-tricks.com/a-complete-guide-to-css-media-queries/
 - Examples: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 ## JS boilerplate
 
-I've included JQuery but I've been told some people might also use Javascript ES6. Here, feel free to choose your prefered way of writing but as said again please refrain from including <script> stuff in your html. If JQuery, you need to include your code afte the `$(document).ready(function() {` line. This means that JQuery will load your code after your html document will have been parsed within your browser. The effect is akind of putting your script after the `body` tag.
+JQuery is included there but it seems like most are able to use plain modern Javascript for interactivity. Feel free to choose your prefered way of writing it!
