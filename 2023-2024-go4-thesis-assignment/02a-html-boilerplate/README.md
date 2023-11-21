@@ -14,10 +14,16 @@ Within this page, you'll find two options, one that has only html elements, and 
 Your website folder will include several files and sub-folders. With a few, it's fine, but the bigger it gets, the more it becomes important to have a logical way to order all that.
 
 For your **website ressource**, let's order them in this sub-folder:
-`/assets/..`
 
-This folder contains elements required for your website to run. These elements are likely to be required on **all** your pages. Inside this folder, you can find a /css subfolder, a /fonts subfolder, a /images subfolder and a /js subfolder.
-`/content/..`
+- `/assets/..`
+
+This folder contains elements required for your website to run. These elements are likely to be required on **all** your pages. Inside this folder, you can find a `/assets/css` subfolder, a `/assets/fonts` subfolder, a `/assets/images` subfolder and a `assets/js` subfolder.
+
+For your **website contents**, let's order them in this sub-folder:
+
+
+- `/content/..`
+
 Put your images, videos, files, etc there...
 
 Your pages (index.html but also other pages) can stay on the top level of your folder.
