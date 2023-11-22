@@ -1,8 +1,8 @@
 # CSS layout units exercise
 
-## a) Open this document, and let's do some unit changes...
+## a) Download `exercise-units-a.zip`
 
-(*document has 12 blocks, relatively positionned*)
+Open the index.html and style.css, and let's do some changes...
 
 - Changing **`width`** of a selector with **`px`** value.
 - Changing **`width`** of a selector with **`%`** value.
