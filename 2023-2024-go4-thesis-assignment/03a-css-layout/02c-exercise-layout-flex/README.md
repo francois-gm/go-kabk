@@ -1,8 +1,8 @@
 # CSS flex exercise
 
-## a) Open this document, and let's do some layout changes...
+## a) Download `exercise-flex.zip`
 
-(*document has 12 blocks, relatively positionned*)
+Open the index.html and style.css, and let's do some changes...
 
 - Change the display property value to **`flex`**.
 - Add **`flex-direction: row;`**.
