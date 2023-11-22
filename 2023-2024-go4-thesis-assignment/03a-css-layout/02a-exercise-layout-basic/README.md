@@ -20,7 +20,7 @@
 
 Look at the page, resize it, and look at how blocks behave. Can you see 'block' and 'inline' elements?
 
-## c) Open this document, and let's do some changes...
+## c) Download `exercise-basic.zip`, open the index.html and style.css, and let's do some changes...
 
 (*document has 12 blocks, relatively positionned*)
 
