@@ -1,6 +1,6 @@
 # CSS layout units exercise
 
-## a) Download `exercise-units-a.zip`
+## a) Download `exercise-unit-a.zip`
 
 Open the index.html and style.css, and let's do some changes...
 
@@ -13,9 +13,9 @@ Open the index.html and style.css, and let's do some changes...
 - Changing **`height`** of a selector with **`vh`** value.
 - Changing **`height`** of a selector with **`vmin`** value.
 
-## b) Open this document, and let's use the 'calc' function...
+## b) Download `exercise-unit-b.zip`
 
-(*document has two blocks, absolutely positionned, side by side*)
+Open the index.html and style.css, and let's do some changes...
 
 - Block A takes the **full width *minus* block B**, Block B has **fixed width**.
 - Block A takes a **percentage plus a fixed value**, Block B takes a **percentage minus a fixed value**.
