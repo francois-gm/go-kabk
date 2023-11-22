@@ -20,7 +20,7 @@
 
 Look at the page, resize it, and look at how blocks behave. Can you see 'block' and 'inline' elements?
 
-## b) Open this document, and let's do some changes...
+## c) Open this document, and let's do some changes...
 
 (*document has 12 blocks, relatively positionned*)
 
@@ -28,12 +28,7 @@ Look at the page, resize it, and look at how blocks behave. Can you see 'block' 
 - Adding padding to another element
 - Adding a border to that same element
 - Adding 'box-sizing: border;' to that same element
+- Remove margin on your element you added margin
 - Adding 'clear: both' on an element of your choice
-- Changing one element to 'position: absolute;'
+- Changing one element to 'position: absolute;' (and play with the **bottom** and **right** properties)
 - Changing one element to 'position: fixed;'
-
-## c) Re-open the same document, and reproduce one of the following:
-
-(*document has 12 blocks, relatively positionned*)
-
-(12 different layout thumbnails)
