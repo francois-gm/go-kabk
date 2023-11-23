@@ -2,7 +2,20 @@
 
 A quick exercice about looking at and describing web experiences
 
-## 1) Website as a Narrative Experience (25min)
+## 1) Show us a coding project you realized in your previous study years (30min)
+
+a) Describe your project in 3-4 sentences / one minute. Tell us what the project is about, what it does, and how it technically works.
+
+b) Try to answer these questions:
+
+- What positive qualities can you see in it?
+- What did you afterwards realize could have worked better?
+- How did you feel about your learning process doing this project? Did you feel confident, did you enjoy the process, and what did you learn?
+- If you would do it again, would you proceed differently? If yes/no, how and why?
+
+**8 minutes** for preparing, **2 minutes** each for presenting.
+
+## 2) Website as a Narrative Experience (30min)
 
 Visit an (assigned) website and review describe its experience. Write it in **max 75 words** (use [wordcounter.net](https://wordcounter.net) to count words). Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects. *The word bank and assigned websites are in the annex below.* Suggestion: less words and precise words, is more.
 
@@ -28,7 +41,7 @@ Source: https://after8books.com
 
 ```
 
-## 2) The Good, The Bad, and the... (20min)
+## 3) The Good, The Bad, and the... (30min)
 
 This time, you'll be assigned a website and will be assigned either to take the 'good' (positive/supportive) side or the 'bad' (negative/critical) side. Please elaborate on the five points below, with one (short) sentence each. For each points, are the solution 'adequate' according to you and how it 'should' be (in terms of affordance). Try to convince us, but also be *fair play* ;)
 
@@ -125,6 +138,8 @@ After you have your points ready, the website will be made visible to the rest o
 7. [Research/archive platform](https://biblio-graph.org)
 8. [Editorial platform](https://worldonawire.net/)
 9. [Newspaper](https://www.dailymail.co.uk/)
+10. [Type foundry](https://www.sourcetype.com)
+11. [Blog](https://solar.lowtechmagazine.com)
 
 #### A2
 
@@ -137,6 +152,9 @@ After you have your points ready, the website will be made visible to the rest o
 7. [Type foundry](https://abcdinamo.com)
 8. [Art event](https://2122.schauspielhaus.ch/en/)
 9. [Movie promotional website](https://www.spacejam.com/1996/)
+10. [Portfolio website](https://julijonasurbonas.lt/)
+11. [Cultural institution](https://nieuweinstituut.nl)
+
 
 #### B1
 
@@ -149,6 +167,8 @@ After you have your points ready, the website will be made visible to the rest o
 7. [Editorial platform](https://yctm.e-flux.com/)
 8. [Artistic platform](https://www.documenta14.de/en/plain/)
 9. [Art education](https://www.rijksakademie.nl)
+10. [Portfolio website](https://claraberger.net)
+11. [Merchant website](https://www.bol.com/)
 
 #### B2
 
@@ -161,3 +181,5 @@ After you have your points ready, the website will be made visible to the rest o
 7. [Research project](http://info.cern.ch)
 8. [Municipal website](https://www.denhaag.nl/en.htm)
 9. [Online radio](https://www.nts.live)
+10. [Cultural institution](https://simultanhalle.de/en/)
+11. [Informational website](https://en.wikipedia.org/wiki/Main_Page)
