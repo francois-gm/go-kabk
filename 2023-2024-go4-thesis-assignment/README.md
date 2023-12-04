@@ -11,7 +11,7 @@
 
 ### Planning
 
-- **Schedule**: (almost) **every Monday**, from **December 4th** up to **March 4th**, from **10h** to **18h**.
+- **Schedule**: (almost) **every Monday**, from **December 4th** up to **March 4th**, from **9h** to **17h30**.
 - **Duration**: **9 classes** spread on 15 weeks.
 - **Deadline**: presentation on **Thursday March 11th**.
 
@@ -82,16 +82,16 @@ Afternoon (**14h15-18h**): group **B** <br>
 
 ## Class 2 (11th of December)
 
-Group A in morning (9h30-13h45) <br>
-Group B in afternoon (14h15-18h) <br>
+Group A in morning (9h00-13h00) <br>
+Group B in afternoon (13h30-17h30) <br>
 
 - **François**: HTML, boilerplate and html/document structure
 - **Thomas**: HTML, images and footnotes
 
 ## Class 3 (18th of December)
 
-Group A in morning (9h30-13h45) <br>
-Group B in afternoon (14h15-18h) <br>
+Group A in morning (9h00-13h00) <br>
+Group B in afternoon (13h30-17h30) <br>
 
 - **François**: CSS, layout and grid
 - **Thomas**: CSS, typography
