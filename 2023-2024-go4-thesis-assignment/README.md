@@ -96,7 +96,7 @@ Group B in afternoon (14h15-18h) <br>
 - **François**: CSS, layout and grid
 - **Thomas**: CSS, typography
 
-## Class 4 (8th of December)
+## Class 4 (January)
 
 First hour: Github Pages (with François) <br>
 Rest: Assignment-based mentoring
