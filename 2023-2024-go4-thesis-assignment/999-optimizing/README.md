@@ -26,7 +26,7 @@ If one assumes that among a website's goals, **communication** takes precedence 
 
 - **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under `File->Export`), `[Shift]+[Alt]+[Cmd]+[S]`, with the appropriate image width resizing and the quality setting between **50** and **60** (target under 250kb, the less the better).
 - If 'Save for Web (Legacy)' is not available, use **'Export As'** (under `File->Export`).
-- Or, optionally, you can use this mac software called [ImageOptim](https://imageoptim.com/).
+- Or, optionally, you can use [Squoosh.app](https://squoosh.app) that has a great online image converter.
 
 
 **Format**: for raster (pixel-based) images, **always always always .jpg!** .jpg! .jpg! No .tif, and no other fancy image formats.
