@@ -65,19 +65,19 @@ Afternoon (**14h15-18h**): group **B** <br>
 
 | - | - |
 | -------- | --------------------- |
-| 09:30-10:30 | **Group A**, intro (this document)
-| 10:30-12:00 | **A1** sub-group with **Thomas** (Activity: *generating a webpage structure with Pandoc + Word*) |
-| 10:30-12:00 | **A2** sub-group with **François** (Workshop *Describing web experiences*) |
-| 12:00-12:15 | **Break** |
-| 12:15-13:45 | **A1** sub-group with **François** (Workshop *Describing web experiences*) |
-| 12:15-13:45 | **A2** sub-group with **Thomas** (Workshop *generating your webpage structure with Pandoc + Word*) |
-| 13:45-14:15 | **Lunch** |
-| 14:15-14:45 | **Group B**, intro (this document)
-| 14:45-16:15 | **B1** sub-group with **Thomas** (Workshop *generating your webpage structure with Pandoc + Word*) |
-| 14:45-16:15 | **B2** sub-group with **François** (Workshop *Describing web experiences*) |
-| 16:15-16:30 | **Break** |
-| 16:30-18:00 | **B1** sub-group with **François** (Workshop *Describing web experiences*) |
-| 16:30-18:00 | **B2** sub-group with **Thomas** (Workshop *generating your webpage structure with Pandoc + Word*) |
+| 09:00-10:00 | **Group A**, intro (this document)
+| 10:00-11:30 | **A1** sub-group with **François** (Workshop *Describing web experiences*) |
+| 10:00-11:30 | **A2** self-study |
+| 11:30-11:45 | **Break** |
+| 11:45-13:15 | **A1** sub-group with **François** (Workshop *Describing web experiences*) |
+| 11:45-13:15 | **A2** sub-group with **Thomas** (Workshop *generating your webpage structure with Pandoc + Word*) |
+| 13:15-13:45 | **Lunch** |
+| 13:45-14:15 | **Group B**, intro (this document)
+| 14:15-15:45 | **B1** sub-group with **Thomas** (Workshop *generating your webpage structure with Pandoc + Word*) |
+| 14:15-15:45 | **B2** sub-group with **François** (Workshop *Describing web experiences*) |
+| 15:45-16:00 | **Break** |
+| 16:00-17:30 | **B1** sub-group with **François** (Workshop *Describing web experiences*) |
+| 16:00-17:30 | **B2** sub-group with **Thomas** (Workshop *generating your webpage structure with Pandoc + Word*) |
 
 
 ## Class 2 (9th of December)
