@@ -71,7 +71,7 @@ Afternoon (**14h15-18h**): group **B** <br>
 | 11:00-11:15 | **Break** |
 | 11:15-12:30 | **A1** self-study |
 | 11:15-12:30 | **A2** sub-group with **François** (Workshop *Describing web experiences*) |
-| 12:30-13:00 | **Groups A + B** | introduction word from Chantale and Lauren |
+| 12:30-13:00 | **Groups A + B**, introduction word from Chantale and Lauren |
 | 13:00-13:30 | **Lunch** |
 | 13:30-14:15 | **Group B**, intro (this document)
 | 14:15-15:30 | **B1** sub-group with **François** (Workshop *Describing web experiences*) |
