@@ -1,8 +1,8 @@
-# Describing web experiences
+# Describing web experiences (1h15)
 
 A quick exercice about looking at and describing web experiences
 
-## 1) Show us a coding project you realized in your previous study years (30min)
+## 1) Show us a coding project you realized in your previous study years (20min)
 
 a) Describe your project in 3-4 sentences / one minute. Tell us what the project is about, what it does, and how it technically works.
 
@@ -13,7 +13,7 @@ b) Try to answer these questions:
 - How did you feel about your learning process doing this project? Did you feel confident, did you enjoy the process, and what did you learn?
 - If you would do it again, would you proceed differently? If yes/no, how and why?
 
-**8 minutes** for preparing, **2 minutes** each for presenting.
+**5 minutes** for preparing, **1 minutes** each for presenting.
 
 ## 2) Website as a Narrative Experience (30min)
 
@@ -54,7 +54,7 @@ This time, you'll be assigned a website and will be assigned either to take the 
 
 After you have your points ready, the website will be made visible to the rest of the group and both sides will, in a exchange, present their points. Then, the group will vote on whether the *good* or *bad* has convinced its audience.
 
-**8 minutes** for writing, **3 minutes** per website presentation.
+**8 minutes** for writing, **2 minutes** per website presentation.
 
 ## Annex
 
@@ -155,7 +155,6 @@ After you have your points ready, the website will be made visible to the rest o
 10. [Portfolio website](https://julijonasurbonas.lt/)
 11. [Cultural institution](https://nieuweinstituut.nl)
 
-
 #### B1
 
 1. [Cultural institution](http://www.sexyland.world/)
@@ -181,5 +180,5 @@ After you have your points ready, the website will be made visible to the rest o
 7. [Research project](http://info.cern.ch)
 8. [Municipal website](https://www.denhaag.nl/en.htm)
 9. [Online radio](https://www.nts.live)
-10. [Cultural institution](https://simultanhalle.de/en/)
+10. [Cultural institution](https://page-not-found.nl)
 11. [Informational website](https://en.wikipedia.org/wiki/Main_Page)
