@@ -80,18 +80,21 @@ Afternoon (**14h15-18h**): group **B** <br>
 | 16:30-18:00 | **B2** sub-group with **Thomas** (Workshop *generating your webpage structure with Pandoc + Word*) |
 
 
-## Class 2 (11th of December)
+## Class 2 (9th of December)
 
-Group A in morning (9h00-13h00) <br>
-Group B in afternoon (13h30-17h30) <br>
+Group A in morning (François + Thomas) (9h00-13h00) <br>
+Group B in afternoon (Thomas) (13h30-17h30) + Dec 10th in the morning (François) (9h00-13h00) <br>
 
-- **François**: HTML, boilerplate and html/document structure
-- **Thomas**: HTML, images and footnotes
+- **François**:
+- - HTML, boilerplate and html/document structure
+- **Thomas**:
+- - Generating your webpage structure with Pandoc + Word
+- - HTML footnotes
 
-## Class 3 (18th of December)
+## Class 3 (16th of December)
 
-Group A in morning (9h00-13h00) <br>
-Group B in afternoon (13h30-17h30) <br>
+Group A in morning (F+T) (9h00-13h00) <br>
+Group B in afternoon (T) (13h30-17h30) + Dec 10th in the morning (F) (9h00-13h00) <br>
 
 - **François**: CSS, layout and grid
 - **Thomas**: CSS, typography
