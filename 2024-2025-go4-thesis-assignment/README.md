@@ -11,17 +11,17 @@
 
 ### Planning
 
-- **Schedule**: (almost) **every Monday**, from **December 4th** up to **March 4th**, from **9h** to **17h30**.
-- **Duration**: **9 classes** spread on 15 weeks.
-- **Deadline**: presentation on **Thursday March 11th**.
+- **Schedule**: (almost) **every Monday/Tuesday**, from **December 3rd** up to **March 4th**, from **9h** to **17h30**.
+- **Duration**: **11 classes** spread on 15 weeks.
+- **Deadline**: presentation on **Thursday March 13th (TBC)**.
 
 ### Activities
 
-- December classes (**4th, 11th, 18th**), workshop structure, reviewing and expanding on coding notions for the assignment
+- December classes (**3rd, 9-10th, 16-17th**), workshop structure, reviewing and expanding on coding notions for the assignment
 - From January: mostly Individual feedback classes (**sign-up** sheet, **15 minutes individual slots**) on most classes.
 - ... but the possibility of making small groups feedback (4-5 people, sign-up sheet, 60 minutes) as well.
 - **Self-directed** (if not meeting for feedback, you'd be expected to advance/work on your project)
-- In order to pass, attendance is set at 7 classes out of 9 (80%). This means you'll meet to attend most classes in December, while as well meet with each of us from January **at least twice**.
+- In order to pass, attendance is set at 80% of classes (so 9 classes out of 11). This means you'll meet to attend most classes in December, while as well meet with each of us from January **at least three times**.
 
 ### Working methodology
 
@@ -56,7 +56,7 @@ Questions to ask **before delivering your project**:
 
 ## Thesis landing page (non-graded)
 
-- We'll need a small group to make a landing page for this year's theses. As examples, here are the landing pages of [2023](https://kabk.github.io/go-theses-23/), [2022](https://kabk.github.io/go-theses-22/), [2021](https://kabk.github.io/go-theses-21/), [2020](https://kabk.github.io/go-theses-20/), and [2019](https://kabk.github.io/go-theses-19/). It would be nice to have this sorted out for the **end of February**.
+- We'll need a small group to make a landing page for this year's theses. As examples, here are the landing pages of [2024](https://kabk.github.io/go-theses-24/), [2023](https://kabk.github.io/go-theses-23/), [2022](https://kabk.github.io/go-theses-22/), [2021](https://kabk.github.io/go-theses-21/), [2020](https://kabk.github.io/go-theses-20/), and [2019](https://kabk.github.io/go-theses-19/). It would be nice to have this sorted out for the **end of February**.
 
 ## First class
 
