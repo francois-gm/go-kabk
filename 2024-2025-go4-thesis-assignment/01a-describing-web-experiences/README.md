@@ -2,7 +2,7 @@
 
 A quick exercice about looking at and describing web experiences
 
-## 1) Show us a coding project you realized in your previous study years (20min)
+## 1) Show us a coding project you realized in your previous study years (40min)
 
 a) Describe your project in 3-4 sentences / one minute. Tell us what the project is about, what it does, and how it technically works.
 
@@ -13,9 +13,9 @@ b) Try to answer these questions:
 - How did you feel about your learning process doing this project? Did you feel confident, did you enjoy the process, and what did you learn?
 - If you would do it again, would you proceed differently? If yes/no, how and why?
 
-**5 minutes** for preparing, **1 minutes** each for presenting.
+**5 minutes** for preparing, **2 minutes** each for presenting.
 
-## 2) Website as a Narrative Experience (30min)
+## 2) Website as a Narrative Experience (45min)
 
 Visit an (assigned) website and review describe its experience. Write it in **max 75 words** (use [wordcounter.net](https://wordcounter.net) to count words). Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects. *The word bank and assigned websites are in the annex below.* Suggestion: less words and precise words, is more.
 
@@ -41,7 +41,7 @@ Source: https://after8books.com
 
 ```
 
-## 3) The Good, The Bad, and the... (30min)
+## 3) The Good, The Bad, and the... (45min)
 
 This time, you'll be assigned a website and will be assigned either to take the 'good' (positive/supportive) side or the 'bad' (negative/critical) side. Please elaborate on the five points below, with one (short) sentence each. For each points, are the solution 'adequate' according to you and how it 'should' be (in terms of affordance). Try to convince us, but also be *fair play* ;)
 
