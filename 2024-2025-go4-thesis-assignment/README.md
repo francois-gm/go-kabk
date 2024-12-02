@@ -18,7 +18,7 @@
 ### Activities
 
 - December classes (**3rd, 9-10th, 16-17th**), workshop structure, reviewing and expanding on coding notions for the assignment
-- From January: mostly Individual feedback classes (**sign-up** sheet, **15 minutes individual slots**) on most classes.
+- From January: mostly Individual feedback classes (**sign-up** sheet, **15 minutes individual slots**)...
 - ... but the possibility of making small groups feedback (4-5 people, sign-up sheet, 60 minutes) as well.
 - **Self-directed** (if not meeting for feedback, you'd be expected to advance/work on your project)
 - In order to pass, attendance is set at 80% of classes (so 9 classes out of 11). This means you'll meet to attend most classes in December, while as well meet with each of us from January **at least three times**.
@@ -67,20 +67,11 @@ Afternoon (**13h30-17h**): group **B** <br>
 | - | - |
 | -------- | --------------------- |
 | 09:00-9:45 | **Group A**, intro (this document)
-| 9:45-11:00 | **A1** sub-group with **François** (Workshop *Describing web experiences*) |
-| 9:45-11:00 | **A2** self-study |
-| 11:00-11:15 | **Break** |
-| 11:15-12:30 | **A1** self-study |
-| 11:15-12:30 | **A2** sub-group with **François** (Workshop *Describing web experiences*) |
+| 9:45-12:30 | **A1+A2** sub-group with **François** (Workshop *Describing web experiences*) |
 | 12:30-13:00 | **Groups A + B**, introduction word from Chantale and Lauren |
 | 13:00-13:30 | **Lunch** |
 | 13:30-14:15 | **Group B**, intro (this document)
-| 14:15-15:30 | **B1** sub-group with **François** (Workshop *Describing web experiences*) |
-| 14:15-15:30 | **B2** self-study |
-| 15:30-15:45 | **Break** |
-| 15:45-17:00 | **B1** self-study |
-| 15:45-17:00 | **B2** sub-group with **François** (Workshop *Describing web experiences*) |
-
+| 14:15-17:00 | **B1+B2** sub-group with **François** (Workshop *Describing web experiences*) |
 
 ## Class 2 (9th of December)
 
