@@ -67,11 +67,11 @@ Afternoon (**13h30-17h**): group **B** <br>
 | - | - |
 | -------- | --------------------- |
 | 09:00-9:45 | **Group A**, intro (this document)
-| 9:45-12:30 | **A1+A2** sub-group with **François** (Workshop *Describing web experiences*) |
+| 9:45-12:30 | Workshop *Describing web experiences* |
 | 12:30-13:00 | **Groups A + B**, introduction word from Chantale and Lauren |
 | 13:00-13:30 | **Lunch** |
 | 13:30-14:15 | **Group B**, intro (this document)
-| 14:15-17:00 | **B1+B2** sub-group with **François** (Workshop *Describing web experiences*) |
+| 14:15-17:00 | Workshop *Describing web experiences* |
 
 ## Class 2 (9th of December)
 
