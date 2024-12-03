@@ -21,7 +21,7 @@ Visit an (assigned) website and review describe its experience. Write it in **ma
 
 After, each student reads its prompt to the group. After all prompts are read, websites are presented in a second table turn.
 
-**8 minutes** for writing, **2 minutes** each for presenting.
+**8 minutes** for writing, **1 minute** each for presenting.
 
 ```
 
