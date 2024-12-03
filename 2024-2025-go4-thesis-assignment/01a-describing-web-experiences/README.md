@@ -17,7 +17,7 @@ b) Then try to answer these questions in three more sentences:
 
 ## 2) Website as a Narrative Experience (45min)
 
-Visit an (assigned) website and review describe its experience. Write it in **max 75 words** (use [wordcounter.net](https://wordcounter.net) to count words). Consider **appearance**, **movement**, **structure** and **navigation**. Use a descriptive writing style, with no subjects. *The word bank and assigned websites are in the annex below.* Suggestion: less words and precise words, is more.
+Visit an (assigned) website and review describe its experience. Write it in **max 40 words** (use [wordcounter.net](https://wordcounter.net) to count words). Consider **appearance**, **movement**, **structure** and/or **navigation**. Use a descriptive writing style, with no subjects. *The word bank and assigned websites are in the annex below.* Suggestion: less words and precise words, is more.
 
 After, each student reads its prompt to the group. After all prompts are read, websites are presented in a second table turn.
 
@@ -26,14 +26,10 @@ After, each student reads its prompt to the group. After all prompts are read, w
 ```
 
 A monochrome website with a classic appearance. 
-A subtle touch of functional fantasy for the navigation. 
-Few variations in terms of size, almost typological in look.
-Very static feel and standard structure.
+A subtle touch of functional fantasy.
 Neutral, dry, vernacular or generous? 
 
 Clear and obvious structure and information.
-Thousands of content elements all accessible as a long list 
-Several filtering through categories and sorting options. 
 Items can be added to your basket. 
 But it feels more like an archive, a catalog.
 
