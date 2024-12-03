@@ -68,7 +68,7 @@ Afternoon (**13h30-17h**): group **B** <br>
 | -------- | --------------------- |
 | 09:00-9:45 | **Group A**, intro (this document)
 | 9:45-12:30 | Workshop *Describing web experiences* |
-| 12:30-13:00 | **Groups A + B**, introduction word from Chantale and Lauren |
+| 12:30-13:00 | **Groups A + B**, introduction word from Chantal and Lauren |
 | 13:00-13:30 | **Lunch** |
 | 13:30-14:15 | **Group B**, intro (this document)
 | 14:15-17:00 | Workshop *Describing web experiences* |
