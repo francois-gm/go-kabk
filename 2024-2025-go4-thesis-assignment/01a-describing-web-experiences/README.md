@@ -54,7 +54,7 @@ This time, you'll be assigned a website and will be assigned either to take the 
 
 After you have your points ready, the website will be made visible to the rest of the group and both sides will, in a exchange, present their points. Then, the group will vote on whether the *good* or *bad* has convinced its audience.
 
-**8 minutes** for writing, **2 minutes** per website presentation.
+**8 minutes** for writing, **1 minutes** per website presentation.
 
 ## Annex
 
