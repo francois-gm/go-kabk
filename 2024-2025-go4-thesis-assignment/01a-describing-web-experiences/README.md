@@ -4,9 +4,9 @@ A quick exercice about looking at and describing web experiences
 
 ## 1) Show us a coding project you realized in your previous study years (40min)
 
-a) Describe your project in 3-4 sentences / one minute. Tell us what the project is about, what it does, and how it technically works.
+a) Describe your project in 3 sentences and under one minute. Tell us what the project is about, what it does, and how it technically works.
 
-b) Try to answer these questions:
+b) Then try to answer these questions in three more sentences:
 
 - What positive qualities can you see in it?
 - What did you afterwards realize could have worked better?
