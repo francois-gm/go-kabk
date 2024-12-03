@@ -157,28 +157,28 @@ After you have your points ready, the website will be made visible to the rest o
 
 #### B1
 
-1. [Cultural institution](http://www.sexyland.world/)
+1. [Cultural institution](https://www.poetryproject.org)
 2. [Personal website](http://users.wfu.edu/ecarlson/index.html)
 3. [Merchant website](https://www.lingscars.com)
 4. [Publishing event](https://www.itsabook.de/)
 5. [Research/archive platform](https://biblio-graph.org)
-6. [Merchant website](https://migle-editions.com/)
-7. [Editorial platform](https://yctm.e-flux.com/)
-8. [Artistic platform](https://www.documenta14.de/en/plain/)
-9. [Art education](https://www.rijksakademie.nl)
+6. [Municipal website](https://www.denhaag.nl/en.htm)
+7. [Portfolio website](https://janniswichmann.com/de)
+8. [Art education](https://www.rijksakademie.nl)
+9. [Merchant website](https://www.bol.com/)
 10. [Portfolio website](https://claraberger.net)
-11. [Merchant website](https://www.bol.com/)
+11. [Artistic platform](https://www.documenta14.de/en/plain/)
 
 #### B2
 
-1. [Cultural institution](https://www.poetryproject.org)
+1. [Cultural institution](http://www.sexyland.world/)
 2. [Art event](https://2018.transmediale.de)
 3. [Institutional website](https://icpp.space)
 4. [Travel and transportation](https://www.nightjet.com/en/)
-5. [Portfolio website](https://janniswichmann.com/de)
+5. [Editorial platform](https://yctm.e-flux.com/)
 6. [Archive platform](https://www.glazespectrum.com)
 7. [Research project](http://info.cern.ch)
-8. [Municipal website](https://www.denhaag.nl/en.htm)
+8. [Merchant website](https://migle-editions.com/)
 9. [Online radio](https://www.nts.live)
 10. [Cultural institution](https://page-not-found.nl)
 11. [Informational website](https://en.wikipedia.org/wiki/Main_Page)
