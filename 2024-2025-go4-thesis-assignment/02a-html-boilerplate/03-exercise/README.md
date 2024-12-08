@@ -47,13 +47,13 @@ E) **Alignment**
 | # | A) | B) | C) | D) | E) |
 | -- | ------- | ------- | ------- | ------- | ------- |
 | 1 | Black and white | Blockless | Big sizes | Different scales of text | Various alignments |
-| 2 | Monochrome | Blocks appear, hard edges and constrast in blocks | Small is better | Monotextual | Mostly centered |
-| 3 | Main color, accent color | blocks appear, hard edges and contrast in blocks | Balanced is better | Different scales of text | Various alignments |
-| 4 | Flashy it hurts / no system is the system | Are there any blocks here? | Small is better | Subtle text variations | Mostly left or right aligned |
-| 5 | Monochrome | Blocks are suggested, rounded edges or opacious blocks | Big is better | Monotextual | Various alignments |
-| 6 | Main color, accent color | Are there any blocks here? | Balanced is better | Different scales of text | Mostly left or right aligned |
-| 7 | Flashy it hurts / no system is the system | Are there any blocks here? | Big is better | Subtle text variations | All centered |
-| 8 | Monochrome | Blocks are suggested, rounded edges or opacious blocks | Balanced is better | Monotextual | Various alignments |
-| 9 | Black and white | blocks appear, hard edges and contrast in blocks | Small is better | Different scales of text | Various alignments |
-| 10 | One accent color | Subtle suggestion of blocks | Balanced sizes | One size of text | Mostly left or right aligned |
+| 2 | Monochrome | Very visible blocks | Small sizes | One size of text | Mostly centered |
+| 3 | Main + accent color | Very visible blocks | Balanced sizes | Different scales of text | Various alignments |
+| 4 | A *lot* of colors | Blockless | Small sizes | Subtle text variations | Mostly left or right aligned |
+| 5 | Monochrome | Subtle suggestion of blocks | Big sizes | One size of text | Various alignments |
+| 6 | Main + accent color | Blockless | Balanced sizes | Different scales of text | Mostly left or right aligned |
+| 7 | A *lot* of colors | Blockless | Big sizes | Subtle text variations | All centered |
+| 8 | Monochrome | Subtle suggestion of blocks | Balanced sizes | One size of text | Various alignments |
+| 9 | Black and white | Very visible blocks | Small sizes | Different scales of text | Various alignments |
+| 10 | Main + accent color | Subtle suggestion of blocks | Balanced sizes | One size of text | Mostly left or right aligned |
 | 11 | Monochrome | Very visible blocks | Big sizes | Different scales of text | Mostly centered |
