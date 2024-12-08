@@ -86,4 +86,4 @@ Further links on CSS media queries:
 
 ## JS boilerplate
 
-JQuery is included there but it seems like most are able to use plain modern Javascript for interactivity. Feel free to choose your prefered way of writing it!
+Plain, modern Javascript for interactivity is wrapped into a 'document loaded' function. This allows you to have your script file in your HTML 'head'.
