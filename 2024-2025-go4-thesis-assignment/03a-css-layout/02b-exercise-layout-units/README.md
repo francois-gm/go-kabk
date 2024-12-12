@@ -26,7 +26,7 @@ Advanced option with CSS variable:
 ```
 // first a CSS variable is defined for the website's 'margin' size. This combines responsive with fixed units.
 :root {
-  --margin-unit: calc(2.5vw + 10px);
+  --margin-unit: calc(2.5vw + 1rem);
 }
 
 // Then the CSS variable is used as the margin of our block. The padding is defined as half of a 'margin' unit.
