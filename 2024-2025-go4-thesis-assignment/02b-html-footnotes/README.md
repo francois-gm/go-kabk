@@ -43,4 +43,4 @@ More examples:
 - Variation on Tufte CSS (custom): http://contemporary-home-computing.org/affordance/
 - ~~Molly White's Annotate.js https://github.com/molly/annotate~~
 - For reading, sidenotes in web design: https://www.gwern.net/Sidenotes
-- And their own (up-to-date) implementation of `sidenotes.js` https://gwern.net/sidenote#sidenotes-js
+- And their own (up-to-date) implementation of `sidenotes.js` https://gwern.net/sidenote#sidenotes-js (works with Pandoc **endnotes**)
