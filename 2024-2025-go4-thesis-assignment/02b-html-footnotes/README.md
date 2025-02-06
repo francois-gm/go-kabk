@@ -37,9 +37,9 @@ More examples:
 
 - Default and accessible html footnotes with hyperlinks (similar to the previous example): https://codepen.io/SitePoint/pen/QbMgvY
 - Footnotes as 'tooltips', with vanilla javascript: https://goblindegook.github.io/littlefoot/
-- JQuery Sidenotes: https://acdlite.github.io/jquery.sidenotes/ (old, deprecated)
-- Bruno Correia's Sidenotes.js https://github.com/bcorreia/sidenotes.js
-- A bit like JQuery Sidenotes (custom): http://contemporary-home-computing.org/affordance/
+- ~~JQuery Sidenotes: https://acdlite.github.io/jquery.sidenotes/ (old, deprecated)~~
+- ~~Bruno Correia's Sidenotes.js https://github.com/bcorreia/sidenotes.js~~
 - Tufte CSS: https://edwardtufte.github.io/tufte-css/
-- Molly White's Annotate.js https://github.com/molly/annotate
+- Variation on Tufte CSS (custom): http://contemporary-home-computing.org/affordance/
+- ~~Molly White's Annotate.js https://github.com/molly/annotate~~
 - For reading, sidenotes in web design: https://www.gwern.net/Sidenotes
