@@ -40,7 +40,7 @@ More examples:
 - ~~JQuery Sidenotes: https://acdlite.github.io/jquery.sidenotes/ (old, deprecated)~~
 - ~~Bruno Correia's Sidenotes.js https://github.com/bcorreia/sidenotes.js~~
 - Tufte CSS: https://edwardtufte.github.io/tufte-css/
-- Variation on Tufte CSS (custom): http://contemporary-home-computing.org/affordance/
+- Example variation on Tufte CSS (custom, using Javascript): http://contemporary-home-computing.org/affordance/
 - ~~Molly White's Annotate.js https://github.com/molly/annotate~~
 - For reading, sidenotes in web design: https://www.gwern.net/Sidenotes
 - And their own (up-to-date) implementation of `sidenotes.js` https://gwern.net/sidenote#sidenotes-js (generates sidenotes from Pandoc **endnotes**)
