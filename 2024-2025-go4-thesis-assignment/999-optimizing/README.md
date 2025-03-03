@@ -1,11 +1,11 @@
 # Optimizing 🚀
 
-1. [Proper files ressource size](#1-file-risizing-and-delivery-in-short)
+1. [Proper files ressource size](#1-guide-on-optimizing-your-files-and-their-delivery)
 2. [How properties affect page rendering](#2-how-properties-affect-page-rendering-)
 
-## 1. File resizing and delivery, in short
+## 1. Guide on optimizing your files and their delivery
 
-### Images/graphics
+**Images/graphics**
 
 - **Use .jpg for images**, avoid .png (only if transparency) and .gif (only if animated).
 - Try to target **250kb** per image.
@@ -15,17 +15,17 @@
 - Or **compress your images online using Squoosh**, https://squoosh.app.
 - Target an image (physical) size in pixels of 1.5 times the maximum display size you can reasonably expect.
 
-### Videos/medias
+**Videos/medias**
 
 - If you use the html `<video>` tag, export your video to .mp4 -> https://cloudconvert.com/mp4-converter and **adjust the quality so you are at under 8mb per minute.**
 - Same applies with the `<audio>` tag, use .mp3 -> https://online-audio-converter.com and **adjust so you're under 1mb / minute.**
 - If your media file is too heavy, consider using Vimeo, YouTube or Soundcloud and embed it on your website using the provided embed code. Some of these services provide an API to control play/pause, volume, etc, through Javascript.
 
-### Lazy loading
+**Lazy loading**
 
 - If your page is image-heavy, consider implementing your images with a lazyload: https://afarkas.github.io/lazysizes/index.html, or the browser's default lazy loading option (https://web.dev/browser-level-image-lazy-loading/)
 
-### Fonts
+**Fonts**
 
 - **.woff2** is your friend. Use tools like [transfonter.org](https://transfonter.org) (or [fontsquirrel.com](https://www.fontsquirrel.com/tools/webfont-generator)) to generate your font files! When dealing with 'fallbacks' you declare first your *best* option (so `woff2` is the best, so it goes first).
 
