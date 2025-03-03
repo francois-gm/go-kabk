@@ -15,7 +15,7 @@
 
 Optional reading: [Ultimate front-end checklist](https://github.com/thedaviddias/Front-End-Checklist).
 
-## 1. Guide on optimizing your files and their delivery
+## 2. Guide on optimizing your files and their delivery
 
 **Images/graphics**
 
