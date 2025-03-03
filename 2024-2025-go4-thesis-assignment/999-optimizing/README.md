@@ -1,7 +1,7 @@
 # Optimizing 🚀
 
 1. [Checklist](#1-checklist)
-2. [Naming convetions](#2-naming-conventions)
+2. [Naming conventions](#2-naming-conventions)
 3. [Guide on optimizing your files and their delivery](#3-guide-on-optimizing-your-files-and-their-delivery)
 4. [How properties affect page rendering](#4-how-properties-affect-page-rendering-)
 
