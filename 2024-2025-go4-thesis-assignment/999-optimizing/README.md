@@ -18,7 +18,8 @@ Optional reading: [Ultimate front-end checklist](https://github.com/thedaviddias
 
 ## 2. Naming conventions
 
-Avoid issues with your files being unavailable by making sure you **don't have special characters** in your file names. Also, **avoid spacing and capitalization** in your file names (instead, use **hyphens** or **underscores**: `my_special_file.jpg` or `my-special-file.jpg` as examples).
+- Avoid issues with your files being unavailable by making sure you **don't have special characters** in your file names.
+- Also, **avoid spacing and capitalization** in your file names (instead, use **hyphens** or **underscores**: `my_special_file.jpg` or `my-special-file.jpg` as examples).
 
 ## 3. Guide on optimizing your files and their delivery
 
