@@ -15,7 +15,7 @@
 
 Optional reading: [Ultimate front-end checklist](https://github.com/thedaviddias/Front-End-Checklist).
 
-## 3. Guide on optimizing your files and their delivery
+## 2. Guide on optimizing your files and their delivery
 
 **Images/graphics**
 
@@ -41,7 +41,7 @@ Optional reading: [Ultimate front-end checklist](https://github.com/thedaviddias
 
 - **.woff2** is your friend. Use tools like [transfonter.org](https://transfonter.org) (or [fontsquirrel.com](https://www.fontsquirrel.com/tools/webfont-generator)) to generate your font files! When dealing with 'fallbacks' you declare first your *best* option (so `woff2` is the best, so it goes first).
 
-## 2. How properties affect page rendering 🐌
+## 3. How properties affect page rendering 🐌
 
 Some CSS properties can consume a lot of ressources. Most of you won't reach the point where your browser will start behaving *slower* but it's possible.
 
