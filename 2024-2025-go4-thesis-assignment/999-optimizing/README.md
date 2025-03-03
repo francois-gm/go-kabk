@@ -1,8 +1,9 @@
 # Optimizing 🚀
 
 1. [Checklist](#1-checklist)
-2. [Guide on optimizing your files and their delivery](#2-guide-on-optimizing-your-files-and-their-delivery)
-3. [How properties affect page rendering](#3-how-properties-affect-page-rendering-)
+2. [Naming convetions](#2-naming-conventions)
+3. [Guide on optimizing your files and their delivery](#3-guide-on-optimizing-your-files-and-their-delivery)
+4. [How properties affect page rendering](#4-how-properties-affect-page-rendering-)
 
 ## 1. Checklist
 
@@ -19,14 +20,14 @@ Optional reading: [Ultimate front-end checklist](https://github.com/thedaviddias
 
 Avoid issues with your files being unavailable by making sure you **don't have special characters** in your file names. Also, **avoid spacing and capitalization** in your file names (use hyphens or underscores: `my_special_file.jpg` or `my-special-file.jpg` as examples).
 
-## 2. Guide on optimizing your files and their delivery
+## 3. Guide on optimizing your files and their delivery
 
 **Images/graphics**
 
 - **Use `.jpg` for images**, avoid .png (only if transparency) and .gif (only if animated).
 - Try to target **250kb** per image.
 - Consider using `.svg` files (yes!) instead of .png files.
-- **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), `[Shift]+[Alt]+[Cmd]+[S]`. Choose **50–60** for quality.
+- **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), `[Shift]+[Alt]+[Cmd]+[S]`. Choose **`50`–`60`** for quality.
 - If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
 - Or **compress your images online using Squoosh**, https://squoosh.app.
 - Target an image (physical) size in pixels of `1.5` times the maximum display size you can reasonably expect.
@@ -43,9 +44,9 @@ Avoid issues with your files being unavailable by making sure you **don't have s
 
 **Fonts**
 
-- **.woff2** is your friend. Use tools like [transfonter.org](https://transfonter.org) (or [fontsquirrel.com](https://www.fontsquirrel.com/tools/webfont-generator)) to generate your font files! When dealing with 'fallbacks' you declare first your *best* option (so `woff2` is the best, so it goes first).
+- **`.woff2`** is your friend. Use tools like [transfonter.org](https://transfonter.org) (or [fontsquirrel.com](https://www.fontsquirrel.com/tools/webfont-generator)) to generate your font files! When dealing with 'fallbacks' you declare first your *best* option (so `woff2` is the best, so it goes first).
 
-## 3. How properties affect page rendering 🐌
+## 4. How properties affect page rendering 🐌
 
 Some CSS properties can consume a lot of ressources. Most of you won't reach the point where your browser will start behaving *slower* but it's possible.
 
