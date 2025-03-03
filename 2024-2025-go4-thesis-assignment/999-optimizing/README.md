@@ -8,24 +8,28 @@
 
 - ✅ Does my website has a **favicon** and a **title**?
 - ✅ Does my website have the appropriate **meta tags**?
-- ✅ Are all the media files **accessibles** (with the right paths)?
+- ✅ Are all the media files **visible** (and using file paths `relative` to your project root)?
 - ✅ Are the media files **optimized** (does the website loads in a reasonable amount of time)?
 - ✅ Are all the links within the websites leading to the **right places**?
 - ✅ Is my website working on **mobile and desktop**, and have been **tested online**, on **multiple devices**?
 
 Optional reading: [Ultimate front-end checklist](https://github.com/thedaviddias/Front-End-Checklist).
 
+## 2. Naming conventions
+
+Avoid issues with your files being unavailable by making sure you **don't have special characters** in your file names. Also, **avoid spacing and capitalization** in your file names (use hyphens or underscores: `my_special_file.jpg` or `my-special-file.jpg` as examples).
+
 ## 2. Guide on optimizing your files and their delivery
 
 **Images/graphics**
 
-- **Use .jpg for images**, avoid .png (only if transparency) and .gif (only if animated).
+- **Use `.jpg` for images**, avoid .png (only if transparency) and .gif (only if animated).
 - Try to target **250kb** per image.
-- Consider using .svg files (yes!) instead of .png files.
-- **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), [Shift]+[Alt]+[Cmd]+[S]. Choose **50–60** for quality.
+- Consider using `.svg` files (yes!) instead of .png files.
+- **Compress your .jpg with Photoshop** using the **'Save for Web (Legacy)'** option (under File->Export), `[Shift]+[Alt]+[Cmd]+[S]`. Choose **50–60** for quality.
 - If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
 - Or **compress your images online using Squoosh**, https://squoosh.app.
-- Target an image (physical) size in pixels of 1.5 times the maximum display size you can reasonably expect.
+- Target an image (physical) size in pixels of `1.5` times the maximum display size you can reasonably expect.
 
 **Videos/medias**
 
