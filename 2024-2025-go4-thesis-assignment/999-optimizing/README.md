@@ -1,7 +1,19 @@
 # Optimizing 🚀
 
-1. [Proper files ressource size](#1-guide-on-optimizing-your-files-and-their-delivery)
-2. [How properties affect page rendering](#2-how-properties-affect-page-rendering-)
+1. [Checklist](#1-checklist)
+2. [Guide on optimizing your files and their delivery](#2-guide-on-optimizing-your-files-and-their-delivery)
+3. [How properties affect page rendering](#3-how-properties-affect-page-rendering-)
+
+## 1. Checklist
+
+- ✅ Does my website has a favicon and a title?
+- ✅ Does my website have the appropriate meta tags?
+- ✅ Are all the media files accessibles (with the right paths)?
+- ✅ Are the media files optimized (does the website loads in a reasonable amount of time)?
+- ✅ Are all the links within the websites leading to the right places?
+- ✅ Is my website working on mobile and desktop, and have been tested online, on multiple devices?
+
+Optional reading: [ultimate front-end checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 ## 1. Guide on optimizing your files and their delivery
 
