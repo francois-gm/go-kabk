@@ -5,6 +5,8 @@
 
 ## 1. File resizing and delivery, in short
 
+### Images/graphics
+
 - **Use .jpg for images**, avoid .png (only if transparency) and .gif (only if animated).
 - Try to target **250kb** per image.
 - Consider using .svg files (yes!) instead of .png files.
@@ -12,18 +14,20 @@
 - If 'Save for Web (Legacy)' is not available, use **'Export As'** (under File->Export).
 - Or **compress your images online using Squoosh**, https://squoosh.app.
 - Target an image (physical) size in pixels of 1.5 times the maximum display size you can reasonably expect.
+
+### Videos/medias
+
 - If you use the html `<video>` tag, export your video to .mp4 -> https://cloudconvert.com/mp4-converter and **adjust the quality so you are at under 8mb per minute.**
 - Same applies with the `<audio>` tag, use .mp3 -> https://online-audio-converter.com and **adjust so you're under 1mb / minute.**
 - If your media file is too heavy, consider using Vimeo, YouTube or Soundcloud and embed it on your website using the provided embed code. Some of these services provide an API to control play/pause, volume, etc, through Javascript.
+
+### Lazy loading
+
 - If your page is image-heavy, consider implementing your images with a lazyload: https://afarkas.github.io/lazysizes/index.html, or the browser's default lazy loading option (https://web.dev/browser-level-image-lazy-loading/)
 
 ### Fonts
 
 - **.woff2** is your friend. Use tools like [transfonter.org](https://transfonter.org) (or [fontsquirrel.com](https://www.fontsquirrel.com/tools/webfont-generator)) to generate your font files! When dealing with 'fallbacks' you declare first your *best* option (so `woff2` is the best, so it goes first).
-
-### General
-
-- If you have a lot of files, and it's very heavy, especially media files, you can also use a CDN (Content Delivery Network) to deliver your media files: https://cloudinary.com/ (cloudinary has a free tier, [documentation](https://cloudinary.com/documentation/image_optimization)). Imagekit.io too -> https://imagekit.io/use-cases/file-upload/ 
 
 ## 2. How properties affect page rendering 🐌
 
