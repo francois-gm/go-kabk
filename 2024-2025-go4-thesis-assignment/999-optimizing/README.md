@@ -3,7 +3,7 @@
 1. [Proper files ressource size](#1-file-risizing-and-delivery-in-short)
 2. [How properties affect page rendering](#2-how-properties-affect-page-rendering-)
 
-## 1. *File resizing and delivery, in short*
+## 1. File resizing and delivery, in short
 
 - **Use .jpg for images**, avoid .png (only if transparency) and .gif (only if animated).
 - Try to target **250kb** per image.
