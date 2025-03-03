@@ -19,7 +19,7 @@
 
 ### Fonts
 
-- **.woff2** is your friend. Use tools like [transfonter.org](https://transfonter.org) (or [fontsquirrel.com](https://www.fontsquirrel.com/tools/webfont-generator)) to generate your font files! It's okay to include other file formats as fallback (if the browser does not support `woff2` which should be pretty rare in 2022). When dealing with 'fallbacks' you declare first your *best* option (so `woff2` is the best, so it goes first).
+- **.woff2** is your friend. Use tools like [transfonter.org](https://transfonter.org) (or [fontsquirrel.com](https://www.fontsquirrel.com/tools/webfont-generator)) to generate your font files! When dealing with 'fallbacks' you declare first your *best* option (so `woff2` is the best, so it goes first).
 
 ### General
 
