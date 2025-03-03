@@ -6,14 +6,14 @@
 
 ## 1. Checklist
 
-- ✅ Does my website has a favicon and a title?
-- ✅ Does my website have the appropriate meta tags?
-- ✅ Are all the media files accessibles (with the right paths)?
-- ✅ Are the media files optimized (does the website loads in a reasonable amount of time)?
-- ✅ Are all the links within the websites leading to the right places?
-- ✅ Is my website working on mobile and desktop, and have been tested online, on multiple devices?
+- ✅ Does my website has a **favicon** and a **title**?
+- ✅ Does my website have the appropriate **meta tags**?
+- ✅ Are all the media files **accessibles** (with the right paths)?
+- ✅ Are the media files **optimized** (does the website loads in a reasonable amount of time)?
+- ✅ Are all the links within the websites leading to the **right places**?
+- ✅ Is my website working on **mobile and desktop**, and have been **tested online**, on **multiple devices**?
 
-Optional reading: [ultimate front-end checklist](https://github.com/thedaviddias/Front-End-Checklist)
+Optional reading: [Ultimate front-end checklist](https://github.com/thedaviddias/Front-End-Checklist).
 
 ## 1. Guide on optimizing your files and their delivery
 
