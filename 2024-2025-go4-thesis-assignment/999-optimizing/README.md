@@ -4,6 +4,7 @@
 2. [Naming conventions](#2-naming-conventions)
 3. [Guide on optimizing your files and their delivery](#3-guide-on-optimizing-your-files-and-their-delivery)
 4. [How properties affect page rendering](#4-how-properties-affect-page-rendering-)
+5. [Glyphs/arrows turning into emojis on mobile?](#5-arrows-turning-into-emojis-on-mobile?)
 
 ## 1. Checklist
 
@@ -56,3 +57,9 @@ Some CSS properties can consume a lot of ressources. Most of you won't reach the
 - Be careful of not overusing the css `filter` (especially `filter: blur(value)`) and mix-blend-mode properties, especially if stacked on each others, using higher value (for blur), or applied on ressource heavy elements like video.
 - Animations can consume a lot too. Some properties are more 'expensive' than others to be animated. Prefer the css `transform` property over `top | left | right | bottom` if you intend to animate (via a transition) the property. [Read more](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/) (*old*-ish ressource but still valid)
 - Use the `will-change` property on the parent of the ressource-heavy element, and specify the energy-hungry property within the `will-change` property. [more on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/will-change). This will force the browser to allocate some processing power to render the ressource, thus reducing lagging / slowness.
+
+
+
+## 5. Glyphs/arrows turning into emojis on mobile?
+
+See: https://css-tricks.com/text-that-sometimes-turns-to-emojis/
